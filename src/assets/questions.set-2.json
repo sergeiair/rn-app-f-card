@@ -1,0 +1,479 @@
+{
+  "list": [
+    {
+      "q": "Która grupa ryb występujących w naszej ichtiofaunie obejmuje największą liczbę gatunków?"
+      "opt": ["łososiowate", "okoniokształtne", "karpiowate"],
+      "a": 2
+    },
+    {
+      "q": "Kanibalami w naszych wodach są:",
+      "opt": ["okonie", "leszcze", "liny"],
+      "a": 0
+    },
+    {
+      "q": "Która grupa ryb składa ikrę wczesną wiosną?",
+      "opt": ["kleń, brzana, sum", "szczupak, pstrąg potokowy", "świnka, jaź"],
+      "a": 1
+    },
+    {
+      "q": "Naturalny rozród ryb to",
+      "opt": ["tarło", "tarlisko", "krześlisko"],
+      "a": 0
+    },
+    {
+      "q": "Które z wymienionych grup ryb składają ikrę na roślinności podwodnej?",
+      "opt": ["różanka, kiełb", "szczupak, leszcz, okoń", "brzana, koza"],
+      "a": 1
+    },
+    {
+      "q": "Łowiąc z lodu można:",
+      "opt": [
+        "używać podrywki,",
+        "wiercić otwory o średnicy 25 cm,",
+        "nęcić. (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Który gatunek należy do ryb wędrownych (dwuśrodowiskowych)?",
+      "opt": [
+        "głowacica",
+        "pstrąg źródlany",
+        "troć (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Śluz to:",
+      "opt": [
+        "gatunek ryby chronionej prawem,",
+        "wydzielina pokrywająca ciało ryb, (odpowiedź prawidłowa)",
+        "rodzaj smaru do kołowrotków."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ławica to:",
+      "opt": [
+        "rodzaj pomostu – ławka dla wędkarza,",
+        "szybki nurt w górskiej rzece,",
+        "duże stado ryb , najczęściej jednego gatunku. (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Gdzie znajduje się serce u ryb?",
+      "opt": [
+        "w okolicy gardzielowej (odpowiedź prawidłowa)",
+        "w środku korpusu, między głową a odbytem",
+        "między płetwami brzusznymi"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Gdzie znajduje się serce u ryb?",
+      "opt": [
+        "w okolicy gardzielowej (odpowiedź prawidłowa)",
+        "w środku korpusu, między głową a odbytem",
+        "między płetwami brzusznymi"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy temperatura wody ma wpływ na rozpuszczalność tlenu",
+      "opt": [
+        "nie ma",
+        "tak, zimna woda rozpuszcza więcej tlenu niż ciepła (odpowiedź prawidłowa)",
+        "tak, ciepła woda rozpuszcza więcej tlenu"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa ryb posiada zęby gardłowe?",
+      "opt": [
+        "pstrągi, trocie i głowacice",
+        "leszcze, wzdręgi i karpie (odpowiedź prawidłowa)",
+        "okonie, szczupaki i sandacze"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które z wymienionych grup ryb składają ikrę na twardym żwirowatym dnie",
+      "opt": [
+        "a)pstrąg, głowacica (odpowiedź prawidłowa)",
+        "b)leszcz, śliz",
+        "c)sieja, sielawa"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która ryba ma gładkie, koliste łuski",
+      "opt": [
+        "a)sum",
+        "b)miętus",
+        "c)kleń (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Które z wymienionych zwierząt wodnych nie jest rybą",
+      "opt": [
+        "a)świnka",
+        "b)stynka",
+        "c)delfin (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z ryb ma tzw zęby gardłowe",
+      "opt": [
+        "a)troć",
+        "b)karp (odpowiedź prawidłowa)",
+        "c)sandacz"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy temperatura wody wpływa na rozwój ikry?",
+      "opt": [
+        "tak (odpowiedź prawidłowa)",
+        "nie",
+        "tylko u karpiowatych"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która grupa ryb odbywa tarło na przełomie wiosny i lata?",
+      "opt": [
+        "kleń, brzana, sum (odpowiedź prawidłowa)",
+        "szczupak, pstrąg potokowy",
+        "świnka, jaź"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która ryba ma gładkie, koliste łuski",
+      "opt": [
+        "a)sum",
+        "b)miętus",
+        "c)kleń (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Gdzie znajduje się serce u ryb?",
+      "opt": [
+        "w okolicy gardzielowej (odpowiedź prawidłowa)",
+        "w środku korpusu, między głową a odbytem",
+        "między płetwami brzusznymi"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj ile wąsów posiada sum",
+      "opt": [
+        "a)trzy wąsy",
+        "b)sześć wąsów (odpowiedź prawidłowa)",
+        "c)osiem wąsów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Pstrąg potokowy odbywa naturalne tarło tylko w:",
+      "opt": [
+        "nagrzanych i nasłonecznionych wodach rzek,",
+        "płytkich jeziorach,",
+        "zimnych wodach górskich potoków. (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Jaki narząd służy rybom do oddychania",
+      "opt": [
+        "a)oskrzela",
+        "b)skrzela (odpowiedź prawidłowa)",
+        "c)płuca"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy temperatura wody wpływa na rozwój ikry?",
+      "opt": [
+        "tak (odpowiedź prawidłowa)",
+        "nie",
+        "tylko u karpiowatych"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która grupa ryb składa ikrę późną jesienią?",
+      "opt": [
+        "głowacica, jesień",
+        "łosoś, pstrąg potokowy (odpowiedź prawidłowa)",
+        "sandacz, certa"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba ma gładkie, koliste łuski",
+      "opt": [
+        "a)sum",
+        "b)miętus",
+        "c)kleń (odpowiedź prawidłowa)"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Jaki kolor oczu ma płoć",
+      "opt": [
+        "a)Żółty",
+        "b)Czerwony (odpowiedź prawidłowa)",
+        "c)Zielony"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które ryby mają łuski grzebykowate?",
+      "opt": [
+        "leszcz i krąp",
+        "sandacz i okoń (odpowiedź prawidłowa)",
+        "kleń i karaś"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj ile wąsów posiada sum",
+      "opt": [
+        "a)trzy wąsy",
+        "b)sześć wąsów (odpowiedź prawidłowa)",
+        "c)osiem wąsów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa ryb odbywa tarło na przełomie wiosny i lata?",
+      "opt": [
+        "\nkleń, brzana, sum (odpowiedź prawidłowa)\n",
+        "\nszczupak, pstrąg potokowy\n",
+        "\nświnka, jaź\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ławica to:",
+      "opt": [
+        "\na) rodzaj pomostu – ławka dla wędkarza,\n",
+        "\nb) szybki nurt w górskiej rzece,\n",
+        "\nc) duże stado ryb , najczęściej jednego gatunku. (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która grupa ryb składa ikrę wczesną wiosną?",
+      "opt": [
+        "\nkleń, brzana, sum\n",
+        "\nszczupak, pstrąg potokowy (odpowiedź prawidłowa)\n",
+        "\nświnka, jaź\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaki kolor oczu ma płoć",
+      "opt": [
+        "\na)\tŻółty\n",
+        "\nb)\tCzerwony (odpowiedź prawidłowa)\n",
+        "\nc)\tZielony\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "U których gatunków ryb występuje płetwa tłuszczowa",
+      "opt": [
+        "\na)\tszczupakowate\n",
+        "\nb)\tsumowate\n",
+        "\nc)\tłososiowate (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Pstrąg potokowy odbywa naturalne tarło tylko w:",
+      "opt": [
+        "\na) nagrzanych i nasłonecznionych wodach rzek,\n",
+        "\nb) płytkich jeziorach,\n",
+        "\nc) zimnych wodach górskich potoków. (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z wymienionych grup gatunków ryb należy do ryb karpiowatych?",
+      "opt": [
+        "\nkiełb, strzebla potokowa, brzana (odpowiedź prawidłowa)\n",
+        "\nsandacz, jaź, lin\n",
+        "\nświnka, karp, miętus\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj ile wąsów posiada sum",
+      "opt": [
+        "\na)\ttrzy wąsy\n",
+        "\nb)\tsześć wąsów (odpowiedź prawidłowa)\n",
+        "\nc)\tosiem wąsów\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa ryb odbywa tarło na przełomie wiosny i lata?",
+      "opt": [
+        "\nkleń, brzana, sum (odpowiedź prawidłowa)\n",
+        "\nszczupak, pstrąg potokowy\n",
+        "\nświnka, jaź\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ryba rozmnażająca się tylko w wodzie, w której żyją małże to:",
+      "opt": [
+        "\na) stynka,\n",
+        "\nb) sieja,\n",
+        "\nc) różanka, (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Ryby drapieżne to ryby odżywiające się:",
+      "opt": [
+        "\na)\tinnymi rybami (odpowiedź prawidłowa)\n",
+        "\nb)\tprzynętami sztucznymi\n",
+        "\nc)\tpokarmem pochodzenia roślinnego\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Który gatunek należy do ryb wędrownych (dwuśrodowiskowych)?",
+      "opt": [
+        "\ngłowacica\n",
+        "\npstrąg źródlany\n",
+        "\ntroć (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Które z wymienionych zwierząt wodnych nie jest rybą",
+      "opt": [
+        "\na)\tświnka\n",
+        "\nb)\tstynka\n",
+        "\nc)\tdelfin (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Ławica to:",
+      "opt": [
+        "\na) rodzaj pomostu – ławka dla wędkarza,\n",
+        "\nb) szybki nurt w górskiej rzece,\n",
+        "\nc) duże stado ryb , najczęściej jednego gatunku. (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z rybich płetw jest nieparzysta",
+      "opt": [
+        "\na)\tpiersiowa\n",
+        "\nb)\tbrzuszna\n",
+        "\nc)\todbytowa (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która grupa ryb składa ikrę późną jesienią?",
+      "opt": [
+        "\ngłowacica, jesień\n",
+        "\nłosoś, pstrąg potokowy (odpowiedź prawidłowa)\n",
+        "\nsandacz, certa\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Z którą grupą ryb spokrewniony jest miętus?",
+      "opt": [
+        "\nz sumowatymi\n",
+        "\nz dorszowatymi (odpowiedź prawidłowa)\n",
+        "\nz karpiowatymi\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z wymienionych grup gatunków ryb należy do ryb karpiowatych?",
+      "opt": [
+        "\nkiełb, strzebla potokowa, brzana (odpowiedź prawidłowa)\n",
+        "\nsandacz, jaź, lin\n",
+        "\nświnka, karp, miętus\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaka ryba posługuje się wyłącznie wzrokiem przy chwytaniu pokarmu",
+      "opt": [
+        "\na)\twęgorz\n",
+        "\nb)\tpstrąg (odpowiedź prawidłowa)\n",
+        "\nc)\tszczupak\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z ryb posiada tylko jeden wąs",
+      "opt": [
+        "\na)\tbrzana\n",
+        "\nb)\tmiętus (odpowiedź prawidłowa)\n",
+        "\nc)\tkarp\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które z wymienionych grup ryb pokrywają się w okresie tarła wysypką perłową?",
+      "opt": [
+        "\nkarpiowate (odpowiedź prawidłowa)\n",
+        "\nłososiowate\n",
+        "\nkozowate\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ryba rozmnażająca się tylko w wodzie, w której żyją małże to:",
+      "opt": [
+        "\na) stynka,\n",
+        "\nb) sieja,\n",
+        "\nc) różanka, (odpowiedź prawidłowa)\n"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Do czego służy wylęgowi ryb woreczek żółciowy?",
+      "opt": [
+        "\nzapobiega spłynięciu larw z prądem wody\n",
+        "\nstanowi źródło pokarmu (odpowiedź prawidłowa)\n",
+        "\nnie ma żadnego znaczenia\n"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Gdzie znajduje się serce u ryb?",
+      "opt": [
+        "\nw okolicy gardzielowej (odpowiedź prawidłowa)\n",
+        "\nw środku korpusu, między głową a odbytem\n",
+        "\nmiędzy płetwami brzusznymi\n"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki kolor oczu ma płoć",
+      "opt": [
+        "\na)\tŻółty\n",
+        "\nb)\tCzerwony (odpowiedź prawidłowa)\n",
+        "\nc)\tZielony\n"
+      ],
+      "a": 1
+    }
+  ]
+}
