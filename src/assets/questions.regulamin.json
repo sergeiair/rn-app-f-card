@@ -1,0 +1,1111 @@
+{
+  "list": [
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "piekielnica,",
+        "stynka",
+        "strzebla potokowa."
+      ],
+      "a": 1
+    },
+    {
+      "q": "W ile haczyków może być wyposażona sztuczna przynęta użytkowana do wędkowania poza łowieniem spod lodu",
+      "opt": [
+        "dwa ",
+        "nie jest określone",
+        "trzy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "różanka",
+        "wzdręga,",
+        "brzanka."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla piskorza",
+      "opt": [
+        "do 15 cm,",
+        "do 18 cm,",
+        "ryba pod całkowitą ochroną. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Czy na żądanie policji lub straży rybackiej wędkarz ma obowiązek pokazać używany sprzęt wędkarski?",
+      "opt": [
+        "tak, a także złowione ryby i przynęty ",
+        "nie ma takiego obowiązku",
+        "tak, ale tylko jeśli tego wymaga regulamin"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wędkarz może sprzedawać złowione ryby?",
+      "opt": [
+        "nie ",
+        "tak"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wolno stosować metodę ,,szarpaka’’ i łowić z mostów?",
+      "opt": [
+        "tak",
+        "nie "
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z wymienionych grup ryb jest pod ochroną od 1 stycznia do 30 kwietnia?",
+      "opt": [
+        "boleń, szczupak ",
+        "łosoś, leszcz, okoń"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar i okres ochronny suma (w pozostałych wodach)",
+      "opt": [
+        "do 55cmod 1 stycznia do 31 maja",
+        "do 75cmod 1 grudnia do 31 maja",
+        "do 70cmod 1 listopada do 30 czerwca "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny dla tołpygi białej",
+      "opt": [
+        "nie na wymiaru ochronnego. ",
+        "do 70 cm,",
+        "do 50 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla łososia",
+      "opt": [
+        "do 30 cm,",
+        "do 35 cm",
+        "do 50 cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 25 cm?",
+      "opt": [
+        "jaź, kleń, lin, rozpiór, świnka ",
+        "certa, boleń, lipień, miętus",
+        "płoć, wzdręga, jelec, sielawa"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która z wymienionych grup ryb znajduje się pod ochroną do 31 maja?",
+      "opt": [
+        "głowacica, lipień, sandacz, sapa ",
+        "peluga, karp, leszcz"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla troci jeziorowej",
+      "opt": [
+        "od 1 września do 31 stycznia",
+        "od 1 października do 31 grudnia,",
+        "od 1 marca do 31 maja."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaką maksymalną średnicę mogą mieć haczyki o więcej niż jednym ostrzu do połowów pod lodem",
+      "opt": [
+        "10 mm",
+        "20 mm ",
+        "35 mm"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "koza,",
+        "piskorz,",
+        "jazgarz. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "sieja,",
+        "alosa. ",
+        "certa."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny jelca",
+      "opt": [
+        "do 20cm.",
+        "do 15cm. ",
+        "do 10cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jak określa się wymiar ochronny ryby (poniżej którego nie można ryby zabierać)?",
+      "opt": [
+        "oznacza długość od początku głowy do najdalszego krańca płetwy ogonowej ",
+        "oznacza długość od początku głowy do wcięcia płetwy ogonowej"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla lina",
+      "opt": [
+        "do 15 cm,",
+        "do 18 cm,",
+        "do 25 cm. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny dla tołpygi białej",
+      "opt": [
+        "nie na wymiaru ochronnego. ",
+        "do 70 cm,",
+        "do 50 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaką maksymalną średnicę mogą mieć haczyki o więcej niż jednym ostrzu do połowów pod lodem",
+      "opt": [
+        "10 mm",
+        "20 mm ",
+        "35 mm"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z wymienionych grup ryb jest pod ochroną od 1 marca do 31 maja",
+      "opt": [
+        " głowacica, lipień",
+        " peluga, łosoś",
+        " kleń, wzdręga"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla lina",
+      "opt": [
+        "do 15 cm,",
+        "do 18 cm,",
+        "do 25 cm. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "alosa,",
+        "sapa",
+        "kur rogacz."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Z jakich urządzeń dozwolone jest wędkowanie w porze dziennej",
+      "opt": [
+        "hydrotechnicznych",
+        "tam i zapór wodnych służących do piętrzenia wody.",
+        "pomostów wędkarskich"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "alosa,",
+        "sapa",
+        "kur rogacz."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy na żądanie policji lub straży rybackiej wędkarz ma obowiązek pokazać używany sprzęt wędkarski?",
+      "opt": [
+        "tak, a także złowione ryby i przynęty ",
+        "nie ma takiego obowiązku",
+        "tak, ale tylko jeśli tego wymaga regulamin"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Który z gatunków nie jest objęty okresem ochronnym:",
+      "opt": [
+        "sandacz,",
+        "leszcz",
+        "szczupak,"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla amura",
+      "opt": [
+        "do 40 cm,",
+        "do 45 cm,",
+        "nie ma wymiaru ochronnego. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny dla jazia",
+      "opt": [
+        "do 25 cm",
+        "do 30 cm,",
+        "do 15 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która z wymienionych grup prawidłowo określa limit dobowy złowionych i zabranych z łowiska gatunków ryb?",
+      "opt": [
+        "sieja, łosoś – łącznie 2 szt. ",
+        "pstrąg tęczowy i pstrąg źródlany – łącznie 4 szt.",
+        "świnka, certa – łącznie 4 szt."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Osoby pełnoletnie posiadające tylko kartę wędkarską mogą wędkować na",
+      "opt": [
+        "jedną wędkę",
+        "dwie wędki",
+        "nie mogą wędkować. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "sieja,",
+        "alosa. ",
+        "certa."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co to są przynęty naturalne roślinne",
+      "opt": [
+        "rośliny, ich części oraz przetwory z nich, a także sery ",
+        "tkaniny i włóczki, naśladujące roślin",
+        "woblery wykonane z drewna"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W ile haczyków może być wyposażona sztuczna przynęta użytkowana do wędkowania poza łowieniem spod lodu",
+      "opt": [
+        "dwa ",
+        "nie jest określone",
+        "trzy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny jelca",
+      "opt": [
+        "do 20cm.",
+        "do 15cm. ",
+        "do 10cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 40 cm?",
+      "opt": [
+        "boleń, brzana",
+        "łosoś, sandacz, troć",
+        "szczupak, węgorz"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "troć jeziorowa",
+        "łosoś,",
+        "jesiotr zachodni. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Co oznacza ustanowienie okresu ochronnego?",
+      "opt": [
+        "okres, w którym nie wolno łowić ryb określonego gatunku ",
+        "termin odbywania tarła ryb",
+        "okres do wyłączenia wędkowania"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla tołpygi białej",
+      "opt": [
+        "nie na wymiaru ochronnego. ",
+        "do 70 cm,",
+        "do 50 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny troci jeziorowej",
+      "opt": [
+        "do 50cm. ",
+        "do 45cm.",
+        "do 40cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla amura",
+      "opt": [
+        "do 40 cm,",
+        "do 45 cm,",
+        "nie ma wymiaru ochronnego. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "trawianka",
+        "babka piaskowa,",
+        "babka czarna"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla brzany",
+      "opt": [
+        "od 1 stycznia do 31 maja,",
+        "od 1 stycznia do 30 czerwca",
+        "od 1 października do 31 maja."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy wolno przechowywać ryby poniżej ich wymiaru ochronnego?",
+      "opt": [
+        "nie, bo należy je natychmiast wypuścić ",
+        "tak, aby się ryby \"odpiły\""
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ile wynosi minimalna odległość przy wędkowaniu od urządzeń hydrotechnicznych",
+      "opt": [
+        "10 metrów",
+        "50 metrów ",
+        "100 metrów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy wolno stosować sztuczne światło do lokalizowania lub zwabiania ryb na stanowisko",
+      "opt": [
+        "wolno",
+        "nie wolno ",
+        "tylko za zgoda użytkownika wód"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "kiełb białopłetwy",
+        "głowacz pręgowany,",
+        "czebaczek amurski. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Przepisy naruszy wędkarz, który zabierze następujące złowione ryby:",
+      "opt": [
+        "4 pstrągi tęczowe,",
+        "3 sandacze",
+        "8 kg leszczy."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "troć jeziorowa",
+        "łosoś,",
+        "jesiotr zachodni. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny karpia",
+      "opt": [
+        "do 25cm.",
+        "do 30cm ",
+        "do 35cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla sieji",
+      "opt": [
+        "do 35 cm",
+        "do 18 cm,",
+        "nie ma wymiaru ochronnego."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki jest okres ochronny dla węgorza w Polsce?",
+      "opt": [
+        "od 1.01 do 30.04.",
+        "od 15. 06 do 15. 07. ",
+        "nie ma okresu ochronnego"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaką minimalną długość winno mieć wędzisko wędkarskie",
+      "opt": [
+        "30cm ",
+        "230cm",
+        "630cm"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki dokument powinien przy sobie posiadać wędkarz w czasie połowu ryb",
+      "opt": [
+        " kartę wędkarską",
+        " legitymację wędkarską z aktualnymi opłatami, kartę wędkarską, zezwolenie ",
+        " kartę wędkarską, dowód osobisty lub paszport, inny dowód tożsamości."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z wymienionych grup prawidłowo określa limit dobowy złowionych i zabranych z łowiska gatunków ryb?",
+      "opt": [
+        "sieja, łosoś – łącznie 2 szt. ",
+        "pstrąg tęczowy i pstrąg źródlany – łącznie 4 szt.",
+        "świnka, certa – łącznie 4 szt."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla sandacza",
+      "opt": [
+        "od 1 stycznia do 30 czerwca,",
+        "od 1marca do 31 maja,",
+        "od 1 stycznia do 31 maja. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny okonia",
+      "opt": [
+        "do 15cm. ",
+        "do 18cm.",
+        "do 20cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wolno stosować sztuczne światło do lokalizowania lub zwabiania ryb na stanowisko",
+      "opt": [
+        "wolno",
+        "nie wolno ",
+        "tylko za zgoda użytkownika wód"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W ile haczyków może być wyposażona sztuczna przynęta do połowów pod lodem",
+      "opt": [
+        "jeden",
+        "dwa ",
+        "trzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "troć jeziorowa",
+        "łosoś,",
+        "jesiotr zachodni. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 40 cm?",
+      "opt": [
+        "boleń, brzana",
+        "łosoś, sandacz, troć",
+        "szczupak, węgorz"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar i okres ochronny głowacicy",
+      "opt": [
+        "do 50cmod 1 stycznia do 31 marca",
+        "do 70cm.od 1 stycznia do 30 kwietnia",
+        "do 70cmod 1 marca do 31 maja "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "sieja,",
+        "alosa. ",
+        "certa."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny karpia",
+      "opt": [
+        "do 25cm.",
+        "do 30cm ",
+        "do 35cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "różanka",
+        "wzdręga,",
+        "brzanka."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Od ilu lat można samodzielnie wędkować",
+      "opt": [
+        "18 lat",
+        "14 lat ",
+        "16 lat"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla tołpygi białej",
+      "opt": [
+        "nie na wymiaru ochronnego. ",
+        "do 70 cm,",
+        "do 50 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy żywa ryba może być przynętą wędkarską?",
+      "opt": [
+        "nie",
+        "tak",
+        "tak, ale tylko wymiarowa i nie chroniona "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z wymienionych grup ryb jest pod ochroną od 1 stycznia do 30 czerwca?",
+      "opt": [
+        "brzana, certa ",
+        "ciosa, śliz",
+        "kleń, jaź,"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Który z gatunków nie jest objęty okresem ochronnym:",
+      "opt": [
+        "sandacz,",
+        "leszcz",
+        "szczupak,"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która z wymienionych grup ryb znajduje się pod ochroną od 1 października do 31 grudnia?",
+      "opt": [
+        "sieja, sielawa ",
+        "łosoś, troć jeziorowa"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla brzany",
+      "opt": [
+        "od 1 stycznia do 31 maja,",
+        "od 1 stycznia do 30 czerwca",
+        "od 1 października do 31 maja."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Z obowiązku posiadania karty wędkarskiej zwolnione są osoby",
+      "opt": [
+        "po ukończeniu 65 roku życia",
+        "młodzież do lat 14 ",
+        "nie ma takiej możliwości."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ryby łososiowate i lipienie mogą być łowione:",
+      "opt": [
+        "W wodach objętych informatorem wód krainy pstrąga i lipienia wyłącznie na przynęty sztuczne, z wyłączeniem pstrąga tęczowego ",
+        "W innych wodach na przynęty sztuczne i naturalne, za zgodą uprawnionego do rybactwa ",
+        "na przynęty naturalne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla brzanki",
+      "opt": [
+        "od 1 marca do 31 maja,",
+        "od 1 października do 31 grudnia,",
+        "od 1 stycznia do 31 grudnia. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "piekielnica,",
+        "stynka",
+        "strzebla potokowa."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj okres ochronny dla sielawy",
+      "opt": [
+        "od 1 stycznia do 30 czerwca",
+        "od 1 października do 31 grudnia",
+        "nie ma okresu ochronnego."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Żywca możemy poławiać przy pomocy siatki ( podrywki)",
+      "opt": [
+        "nie",
+        "tak ",
+        "tylko na jeziorach"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ile ostrzy może mieć maksymalnie haczyk do połowu ryb",
+      "opt": [
+        "trzy ostrza",
+        "cztery ostrza ",
+        "dwa ostrza"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która ryba jest chroniona prawem",
+      "opt": [
+        "ciernik,",
+        "śliz",
+        "kiełb."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj okres ochronny dla kiełbia",
+      "opt": [
+        "od 1 marca do 31 lipca,",
+        "jest pod całkowitą ochroną,",
+        "nie ma okresu ochronnego. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z wymienionych grup ryb jest pod ochroną od 1 stycznia do 30 czerwca?",
+      "opt": [
+        "brzana, certa ",
+        "ciosa, śliz",
+        "kleń, jaź,"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla tołpygi białej",
+      "opt": [
+        "nie na wymiaru ochronnego. ",
+        "do 70 cm,",
+        "do 50 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla miętusa",
+      "opt": [
+        "nie ma okresu ochronnego,",
+        "od 1 grudnia do końca lutego",
+        "jest pod całkowitą ochroną."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 25 cm?",
+      "opt": [
+        "jaź, kleń, lin, rozpiór, świnka ",
+        "certa, boleń, lipień, miętus",
+        "płoć, wzdręga, jelec, sielawa"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar i okres ochronny bolenia",
+      "opt": [
+        "do 35cmod 1 stycznia do 30 kwietnia",
+        "do 40cm.od 1 lutego do 1 maja",
+        "do 40cm.od 1 stycznia do 30 kwietnia "
+      ],
+      "a": 2
+    },
+    {
+      "q": "W ile haczyków może być wyposażona sztuczna przynęta do połowów pod lodem",
+      "opt": [
+        "jeden",
+        "dwa ",
+        "trzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny świnki",
+      "opt": [
+        "do 20cm.",
+        "do 25cm. ",
+        "do 30cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Przepisy naruszy wędkarz, który zabierze następujące złowione ryby:",
+      "opt": [
+        "4 pstrągi tęczowe,",
+        "3 sandacze",
+        "8 kg leszczy."
+      ],
+      "a": 1
+    },
+    {
+      "q": "W jakich miejscach ochronnych nie wolno łowić ryb?",
+      "opt": [
+        "tarliska, zimowiska, mateczniki ",
+        "ostrogi wodne, urwiska"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co to są przynęty sztuczne",
+      "opt": [
+        "wykonane z części roślin i zwierząt, a także imitujące owada lub jego stadia rozwojowe ",
+        "zbudowane przy pomocy sztucznych materiałów",
+        "ciasta ze sztucznymi barwnikami"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Od ilu lat można samodzielnie wędkować",
+      "opt": [
+        "18 lat",
+        "14 lat ",
+        "16 lat"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 70 cm?",
+      "opt": [
+        "sum, głowacica ",
+        "karp, troć jeziorowa",
+        "jesiotr ostronosy, jesiotr zachodni"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Z obowiązku posiadania karty wędkarskiej zwolnione są osoby",
+      "opt": [
+        "po ukończeniu 65 roku życia",
+        "młodzież do lat 14 ",
+        "nie ma takiej możliwości."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar i okres ochronny szczupaka",
+      "opt": [
+        "do 40 od 1 stycznia do 30 kwietnia",
+        "do 45cm.od 1 grudnia do 30 kwietnia",
+        "do 50 cmod 1 stycznia do 30 kwietnia "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Żywca możemy poławiać przy pomocy siatki ( podrywki)",
+      "opt": [
+        "nie",
+        "tak ",
+        "tylko na jeziorach"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy żywa ryba może być przynętą wędkarską?",
+      "opt": [
+        "nie",
+        "tak",
+        "tak, ale tylko wymiarowa i nie chroniona "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar i okres ochronny suma (w pozostałych wodach)",
+      "opt": [
+        "do 55cmod 1 stycznia do 31 maja",
+        "do 75cmod 1 grudnia do 31 maja",
+        "do 70cmod 1 listopada do 30 czerwca "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj wymiar ochronny troci jeziorowej",
+      "opt": [
+        "do 50cm. ",
+        "do 45cm.",
+        "do 40cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Osoby pełnoletnie posiadające tylko kartę wędkarską mogą wędkować na",
+      "opt": [
+        "jedną wędkę",
+        "dwie wędki",
+        "nie mogą wędkować. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z wymienionych grup ryb jest pod ochroną od 1 stycznia do 30 czerwca?",
+      "opt": [
+        "brzana, certa ",
+        "ciosa, śliz",
+        "kleń, jaź,"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla sielawy",
+      "opt": [
+        "do 15 cm,",
+        "do 18 cm",
+        "nie ma wymiaru ochronnego."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla sieji",
+      "opt": [
+        "do 35 cm",
+        "do 18 cm,",
+        "nie ma wymiaru ochronnego."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy osoby do 14 lat mogą wędkować;",
+      "opt": [
+        " tak, wyłącznie pod opieką osoby pełnoletniej posiadającej uprawnienia do wędkowania ",
+        " nie",
+        " tak, z wyłączeniem metody spinnigowej i muchowej"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla troci jeziorowej",
+      "opt": [
+        "od 1 września do 31 stycznia",
+        "od 1 października do 31 grudnia,",
+        "od 1 marca do 31 maja."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Które ryby mają wymiar ochronny do 40 cm?",
+      "opt": [
+        "boleń, brzana",
+        "łosoś, sandacz, troć",
+        "szczupak, węgorz"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny jelca",
+      "opt": [
+        "do 20cm.",
+        "do 15cm. ",
+        "do 10cm."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj okres ochronny dla troci jeziorowej",
+      "opt": [
+        "od 1 września do 31 stycznia",
+        "od 1 października do 31 grudnia,",
+        "od 1 marca do 31 maja."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy żywa ryba może być przynętą wędkarską?",
+      "opt": [
+        "nie",
+        "tak",
+        "tak, ale tylko wymiarowa i nie chroniona "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj okres ochronny dla brzany",
+      "opt": [
+        "od 1 stycznia do 31 maja,",
+        "od 1 stycznia do 30 czerwca",
+        "od 1 października do 31 maja."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla amura",
+      "opt": [
+        "do 40 cm,",
+        "do 45 cm,",
+        "nie ma wymiaru ochronnego. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "W jakiej odległości od jazów śluz, tam, zapór, przepławek oraz innych urządzeń do piętrzenia wody wolno łowić ryby?",
+      "opt": [
+        "100 m",
+        "50 m ",
+        "200 m"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Podaj wymiar ochronny dla lina",
+      "opt": [
+        "do 15 cm,",
+        "do 18 cm,",
+        "do 25 cm. "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która z wymienionych grup ryb znajduje się pod ochroną do 31 maja?",
+      "opt": [
+        "głowacica, lipień, sandacz, sapa ",
+        "peluga, karp, leszcz"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "trawianka",
+        "babka piaskowa,",
+        "babka czarna"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Po złowieniu nie wolno wypuścić do żadnego zbiornika:",
+      "opt": [
+        "jazgarza.",
+        "rozpióra,",
+        "sumika karłowatego"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Podaj okres ochronny dla okonia",
+      "opt": [
+        "nie ma okresu ochronnego",
+        "od 1 marca do 30 kwietnia,",
+        "od 15 czerwca do 15 lipca."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj wymiar ochronny dla jazia",
+      "opt": [
+        "do 25 cm",
+        "do 30 cm,",
+        "do 15 cm."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Podaj okres ochronny dla brzany",
+      "opt": [
+        "od 1 stycznia do 31 maja,",
+        "od 1 stycznia do 30 czerwca",
+        "od 1 października do 31 maja."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Żywca możemy poławiać przy pomocy siatki ( podrywki)",
+      "opt": [
+        "nie",
+        "tak ",
+        "tylko na jeziorach"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Złowione ryby niewymiarowe lub będące pod ochroną muszą być",
+      "opt": [
+        "przechowywane w siatce o wymiarach: średnica 50cm i długości 5m.",
+        "wypuszczone do wody po zakończeniu wędkowania.",
+        "wypuszczone do wody zaraz po złowieniu "
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która ryba nie jest chroniona prawem",
+      "opt": [
+        "kiełb białopłetwy",
+        "głowacz pręgowany,",
+        "czebaczek amurski. "
+      ],
+      "a": 2
+    }
+  ]
+}

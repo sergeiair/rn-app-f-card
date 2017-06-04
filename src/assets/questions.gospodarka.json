@@ -1,0 +1,634 @@
+{
+  "list": [
+    {
+      "q": "Ryby i inne organizmy żywe żyjące w wodzie stanowią dla użytkowników wód:",
+      "opt": [
+        "pożytki",
+        "połów",
+        "świat żywy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Kto może posiadać narzędzie rybackie i urządzenia połowowe?",
+      "opt": [
+        "wyłącznie uprawniony do rybactwa",
+        "każdy użytkownik wód",
+        "tylko posiadacze kart wędkarskich"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jakie gatunki ryb są obce w polskiej ichtiofaunie?",
+      "opt": [
+        "peluga, amur, tołpyga, pstrąg tęczowy, sumik karłowaty",
+        "stynka, miętus, węgorz",
+        "kiełb Kesslera, śliz, jelec, świnka"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wędkarze mają obowiązek prowadzenia rejestracji połowów?",
+      "opt": [
+        "tak, rozpoczynając zapis przed każdym połowem",
+        "tak, ale jeśli wymaga tego gospodarz wód",
+        "nie, chyba, że dla własnych potrzeb"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Do czego służy ewidencja połowów?",
+      "opt": [
+        "do wykazania rekordowych połowów",
+        "do dokumentowania działań gospodarza rybacko-wędkarskiego i podstawa do ewentualnych odszkodowań",
+        "dla potrzeb statystyki"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Na co należy zwrócić uwagę przy zarybianiu wód?",
+      "opt": [
+        "na zgodność typu wód z wymaganiami gatunków przeznaczonych do zarybienia zapisane w operacie rybackim",
+        "na przezroczystość i temperaturę wody",
+        "obecność drapieżników"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wody użytkowane przez PZW powinny być oznakowane?",
+      "opt": [
+        "tak, zgodnie z uchwałą ZG PZW",
+        "nie",
+        "tak, ale tylko obręby hodowlane i ochronne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W jakiej odległości można wędkować od rozstawionych i oznakowanych sieci i innych rybackich narzędzi połowu?",
+      "opt": [
+      "Nie mniej niż 100 m",
+      "Nie mniej niż 50 m",
+      "Nie mniej niż 150 m"
+      ],
+    "a": 1
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W jakiej prawidłowej kolejności określają strefy głębokości jeziora następujące grupy nazw?",
+      "opt": [
+        "litoral, pelagial, profundal",
+        "profundal, litoral, pelagial",
+        "litoral, profundal, pelagial"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wody użytkowane przez PZW powinny być oznakowane?",
+      "opt": [
+        "tak, zgodnie z uchwałą ZG PZW",
+        "nie",
+        "tak, ale tylko obręby hodowlane i ochronne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jeziora z której grupy najczęściej występują w Polsce?",
+      "opt": [
+        "sielawowy, leszczowy, sandaczowy, linowo-szczupakowy i karasiowy",
+        "płociowy, węgorzowy, linowy, linowo-szczupakowy",
+        "uklejowy, okoniowy, jazgarzowy, leszczowy, szczupakowy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W jakich typach jeziora występuje najwięcej gatunków ryb?",
+      "opt": [
+        "w leszczowym",
+        "w karasiowym",
+        "w linowo-szczupakowym"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Na co należy zwrócić uwagę przy zarybianiu wód?",
+      "opt": [
+        "na zgodność typu wód z wymaganiami gatunków przeznaczonych do zarybienia zapisane w operacie rybackim",
+        "na przezroczystość i temperaturę wody",
+        "obecność drapieżników"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy można zarybiać wody otwarte gatunkami ryb nierodzimych?",
+      "opt": [
+        "tak, ale za zgodą właściwego ministra",
+        "tak, ale tylko do zbiorników zaporowych",
+        "nie"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Na co należy zwrócić uwagę przy zarybianiu wód?",
+      "opt": [
+        "na zgodność typu wód z wymaganiami gatunków przeznaczonych do zarybienia zapisane w operacie rybackim",
+        "na przezroczystość i temperaturę wody",
+        "obecność drapieżników"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy uczynić jeśli w zbiorniku wodnym występuje zbyt duże pogłowie nie pożądanych ryb karpiowatych?",
+      "opt": [
+        "zarybić zbiornik wodny tymi samymi gatunkami ryb",
+        "prowadzić intensywny odłów i zarybienie odpowiednimi drapieżnikami",
+        "nic nie robić, czekając na skutek naturalnych procesów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jeziora z której grupy najczęściej występują w Polsce?",
+      "opt": [
+        "sielawowy, leszczowy, sandaczowy, linowo-szczupakowy i karasiowy",
+        "płociowy, węgorzowy, linowy, linowo-szczupakowy",
+        "uklejowy, okoniowy, jazgarzowy, leszczowy, szczupakowy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co wolno zrobić jeśli zauważymy w wodzie narzędzia rybackie?",
+      "opt": [
+        "pozostawić je do wykorzystania przez osoby uprawnione do rybactwa",
+        "podjąć i oddać do straży rybackiej",
+        "zniszczyć"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wędkarze mają obowiązek prowadzenia rejestracji połowów?",
+      "opt": [
+        "tak, rozpoczynając zapis przed każdym połowem",
+        "tak, ale jeśli wymaga tego gospodarz wód",
+        "nie, chyba, że dla własnych potrzeb"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W jakiej prawidłowej kolejności określają strefy głębokości jeziora następujące grupy nazw?",
+      "opt": [
+        "litoral, pelagial, profundal",
+        "profundal, litoral, pelagial",
+        "litoral, profundal, pelagial"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W jakiej odległości można wędkować od rozstawionych i oznakowanych sieci i innych rybackich narzędzi połowu?",
+      "opt": [
+        "Nie mniej niż 100 m",
+        "Nie mniej niż 50 m",
+        "Nie mniej niż 150 m"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy uczynić jeśli w zbiorniku wodnym występuje zbyt duże pogłowie nie pożądanych ryb karpiowatych?",
+      "opt": [
+        "zarybić zbiornik wodny tymi samymi gatunkami ryb",
+        "prowadzić intensywny odłów i zarybienie odpowiednimi drapieżnikami",
+        "nic nie robić, czekając na skutek naturalnych procesów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co to jest \"starorzecze\"?",
+      "opt": [
+        "dawne korytu rzeki wypełnione wodą i połączone lub nie połączone z rzeką",
+        "zbiornik wypełniony wodą obok rzeki",
+        "zbiornik wody ze starym rybostanem"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co wolno zrobić jeśli zauważymy w wodzie narzędzia rybackie?",
+      "opt": [
+        "pozostawić je do wykorzystania przez osoby uprawnione do rybactwa",
+        "podjąć i oddać do straży rybackiej",
+        "zniszczyć"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Dlaczego w gospodarce rybackiej stosuje się sztuczne zarybienia wód?",
+      "opt": [
+        "aby zmniejszyć ilość młodych ryb pożartych przez drapieżniki",
+        "z powodu zniszczenia wielu naturalnych tarlisk i miejsc wzrostu ryb",
+        "z powodu nadmiernych odłowów ryb dorosłych"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co to jest operat rybacki?",
+      "opt": [
+        "dokument określający zasady prowadzenia gospodarki rybackiej w danym obwodzie rybackim",
+        "harmonogram odłowów rybackich",
+        "opis łowisk rybackich"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Dlaczego regulacja rzek może wpływać negatywnie na ichtiofaunę?",
+      "opt": [
+        "gdyż woda zmieni swoja temperaturę",
+        "gdyż woda straci odpowiedni poziom natlenienia",
+        "zniszczone zostaną naturalne ostoje i tarliska ryb"
+      ],
+      "a": 2
+    },
+    {
+      "q": "W jakich typach jeziora występuje najwięcej gatunków ryb?",
+      "opt": [
+        "w leszczowym",
+        "w karasiowym",
+        "w linowo-szczupakowym"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wody użytkowane przez PZW powinny być oznakowane?",
+      "opt": [
+        "tak, zgodnie z uchwałą ZG PZW",
+        "nie",
+        "tak, ale tylko obręby hodowlane i ochronne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W której krainie rzecznej występuje zazwyczaj największa liczba gatunków ryb?",
+      "opt": [
+        "w krainie pstrąga",
+        "w krainie brzany",
+        "w krainie leszcza"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Ryby i inne organizmy żywe żyjące w wodzie stanowią dla użytkowników wód:",
+      "opt": [
+        "pożytki",
+        "połów",
+        "świat żywy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Dlaczego w gospodarce rybackiej stosuje się sztuczne zarybienia wód?",
+      "opt": [
+        "aby zmniejszyć ilość młodych ryb pożartych przez drapieżniki",
+        "z powodu zniszczenia wielu naturalnych tarlisk i miejsc wzrostu ryb",
+        "z powodu nadmiernych odłowów ryb dorosłych"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa terminów polskich prawidłowo odpowiada nazwom określającym kategorie żyzności jezior: oligotroficzne, mezotroficzne, eutroficzne, politroficzne, dystroficzne?",
+      "opt": [
+        "Mało żyzne, średniożyzne, żyzne, przeżyźnione, kwaśne",
+        "Żyzne, mało żyzne, średniożyzne, kwaśne, przeżyźnione",
+        "Kwaśne, małożyzne, średniożyzne, żyzne, przeżyźnione"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czego trzeba wymagać przy zakupie materiału zarybieniowego?",
+      "opt": [
+        "świadectwa zdrowotności",
+        "odpowiedniej wagi i długości ciała",
+        "odpowiedniej ceny"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Na co należy zwrócić uwagę przy zarybianiu wód?",
+      "opt": [
+        "na zgodność typu wód z wymaganiami gatunków przeznaczonych do zarybienia zapisane w operacie rybackim",
+        "na przezroczystość i temperaturę wody",
+        "obecność drapieżników"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wody użytkowane przez PZW powinny być oznakowane?",
+      "opt": [
+        "tak, zgodnie z uchwałą ZG PZW",
+        "nie",
+        "tak, ale tylko obręby hodowlane i ochronne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy uczynić jeśli w zbiorniku wodnym występuje zbyt duże pogłowie nie pożądanych ryb karpiowatych?",
+      "opt": [
+        "zarybić zbiornik wodny tymi samymi gatunkami ryb",
+        "prowadzić intensywny odłów i zarybienie odpowiednimi drapieżnikami",
+        "nic nie robić, czekając na skutek naturalnych procesów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa nazw prawidłowo określa racjonalną gospodarkę rybacko-wędkarską?",
+      "opt": [
+        "Gospodarka bez użytkowania sieci rybackich i wykluczająca obecność rybaków na wodach",
+        "Gospodarka polegająca na wykorzystaniu produkcyjnych możliwości wód, zgodnie z operatem rybackim, w sposób nie naruszający interesów uprawnionych do rybactwa na tym samym dorzeczu, z zachowaniem zasobów ryb w równowadze biologicznej i na poziomie umożliwiającym gospodarcze korzystanie z nich przyszłym uprawnionym do rybactwa",
+        "Gospodarka prowadzona w zgodzie z wymogami ekologii oraz potrzebami gospodarczymi rybackich użytkowników wód"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy można zarybiać wody otwarte gatunkami ryb nierodzimych?",
+      "opt": [
+        "tak, ale za zgodą właściwego ministra",
+        "tak, ale tylko do zbiorników zaporowych",
+        "nie"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Dlaczego regulacja rzek może wpływać negatywnie na ichtiofaunę?",
+      "opt": [
+        "gdyż woda zmieni swoja temperaturę",
+        "gdyż woda straci odpowiedni poziom natlenienia",
+        "zniszczone zostaną naturalne ostoje i tarliska ryb"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Która grupa nazw prawidłowo określa racjonalną gospodarkę rybacko-wędkarską?",
+      "opt": [
+        "Gospodarka bez użytkowania sieci rybackich i wykluczająca obecność rybaków na wodach",
+        "Gospodarka polegająca na wykorzystaniu produkcyjnych możliwości wód, zgodnie z operatem rybackim, w sposób nie naruszający interesów uprawnionych do rybactwa na tym samym dorzeczu, z zachowaniem zasobów ryb w równowadze biologicznej i na poziomie umożliwiającym gospodarcze korzystanie z nich przyszłym uprawnionym do rybactwa",
+        "Gospodarka prowadzona w zgodzie z wymogami ekologii oraz potrzebami gospodarczymi rybackich użytkowników wód"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co to jest \"starorzecze\"?",
+      "opt": [
+        "dawne korytu rzeki wypełnione wodą i połączone lub nie połączone z rzeką",
+        "zbiornik wypełniony wodą obok rzeki",
+        "zbiornik wody ze starym rybostanem"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Dlaczego w gospodarce rybackiej stosuje się sztuczne zarybienia wód?",
+      "opt": [
+        "aby zmniejszyć ilość młodych ryb pożartych przez drapieżniki",
+        "z powodu zniszczenia wielu naturalnych tarlisk i miejsc wzrostu ryb",
+        "z powodu nadmiernych odłowów ryb dorosłych"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W której krainie rzecznej występuje zazwyczaj największa liczba gatunków ryb?",
+      "opt": [
+        "w krainie pstrąga",
+        "w krainie brzany",
+        "w krainie leszcza"
+      ],
+      "a": 2
+    },
+    {
+      "q": "W jakiej odległości można wędkować od rozstawionych i oznakowanych sieci i innych rybackich narzędzi połowu?",
+      "opt": [
+        "Nie mniej niż 100 m",
+        "Nie mniej niż 50 m",
+        "Nie mniej niż 150 m"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Kto może posiadać narzędzie rybackie i urządzenia połowowe?",
+      "opt": [
+        "wyłącznie uprawniony do rybactwa",
+        "każdy użytkownik wód",
+        "tylko posiadacze kart wędkarskich"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W której krainie rzecznej występuje zazwyczaj największa liczba gatunków ryb?",
+      "opt": [
+        "w krainie pstrąga",
+        "w krainie brzany",
+        "w krainie leszcza"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Co wolno zrobić jeśli zauważymy w wodzie narzędzia rybackie?",
+      "opt": [
+        "pozostawić je do wykorzystania przez osoby uprawnione do rybactwa",
+        "podjąć i oddać do straży rybackiej",
+        "zniszczyć"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co to jest \"starorzecze\"?",
+      "opt": [
+        "dawne korytu rzeki wypełnione wodą i połączone lub nie połączone z rzeką",
+        "zbiornik wypełniony wodą obok rzeki",
+        "zbiornik wody ze starym rybostanem"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Do czego służy ewidencja połowów?",
+      "opt": [
+        "do wykazania rekordowych połowów",
+        "do dokumentowania działań gospodarza rybacko-wędkarskiego i podstawa do ewentualnych odszkodowań",
+        "dla potrzeb statystyki"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jeziora z której grupy najczęściej występują w Polsce?",
+      "opt": [
+        "sielawowy, leszczowy, sandaczowy, linowo-szczupakowy i karasiowy",
+        "płociowy, węgorzowy, linowy, linowo-szczupakowy",
+        "uklejowy, okoniowy, jazgarzowy, leszczowy, szczupakowy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co decyduje przy zarybieniu wód?",
+      "opt": [
+        "możliwości finansowe",
+        "wymogi racjonalnej gospodarki rybackiej",
+        "życzenia wędkarzy"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ryby i inne organizmy żywe żyjące w wodzie stanowią dla użytkowników wód:",
+      "opt": [
+        "pożytki",
+        "połów",
+        "świat żywy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W jakiej odległości można wędkować od rozstawionych i oznakowanych sieci i innych rybackich narzędzi połowu?",
+      "opt": [
+        "Nie mniej niż 100 m",
+        "Nie mniej niż 50 m",
+        "Nie mniej niż 150 m"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Która grupa terminów polskich prawidłowo odpowiada nazwom określającym kategorie żyzności jezior: oligotroficzne, mezotroficzne, eutroficzne, politroficzne, dystroficzne?",
+      "opt": [
+        "Mało żyzne, średniożyzne, żyzne, przeżyźnione, kwaśne",
+        "Żyzne, mało żyzne, średniożyzne, kwaśne, przeżyźnione",
+        "Kwaśne, małożyzne, średniożyzne, żyzne, przeżyźnione"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wody użytkowane przez PZW powinny być oznakowane?",
+      "opt": [
+        "tak, zgodnie z uchwałą ZG PZW",
+        "nie",
+        "tak, ale tylko obręby hodowlane i ochronne"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ryby i inne organizmy żywe żyjące w wodzie stanowią dla użytkowników wód:",
+      "opt": [
+        "pożytki",
+        "połów",
+        "świat żywy"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy uczynić jeśli w zbiorniku wodnym występuje zbyt duże pogłowie nie pożądanych ryb karpiowatych?",
+      "opt": [
+        "zarybić zbiornik wodny tymi samymi gatunkami ryb",
+        "prowadzić intensywny odłów i zarybienie odpowiednimi drapieżnikami",
+        "nic nie robić, czekając na skutek naturalnych procesów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "W jakich typach jeziora występuje najwięcej gatunków ryb?",
+      "opt": [
+        "w leszczowym",
+        "w karasiowym",
+        "w linowo-szczupakowym"
+      ],
+      "a": 0
+    }
+  ]
+}

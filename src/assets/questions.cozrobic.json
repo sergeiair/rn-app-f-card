@@ -1,0 +1,407 @@
+{
+  "list": [
+    {
+      "q": "Co należy zrobić w przypadku zauważenia przypadku kłusownictwa?",
+      "opt": [
+        "zgłosić natychmiast organom ścigania: policji, straży rybackiej",
+        "odejść z tego miejsca w obawie o własne bezpieczeństwo",
+        "podjąć próbę czynnego przeciwdziałania"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jakie martwe ryby mogą być użyte, jako przynęta?",
+      "opt": [
+        "tylko wymiarowe, nie objęte wymiarem ochronnym i nie znajdujące się w okresie ochronnym",
+        "odpowiednie do rozmiarów haczyka i potrzeb łowionego drapieżnika",
+        "najmniejsze, jakie się złowi"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Aby ustalić wymiar ochronny ryby to trzeba dokonać?",
+      "opt": [
+        "zmierzenie ryby za pomocą miarki",
+        "rozciągnięcia ryby",
+        "zważenia ryby"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki jest najskuteczniejszy sposób uśmiercania ryby?",
+      "opt": [
+        "pozostawić na ziemi aż do uduszenia",
+        "przez nacięcie nasady ogona",
+        "przez uderzenie w czaszkę i nakłucie serca"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Czy złowione ryby niewymiarowe lub znajdujące się pod ochroną musimy wypuścić nawet jeśli:",
+      "opt": [
+        "ich stan wskazuje na niewielkie szanse przeżycia",
+        "są martwe i pokaleczone",
+        "nie mamy odpowiedniej siatki"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W czym należy przechowywać ryby w stanie żywym?",
+      "opt": [
+        "sadzykach metalowych",
+        "w siatkach wykonanych z miękkich nici, rozpiętych na sztywnych obręczach",
+        "w wiadrze"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy złowione ryby niewymiarowe lub znajdujące się pod ochroną musimy wypuścić nawet jeśli:",
+      "opt": [
+        "ich stan wskazuje na niewielkie szanse przeżycia",
+        "są martwe i pokaleczone",
+        "nie mamy odpowiedniej siatki"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki jest najskuteczniejszy sposób uśmiercania ryby?",
+      "opt": [
+        "pozostawić na ziemi aż do uduszenia",
+        "przez nacięcie nasady ogona",
+        "przez uderzenie w czaszkę i nakłucie serca"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Czy wędkarzowi wolno obcinać rybom głowy przed zakończeniem wędkowania?",
+      "opt": [
+        "tak, ale w wyjątkowych okolicznościach",
+        "nie",
+        "nie ma takich przepisów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czym najłatwiej podjąć złowioną rybę?",
+      "opt": [
+        "podbierakiem",
+        "ręką",
+        "szczypcami"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaką naczelną zasadą powinniśmy się kierować w obchodzeniu się z rybami?",
+      "opt": [
+        "żadnej rybie nie wolno zadawać bólu lub cierpień bez rozsądnej podstawy",
+        "nie przejmować się ich stanem, ponieważ nie odczuwają bólu",
+        "jak najdłużej utrzymywać w stanie żywym, aby były świeże"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jak postępować przy złowieniu ryby niewymiarowej?",
+      "opt": [
+        "trzymać rybę mokrymi rękoma, odczepić haczyk i wpuścić rybę do wody, a w razie konieczności odciąć przypon",
+        "przytrzymując rybę suchym ręcznikiem ostrożnie odczepić haczyk"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Aby ustalić wymiar ochronny ryby to trzeba dokonać?",
+      "opt": [
+        "zmierzenie ryby za pomocą miarki",
+        "rozciągnięcia ryby",
+        "zważenia ryby"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić w przypadku zauważenia przypadku kłusownictwa?",
+      "opt": [
+        "zgłosić natychmiast organom ścigania: policji, straży rybackiej",
+        "odejść z tego miejsca w obawie o własne bezpieczeństwo",
+        "podjąć próbę czynnego przeciwdziałania"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić jeśli przeznaczona do zabrania ryba zbyt głęboko połknęła haczyk?",
+      "opt": [
+        "haczyk wyciągnąć przy użyciu siły",
+        "rybę należy we właściwy sposób natychmiast uśmiercić",
+        "haczyk należy odciąć i zostawić do czasu zakończenia wędkowania"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaki jest najskuteczniejszy sposób uśmiercania ryby?",
+      "opt": [
+        "pozostawić na ziemi aż do uduszenia",
+        "przez nacięcie nasady ogona",
+        "przez uderzenie w czaszkę i nakłucie serca"
+      ],
+      "a": 2
+    },
+    {
+      "q": "W czym należy przechowywać ryby w stanie żywym?",
+      "opt": [
+        "sadzykach metalowych",
+        "w siatkach wykonanych z miękkich nici, rozpiętych na sztywnych obręczach",
+        "w wiadrze"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Złowione ryby muszą być przechowywane:",
+      "opt": [
+        "w wiaderku z wodą,",
+        "w zanurzonej w wodzie siatce na obręczach,",
+        "na specjalnych agrafkach,"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co należy zrobić gdy złowimy ryby z widocznymi objawami choroby lub obecności pasożytów?",
+      "opt": [
+        "wyrzucamy na brzeg lub zakopujemy",
+        "zgłaszamy taki przypadek i oddajemy ryby do rybackiego gospodarza wód w celu podjęcia dalszego postępowania",
+        "wrzucamy z powrotem do wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co należy zrobić jeśli przeznaczona do zabrania ryba zbyt głęboko połknęła haczyk?",
+      "opt": [
+        "haczyk wyciągnąć przy użyciu siły",
+        "rybę należy we właściwy sposób natychmiast uśmiercić",
+        "haczyk należy odciąć i zostawić do czasu zakończenia wędkowania"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaką naczelną zasadą powinniśmy się kierować w obchodzeniu się z rybami?",
+      "opt": [
+        "żadnej rybie nie wolno zadawać bólu lub cierpień bez rozsądnej podstawy",
+        "nie przejmować się ich stanem, ponieważ nie odczuwają bólu",
+        "jak najdłużej utrzymywać w stanie żywym, aby były świeże"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić ze złowionymi rakami pręgowanymi, rakami sygnałowymi, rybami z gatunków trawianka, czebaczek amurski i sumik karłowaty?",
+      "opt": [
+        "zabrać z łowiska i nie wpuszczać do wody z której je złowiono, ani do innych wód",
+        "uśmiercić",
+        "zakopać"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy złowione ryby niewymiarowe lub znajdujące się pod ochroną musimy wypuścić nawet jeśli:",
+      "opt": [
+        "ich stan wskazuje na niewielkie szanse przeżycia",
+        "są martwe i pokaleczone",
+        "nie mamy odpowiedniej siatki"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić ze złowioną i zabraną rybą, która jest oznakowana?",
+      "opt": [
+        "przesłać do okręgu PZW na terenie, którego została złowiona ryba, znaczek i kilka łusek z grzbietu ryby, z podaniem gatunku, długości i ciężaru oraz miejsca, daty i godziny połowu",
+        "zachować znaczek na pamiątkę",
+        "odnotować połów w rejestrze połowów"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Aby ustalić wymiar ochronny ryby to trzeba dokonać?",
+      "opt": [
+        "zmierzenie ryby za pomocą miarki",
+        "rozciągnięcia ryby",
+        "zważenia ryby"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić ze złowionymi rakami pręgowanymi, rakami sygnałowymi, rybami z gatunków trawianka, czebaczek amurski i sumik karłowaty?",
+      "opt": [
+        "zabrać z łowiska i nie wpuszczać do wody z której je złowiono, ani do innych wód",
+        "uśmiercić",
+        "zakopać"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wędkarzowi wolno obcinać rybom głowy przed zakończeniem wędkowania?",
+      "opt": [
+        "tak, ale w wyjątkowych okolicznościach",
+        "nie",
+        "nie ma takich przepisów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co należy zrobić gdy złowimy ryby z widocznymi objawami choroby lub obecności pasożytów?",
+      "opt": [
+        "wyrzucamy na brzeg lub zakopujemy",
+        "zgłaszamy taki przypadek i oddajemy ryby do rybackiego gospodarza wód w celu podjęcia dalszego postępowania",
+        "wrzucamy z powrotem do wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czym najłatwiej podjąć złowioną rybę?",
+      "opt": [
+        "podbierakiem",
+        "ręką",
+        "szczypcami"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy złowione ryby niewymiarowe lub znajdujące się pod ochroną musimy wypuścić nawet jeśli:",
+      "opt": [
+        "ich stan wskazuje na niewielkie szanse przeżycia",
+        "są martwe i pokaleczone",
+        "nie mamy odpowiedniej siatki"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić ze złowionymi rakami pręgowanymi, rakami sygnałowymi, rybami z gatunków trawianka, czebaczek amurski i sumik karłowaty?",
+      "opt": [
+        "zabrać z łowiska i nie wpuszczać do wody z której je złowiono, ani do innych wód",
+        "uśmiercić",
+        "zakopać"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić z przeznaczoną do zabrania rybą łososiowatą lub ryba złowioną pod lodem po wydobyciu jej z wody?",
+      "opt": [
+        "zważyć i zmierzyć",
+        "natychmiast usunąć haczyk",
+        "uśmiercić"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Czym najłatwiej podjąć złowioną rybę?",
+      "opt": [
+        "podbierakiem",
+        "ręką",
+        "szczypcami"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy złowione ryby niewymiarowe lub znajdujące się pod ochroną musimy wypuścić nawet jeśli:",
+      "opt": [
+        "ich stan wskazuje na niewielkie szanse przeżycia",
+        "są martwe i pokaleczone",
+        "nie mamy odpowiedniej siatki"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić gdy złowimy ryby z widocznymi objawami choroby lub obecności pasożytów?",
+      "opt": [
+        "wyrzucamy na brzeg lub zakopujemy",
+        "zgłaszamy taki przypadek i oddajemy ryby do rybackiego gospodarza wód w celu podjęcia dalszego postępowania",
+        "wrzucamy z powrotem do wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co należy zrobić ze złowioną i zabraną rybą, która jest oznakowana?",
+      "opt": [
+        "przesłać do okręgu PZW na terenie, którego została złowiona ryba, znaczek i kilka łusek z grzbietu ryby, z podaniem gatunku, długości i ciężaru oraz miejsca, daty i godziny połowu",
+        "zachować znaczek na pamiątkę",
+        "odnotować połów w rejestrze połowów"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jakie martwe ryby mogą być użyte, jako przynęta?",
+      "opt": [
+        "tylko wymiarowe, nie objęte wymiarem ochronnym i nie znajdujące się w okresie ochronnym",
+        "odpowiednie do rozmiarów haczyka i potrzeb łowionego drapieżnika",
+        "najmniejsze, jakie się złowi"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jak postępować przy złowieniu ryby niewymiarowej?",
+      "opt": [
+        "trzymać rybę mokrymi rękoma, odczepić haczyk i wpuścić rybę do wody, a w razie konieczności odciąć przypon",
+        "przytrzymując rybę suchym ręcznikiem ostrożnie odczepić haczyk"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy wędkarzowi wolno obcinać rybom głowy przed zakończeniem wędkowania?",
+      "opt": [
+        "tak, ale w wyjątkowych okolicznościach",
+        "nie",
+        "nie ma takich przepisów"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Złowione ryby muszą być przechowywane:",
+      "opt": [
+        "w wiaderku z wodą,",
+        "w zanurzonej w wodzie siatce na obręczach,",
+        "na specjalnych agrafkach,"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co należy zrobić jeśli przeznaczona do zabrania ryba zbyt głęboko połknęła haczyk?",
+      "opt": [
+        "haczyk wyciągnąć przy użyciu siły",
+        "rybę należy we właściwy sposób natychmiast uśmiercić",
+        "haczyk należy odciąć i zostawić do czasu zakończenia wędkowania"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czym najłatwiej podjąć złowioną rybę?",
+      "opt": [
+        "podbierakiem",
+        "ręką",
+        "szczypcami"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaki jest najskuteczniejszy sposób uśmiercania ryby?",
+      "opt": [
+        "pozostawić na ziemi aż do uduszenia",
+        "przez nacięcie nasady ogona",
+        "przez uderzenie w czaszkę i nakłucie serca"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Jak postępować przy złowieniu ryby niewymiarowej?",
+      "opt": [
+        "trzymać rybę mokrymi rękoma, odczepić haczyk i wpuścić rybę do wody, a w razie konieczności odciąć przypon",
+        "przytrzymując rybę suchym ręcznikiem ostrożnie odczepić haczyk"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jakie martwe ryby mogą być użyte, jako przynęta?",
+      "opt": [
+        "tylko wymiarowe, nie objęte wymiarem ochronnym i nie znajdujące się w okresie ochronnym",
+        "odpowiednie do rozmiarów haczyka i potrzeb łowionego drapieżnika",
+        "najmniejsze, jakie się złowi"
+      ],
+      "a": 0
+    }
+
+  ]
+}

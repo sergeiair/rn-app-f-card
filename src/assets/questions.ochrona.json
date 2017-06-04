@@ -1,0 +1,452 @@
+{
+  "list": [
+    {
+      "q": "Czy wrzucanie do wody wnętrzności ryb jest korzystne?",
+      "opt": [
+        "tak, gdyż dostarcza pokarmu rybom i rakom",
+        "nie, gdyż wzbogaca się wartość odżywczą wód i ich eutrofizację",
+        "nie, gdyż można przenieść do wody czynniki chorobotwórcze"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Jakie są obowiązki wędkarzy wobec środowiska zgodnie z przepisami RAPR?",
+      "opt": [
+        "utrzymanie w czystości stanowisko wędkarskie w promieniu minimum 5 metrów",
+        "zapoznanie się z dodatkowymi ograniczeniami na wybranym przez siebie łowisku",
+        "zachowanie odpowiednich odstępów pomiędzy wędkarzami"
+      ],
+      "a": [0, 1]
+    },
+    {
+      "q": "Co oznacza termin ,,przepławka’’?",
+      "opt": [
+        "przelewanie się wody przez jazy i inne progi wodne",
+        "urządzenie, które umożliwia migrację ryb i organizmów wodnych, pomimo wybudowania przegrody w nurcie rzeki",
+        "szczelina w tamie wodnej, przez którą wypływa nadmiar wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co oznacza termin – jeziora oligotroficzne?",
+      "opt": [
+        "zbiornik o niewielkiej zawartości soli pokarmowych, ubogiej roślinności",
+        "jeziora wyjałowione z ryb i roślin",
+        "jeziora zatrute i martwe"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić gdy stwierdzimy objawy zatrucia wody ściekami?",
+      "opt": [
+        "zlekceważyć je, licząc na działania specjalistycznych służb i instytucji",
+        "pobrać próbki wody aby mieć dowód zauważonej sytuacji",
+        "pobrać próbki wody aby można było wykryć przyczyny zatrucia ryb i wody"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Co decyduje o jakości wód jeziora?",
+      "opt": [
+        "zawartość składników mineralnych",
+        "zawartość tlenu",
+        "ilość pokarmu dla ryb"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Miejscem licznego występowania w Polsce żubrów jest:",
+      "opt": [
+        "Puszcza Piska,",
+        "Pustynia Błędowska,",
+        "Puszcza Białowieska"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Ryby w zależności od strefy, w której bytują dzielimy na:",
+      "opt": [
+        "przypowierzchniowe, pływające w toni, przydenne",
+        "głębinowe, brzegowe",
+        "różnośrodowiskowe, jednośrodowiskowe"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jaka roślinność szczególnie korzystnie wpływa na zaopatrzenie wód stojących w tlen?",
+      "opt": [
+        "zanurzona – rdestnice, wywłóczniki, moczarka kanadyjska",
+        "pływająca – np. grzybienie",
+        "twarda – trzcina, tatarak"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy temperatura wody wpływa na zawartość tlenu?",
+      "opt": [
+        "nie ma wpływu",
+        "ma wpływ, bo zimna woda rozpuszcza więcej tlenu niż ciepła",
+        "ma wpływ, bo ciepła woda rozpuszcza więcej tlenu niż zimna"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Proces ponownego wykorzystania surowców nosi nazwę:",
+      "opt": [
+        "recyclingu",
+        "renowacji,",
+        "redukcji."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Czy istnieją negatywne skutki kłusownictwa dla środowiska wodnego?",
+      "opt": [
+        "Tak, ponieważ występuje przełowienie wód, ograniczenie rozrodu ryb, wyłowienie drapieżników, zniszczenie siedlisk i tarlisk ryb",
+        "nie ma wpływu, bo następuje oczyszczenie wód z gatunków niepożądanych"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co oznacza termin ,,zakwit wód’’?",
+      "opt": [
+        "zmianę barwy wody spowodowaną ściekami",
+        "zmianę barwy wody spowodowaną zmianą składu chemicznego wody",
+        "zmianę barwy wody spowodowaną nadmiernym rozwojem mikroorganizmów"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Ostroga to:",
+      "opt": [
+        "zgrubienie na płetwie,",
+        "cypel – element regulacji rzeki",
+        "najdłuższe odnóże raka."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaki procent zasobów wód może służyć zaspokojeniu potrzeb ludzi?",
+      "opt": [
+        "10 procent",
+        "1 procent",
+        "6 procent"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co decyduje o jakości wód jeziora?",
+      "opt": [
+        "zawartość składników mineralnych",
+        "zawartość tlenu",
+        "ilość pokarmu dla ryb"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Zdolność samooczyszenia, przy sprzyjających warunkach, mają:",
+      "opt": [
+        "stawy leśne",
+        "potoki i rzeki",
+        "jeziora"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co wpływa negatywnie na świat zwierzęcy i roślinny w zbiornikach zaporowych?",
+      "opt": [
+        "intensywne promieniowanie słoneczne i częste zakwity",
+        "częste wahania poziomu wody i wysychanie strefy przybrzeżnej",
+        "silne oziębienie w zimie i gruba warstwa lodu"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy wrzucanie do wody wnętrzności ryb jest korzystne?",
+      "opt": [
+        "tak, gdyż dostarcza pokarmu rybom i rakom",
+        "nie, gdyż wzbogaca się wartość odżywczą wód i ich eutrofizację",
+        "nie, gdyż można przenieść do wody czynniki chorobotwórcze"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Jaka roślinność naczyniowa wpływa szczególnie korzystnie na zaopatrzenie wód stojących w tlen?",
+      "opt": [
+        "zanurzona: rdestnice, wywłócznik, moczarka kanadyjska",
+        "pływające - np. grzybień,",
+        "twarda: trzcina, tatarak."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Jakie są najczęstsze źródła zanieczyszczeń wód?",
+      "opt": [
+        "przemysł",
+        "gospodarka komunalna",
+        "rolnictwo",
+        "złoża naturalne ziemi"
+      ],
+      "a": [0, 1, 2]
+    },
+    {
+      "q": "W zależności od głębokości i ilości docierającego światła wody jezior dzielimy na strefy:",
+      "opt": [
+        "pelagial, czyli otwarte przestrzenie wody oraz litoral, czyli strefę przybrzeżną",
+        "strefę brzegową, przybrzeżną, głębiny",
+        "strefy jasne, strefy ciemne, strefy muliste"
+      ],
+      "a": 0
+    },
+    {
+      "q": "W jakiej kolejności posuwając się od brzegu występują w litoralu pasy roślinności? (zaznacz prawidłową grupę)",
+      "opt": [
+        "pas trzcin, pas roślin błotnych, pas roślin o liściach zanurzonych, pas roślin zanurzonych, pas ramienic (glonów)",
+        "pas roślin ziemno-wodnych (błotnych), pas roślin wynurzonych czyli oczeretów, pas roślin o liściach pływających, pas roślin o liściach zanurzonych, pas ramienic (glonów)"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co decyduje o jakości wód jeziora?",
+      "opt": [
+        "zawartość składników mineralnych",
+        "zawartość tlenu",
+        "ilość pokarmu dla ryb"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jak dzielimy wody użytkowane na Ziemi?",
+      "opt": [
+        "powierzchniowe, głębinowe, podskórne",
+        "płynące, stojące",
+        "czyste, zanieczyszczone"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co należy zrobić w razie zauważenia zanieczyszczenia wody lub jego skutków?",
+      "opt": [
+        "natychmiast zawiadomić zarząd najbliższego koła lub okręgu PZW",
+        "zawiadomić policję albo najbliższy organ administracji publicznej",
+        "podjąć akcję usuwania skutków zanieczyszczenia"
+      ],
+      "a": [0, 1]
+    },
+    {
+      "q": "Niszczenie wysokiego brzegu morskiego prowadzi do powstawania urwistych zboczy zwanych:",
+      "opt": [
+        "mierzejami,",
+        "klifami",
+        "depresjami"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ostroga to:",
+      "opt": [
+        "zgrubienie na płetwie,",
+        "cypel – element regulacji rzeki",
+        "najdłuższe odnóże raka."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ryby w zależności od strefy, w której bytują dzielimy na:",
+      "opt": [
+        "przypowierzchniowe, pływające w toni, przydenne",
+        "głębinowe, brzegowe",
+        "różnośrodowiskowe, jednośrodowiskowe"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co oznacza termin – jeziora oligotroficzne?",
+      "opt": [
+        "zbiornik o niewielkiej zawartości soli pokarmowych, ubogiej roślinności",
+        "jeziora wyjałowione z ryb i roślin",
+        "jeziora zatrute i martwe"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Do zwierząt chronionych nie należy:",
+      "opt": [
+        "karp",
+        "kozica,",
+        "niedźwiedź brunatny."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Dlaczego ścieki wpływają negatywnie na stan wody i żyjących w niej organizmów?",
+      "opt": [
+        "ponieważ nie może powstać warstwa lodu",
+        "ponieważ ulegają zatruciu",
+        "ponieważ duszą się"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jaka roślinność szczególnie korzystnie wpływa na zaopatrzenie wód stojących w tlen?",
+      "opt": [
+        "zanurzona – rdestnice, wywłóczniki, moczarka kanadyjska",
+        "pływająca – np. grzybienie",
+        "twarda – trzcina, tatarak"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co oznacza termin – jeziora oligotroficzne?",
+      "opt": [
+        "zbiornik o niewielkiej zawartości soli pokarmowych, ubogiej roślinności",
+        "jeziora wyjałowione z ryb i roślin",
+        "jeziora zatrute i martwe"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ostroga to:",
+      "opt": [
+        "zgrubienie na płetwie,",
+        "cypel – element regulacji rzeki",
+        "najdłuższe odnóże raka."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jakie są obowiązki wędkarzy wobec środowiska zgodnie z przepisami RAPR?",
+      "opt": [
+        "utrzymanie w czystości stanowisko wędkarskie w promieniu minimum 5 metrów",
+        "zapoznanie się z dodatkowymi ograniczeniami na wybranym przez siebie łowisku",
+        "zachowanie odpowiednich odstępów pomiędzy wędkarzami"
+      ],
+      "a": [0, 1]
+    },
+    {
+      "q": "Na czym polega ochrona wód?",
+      "opt": [
+        "racjonalnym gospodarowaniu zasobami wód",
+        "przeciwdziałaniu naruszeniu równowagi biologicznej wód",
+        "zakazie użytkowania wód"
+      ],
+      "a": [0, 1]
+    },
+    {
+      "q": "Co należy zrobić gdy stwierdzimy objawy zatrucia wody ściekami?",
+      "opt": [
+        "zlekceważyć je, licząc na działania specjalistycznych służb i instytucji",
+        "pobrać próbki wody aby mieć dowód zauważonej sytuacji",
+        "pobrać próbki wody aby można było wykryć przyczyny zatrucia ryb i wody"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Od czego zależą właściwości wód rzecznych?",
+      "opt": [
+        "Rodzaju podłoża geologicznego doliny rzecznej, szybkości prądu i przepływu, sposobu użytkowania zlewni",
+        "szerokości rzeki i głębokości koryta rzeki, obecności oczyszczalni ścieków, ilość roślinności"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Ostroga to:",
+      "opt": [
+        "zgrubienie na płetwie,",
+        "cypel – element regulacji rzeki",
+        "najdłuższe odnóże raka."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Ostroga to:",
+      "opt": [
+        "zgrubienie na płetwie,",
+        "cypel – element regulacji rzeki",
+        "najdłuższe odnóże raka."
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co oznacza termin ,,przepławka’’?",
+      "opt": [
+        "przelewanie się wody przez jazy i inne progi wodne",
+        "urządzenie, które umożliwia migrację ryb i organizmów wodnych, pomimo wybudowania przegrody w nurcie rzeki",
+        "szczelina w tamie wodnej, przez którą wypływa nadmiar wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Miejscem licznego występowania w Polsce żubrów jest:",
+      "opt": [
+        "Puszcza Piska,",
+        "Pustynia Błędowska,",
+        "Puszcza Białowieska"
+      ],
+      "a": 2
+    },
+    {
+      "q": "Proces ponownego wykorzystania surowców nosi nazwę:",
+      "opt": [
+        "recyclingu",
+        "renowacji,",
+        "redukcji."
+      ],
+      "a": 0
+    },
+    {
+      "q": "Za niszczenie rybostanów naszych wód odpowiedzialne są:",
+      "opt": [
+        "bociany.",
+        "łabędzie,",
+        "kormorany"
+      ],
+      "a": 2
+    },
+    {
+      "q": "W jakiej kolejności posuwając się od brzegu występują w litoralu pasy roślinności? (zaznacz prawidłową grupę)",
+      "opt": [
+        "pas trzcin, pas roślin błotnych, pas roślin o liściach zanurzonych, pas roślin zanurzonych, pas ramienic (glonów)",
+        "pas roślin ziemno-wodnych (błotnych), pas roślin wynurzonych czyli oczeretów, pas roślin o liściach pływających, pas roślin o liściach zanurzonych, pas ramienic (glonów)"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Co oznacza termin ,,przepławka’’?",
+      "opt": [
+        "przelewanie się wody przez jazy i inne progi wodne",
+        "urządzenie, które umożliwia migrację ryb i organizmów wodnych, pomimo wybudowania przegrody w nurcie rzeki",
+        "szczelina w tamie wodnej, przez którą wypływa nadmiar wody"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Jak dzielimy wody użytkowane na Ziemi?",
+      "opt": [
+        "powierzchniowe, głębinowe, podskórne",
+        "płynące, stojące",
+        "czyste, zanieczyszczone"
+      ],
+      "a": 0
+    },
+    {
+      "q": "Co wpływa negatywnie na świat zwierzęcy i roślinny w zbiornikach zaporowych?",
+      "opt": [
+        "intensywne promieniowanie słoneczne i częste zakwity",
+        "częste wahania poziomu wody i wysychanie strefy przybrzeżnej",
+        "silne oziębienie w zimie i gruba warstwa lodu"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Czy nadmierne nęcenie może być szkodliwe dla wód?",
+      "opt": [
+        "nie, ponieważ ryby zjadają cała zanętę",
+        "tak, ponieważ resztki nie zjedzonej zanęty gniją i zatruwają środowisko",
+        "nie, ponieważ są obojętne dla środowiska, nie gniją i nie pochłaniają tlenu"
+      ],
+      "a": 1
+    }
+
+  ]
+}
