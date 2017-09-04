@@ -1,4 +1,16 @@
-import {AppRegistry} from 'react-native';
-import App from './src/components/App';
+import { AppRegistry } from 'react-native';
+import React from 'react';
+import Realm from 'realm';
 
-AppRegistry.registerComponent('RNTimerExample', () => App);
+
+import App from './src/containers/App';
+
+const RootApp = () => {
+	Realm.copyBundledRealmFiles();
+
+	return (
+    <App />
+	);
+};
+
+AppRegistry.registerComponent('RNTimerExample', () => RootApp);

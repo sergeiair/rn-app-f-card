@@ -26,6 +26,8 @@
 		95C3CF9BA0C74AB1BE69E41B /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5380CE5B1DC54B9F9127BCDB /* libRealmReact.a */; };
 		CF9DA9D31DE14118AD67584B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA2C789478041CB9271D725 /* libc++.tbd */; };
 		0F144FDF1BB74793BC7F6289 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF299AE7E3D54A4BB27F94E2 /* libz.tbd */; };
+		8EB7E4AF291949D58182C676 /* libRNFS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E7809173E54B378F147C68 /* libRNFS.a */; };
+		C7623450B1D24984B5EFDC0E /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A07C560FAA7D4A0E9276197D /* libAirMaps.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +242,10 @@
 		5380CE5B1DC54B9F9127BCDB /* libRealmReact.a */ = {isa = PBXFileReference; name = "libRealmReact.a"; path = "libRealmReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		9FA2C789478041CB9271D725 /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		CF299AE7E3D54A4BB27F94E2 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		5BF90ABCAA434C9AB390620E /* RNFS.xcodeproj */ = {isa = PBXFileReference; name = "RNFS.xcodeproj"; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		27E7809173E54B378F147C68 /* libRNFS.a */ = {isa = PBXFileReference; name = "libRNFS.a"; path = "libRNFS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		3553D4BC5BAF4BE890841215 /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		A07C560FAA7D4A0E9276197D /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +275,8 @@
 				95C3CF9BA0C74AB1BE69E41B /* libRealmReact.a in Frameworks */,
 				CF9DA9D31DE14118AD67584B /* libc++.tbd in Frameworks */,
 				0F144FDF1BB74793BC7F6289 /* libz.tbd in Frameworks */,
+				8EB7E4AF291949D58182C676 /* libRNFS.a in Frameworks */,
+				C7623450B1D24984B5EFDC0E /* libAirMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,8 @@
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				770ABD320CA044AB8A86FCD0 /* RealmReact.xcodeproj */,
+				5BF90ABCAA434C9AB390620E /* RNFS.xcodeproj */,
+				3553D4BC5BAF4BE890841215 /* AirMaps.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -849,6 +859,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -865,6 +877,8 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTimerExample.app/RNTimerExample";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
@@ -888,6 +902,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\realm\src/**",
+					"$(SRCROOT)\..\node_modules\react-native-fs/**",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Debug;
@@ -909,6 +925,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\realm\src/**",
+					"$(SRCROOT)\..\node_modules\react-native-fs/**",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Release;
