@@ -7,9 +7,9 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import coreStyles from '../../core-styles/styles';
-import colors from '../../core-styles/colors';
-import QuestionModel from './../../models/question.model';
+import coreStyles from '../../../core-styles/styles';
+import colors from '../../../core-styles/colors';
+import QuestionModel from '../../../models/question.model';
 
 class Question extends PureComponent {
 

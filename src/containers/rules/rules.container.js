@@ -8,6 +8,7 @@ import {
 } from 'react-native';
 
 import RulesStore from './../../stores/rules.store';
+
 import coreStyles from '../../core-styles/styles';
 
 @observer
@@ -28,7 +29,9 @@ class RulesContainer extends PureComponent {
 
     return (
       <ScrollView style={coreStyles.main}>
-	      <Text>Length: {rulesStore.rules[1] ? rulesStore.rules[1].chapter.content : null}</Text>
+	      <Text>
+		      {!!rulesStore.rules.length ? rulesStore.rules[0].chapter.content : null}
+	      </Text>
       </ScrollView>
     );
   }

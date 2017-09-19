@@ -7,9 +7,9 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import coreStyles from '../../core-styles/styles';
-import colors from '../../core-styles/colors';
-import CardModel from './../../models/card.model';
+import coreStyles from '../../../core-styles/styles';
+import colors from '../../../core-styles/colors';
+import CardModel from '../../../models/card.model';
 
 class Card extends PureComponent {
 

@@ -11,10 +11,10 @@ import coreStyles from '../../core-styles/styles';
 import CardsStore from './../../stores/cards.store';
 import TestsStore from './../../stores/tests.store';
 
-import Card from './card.component';
+import Card from './components/card.component';
 
 @observer
-class CardsComponent extends PureComponent {
+class CardsContainer extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -103,9 +103,9 @@ class CardsComponent extends PureComponent {
   }
 }
 
-CardsComponent.defaultProps = {
+CardsContainer.defaultProps = {
   cardsStore: new CardsStore(),
   testsStore: new TestsStore(),
 };
 
-export default CardsComponent;
+export default CardsContainer;

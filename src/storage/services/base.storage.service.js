@@ -6,10 +6,9 @@ const Realm = require('realm');
 export default class BaseStorage {
   constructor(schemaName) {
 	  Realm.defaultPath = dbPath[schemaName];
-
+	  
 	  this.schemaName = schemaName;
     this.provider = new Realm({
-      readOnly: true,
       schema: [ ...dbSchemes[this.schemaName] ],
     });
   }
@@ -26,8 +25,7 @@ export default class BaseStorage {
     let collection = this.provider.objects(this.schemaName).sorted('id');
 
     return collection.length && collection[collection.length - 1]
-      ? collection[collection.length - 1].id + 1
-      : 1;
+      ? collection[collection.length - 1].id + 1 : 1;
   }
 
   get(filterString = '', sortString = '', toArray = true) {

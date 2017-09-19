@@ -1,13 +1,12 @@
-package com.rntimerexample;
+package com.untitled;
 
 import android.app.Application;
-import android.util.Log;
 
 import com.facebook.react.ReactApplication;
-import com.airbnb.android.react.maps.MapsPackage;
-import com.rnfs.RNFSPackage;
+import com.showlocationservicesdialogbox.LocationServicesDialogBoxPackage;
 import io.realm.react.RealmReactPackage;
-import com.facebook.react.ReactInstanceManager;
+import com.rnfs.RNFSPackage;
+import com.airbnb.android.react.maps.MapsPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -28,9 +27,10 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new MapsPackage(),
+            new LocationServicesDialogBoxPackage(),
+            new RealmReactPackage(),
             new RNFSPackage(),
-            new RealmReactPackage()
+            new MapsPackage()
       );
     }
   };

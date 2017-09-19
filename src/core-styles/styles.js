@@ -18,6 +18,10 @@ const coreStyles = StyleSheet.create({
   footer: {
     flex: .2,
   },
+	defaultInput: {
+		margin: 10,
+		padding: 10,
+	},
   defaultBtnGreen: {
     margin: 10,
     padding: 20,

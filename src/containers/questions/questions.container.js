@@ -13,10 +13,10 @@ import coreStyles from '../../core-styles/styles';
 import QuestionsStore from './../../stores/questions.store';
 import TestsStore from './../../stores/tests.store';
 
-import Question from './question.component';
+import Question from './components/question.component';
 
 @observer
-class QuestionsComponent extends PureComponent {
+class QuestionsContainer extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -117,9 +117,9 @@ class QuestionsComponent extends PureComponent {
   }
 }
 
-QuestionsComponent.defaultProps = {
+QuestionsContainer.defaultProps = {
   questionsStore: new QuestionsStore(),
   testsStore: new TestsStore(),
 };
 
-export default QuestionsComponent;
+export default QuestionsContainer;

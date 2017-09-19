@@ -4,8 +4,9 @@ import { useStrict } from 'mobx';
 import { enableLogging } from 'mobx-logger';
 
 import HomeComponent from './home/home.component';
-import CardsComponent from './cards/cards.component';
-import QuestionsComponent from './questions/questions.component';
+
+import QuestionsContainer from './questions/questions.container';
+import CardsContainer from './cards/cards.container';
 import FishesContainer from './fishes/fishes.container';
 import RulesContainer from './rules/rules.container';
 import PlacesContainer from './places/places.container';
@@ -26,8 +27,8 @@ export default class App extends Component {
       <Router duration={0}>
         <Scene key="root">
           <Scene key="home" component={HomeComponent} title="Home" initial={true} />
-          <Scene key="cards" component={CardsComponent} title="Cards" />
-          <Scene key="questions" component={QuestionsComponent} title="Questions" />
+          <Scene key="cards" component={CardsContainer} title="Cards" />
+          <Scene key="questions" component={QuestionsContainer} title="Questions" />
           <Scene key="fishes" component={FishesContainer} title="Fishes" />
           <Scene key="rules" component={RulesContainer} title="Rules" />
           <Scene key="places" component={PlacesContainer} title="Places" />

@@ -13,4 +13,4 @@ const RootApp = () => {
 	);
 };
 
-AppRegistry.registerComponent('RNTimerExample', () => RootApp);
+AppRegistry.registerComponent('untitled', () => RootApp);
