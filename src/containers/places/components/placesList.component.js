@@ -3,10 +3,11 @@ import {
   View,
   Text,
 	StyleSheet,
-	TouchableOpacity,
 	ListView,
 } from 'react-native';
 import PropTypes from 'prop-types';
+
+import PlaceListItem from './placeListItem.component';
 
 class PlacesListComponent extends PureComponent {
 
@@ -14,23 +15,33 @@ class PlacesListComponent extends PureComponent {
     super(props);
   }
 
+	componentWillReceiveProps(nextProps) {
+		const {data} = nextProps;
+		const {oldData} = this.props;
+
+	}
+
   render() {
-	  const {data, ds} = this.props;
+	  const {data, ds, dropItem} = this.props;
 
 	  return (
 		  <ListView
 			  style={styles.list}
-			  initialListSize={data.length}
+			  initialListSize={20}
 			  enableEmptySections={true}
 			  dataSource={ds.cloneWithRows(
 				  (data || []).filter(item => item)
 			  )}
-			  renderRow={(rowData) => {
-				  return <Text>{rowData.place.name}</Text>
+			  renderRow={(rowData, secId, rowId) => {
+				  return <PlaceListItem
+					  index={parseInt(rowId, 10)}
+					  data={rowData.place}
+				    drop={dropItem}/>
 			  }}
 		  />
 	  );
   }
+
 }
 
 const styles = StyleSheet.create({
@@ -44,6 +55,7 @@ PlacesListComponent.defaultProps = {
 
 PlacesListComponent.PropTypes = {
 	data: PropTypes.array.isRequired,
+	dropItem: PropTypes.func.isRequired,
 };
 
 export default PlacesListComponent;

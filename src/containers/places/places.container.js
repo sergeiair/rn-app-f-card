@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import React, { Component } from 'react';
 import { observer } from 'mobx-react/native';
 import {
   View,
@@ -6,6 +6,7 @@ import {
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
+import I18n from 'react-native-i18n';
 
 import PlacesMapComponent from './components/placesMap.component';
 import PlacesListComponent from './components/placesList.component';
@@ -16,7 +17,7 @@ import PlacesStore from './../../stores/places.store';
 import coreStyles from '../../core-styles/styles';
 
 @observer
-class PlacesContainer extends PureComponent {
+class PlacesContainer extends Component {
 
   constructor(props) {
     super(props);
@@ -26,35 +27,49 @@ class PlacesContainer extends PureComponent {
     }
   }
 
-	componentWillMount() {
+
+	componentDidMount() {
 		const {placesStore} = this.props;
 
 		placesStore.fetch();
 	}
 
-  _setView(view) {
+
+	_setView(view) {
   	this.setState({view})
   }
+
+	_onItemDrop(id, index) {
+		const {placesStore} = this.props;
+
+		placesStore.drop(id, index);
+	}
 
   _getView(type) {
 	  const {placesStore} = this.props;
 
   	switch (type) {
 		  case 'map':
-		  	return <PlacesMapComponent/>;
+		  	return <PlacesMapComponent
+				  data={placesStore.places}/>;
 		  case 'list':
-			  return <PlacesListComponent data={placesStore.places}/>;
+			  return <PlacesListComponent
+				  data={placesStore.places}
+			    dropItem={this._onItemDrop.bind(this)}/>;
 		  case 'customization':
-			  return <PlacesCustomizationComponent/>;
+			  return <PlacesCustomizationComponent
+				  addNew={data => placesStore.addNew(data)}/>;
 	  }
   }
 
   get controls() {
+	  const lang = I18n.currentLocale();
+
   	return (
   		<View>
 			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
 				  onPress={this._setView.bind(this, 'list')}>
-				    <Text style={coreStyles.whiteText}>Places list view</Text>
+				    <Text style={coreStyles.whiteText}>Places list view {lang}</Text>
 			  </TouchableOpacity>
 			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
 				  onPress={this._setView.bind(this, 'map')}>
@@ -79,6 +94,12 @@ class PlacesContainer extends PureComponent {
 	    </View>
     );
   }
+
+	componentWillUnmount() {
+		const {placesStore} = this.props;
+
+		placesStore.reset();
+	}
 }
 
 const styles = StyleSheet.create({

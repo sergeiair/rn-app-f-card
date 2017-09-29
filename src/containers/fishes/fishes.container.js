@@ -1,14 +1,11 @@
-import React, {PureComponent} from 'react';
+import React, { PureComponent } from 'react';
+import { View } from 'react-native';
 import { observer } from 'mobx-react/native';
-import {
-  View,
-  Text,
-  TouchableOpacity,
-} from 'react-native';
 
 import FishesList from './components/fishesList.component';
 
 import FishesStore from './../../stores/fishes.store';
+
 import coreStyles from '../../core-styles/styles';
 
 @observer

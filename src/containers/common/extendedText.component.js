@@ -39,7 +39,9 @@ class ExtendedText extends PureComponent {
               .map((el, index) => {
                 return el.indexOf('$') === 0
                   ? <Text key={index} style={{fontWeight: 'bold'}}
-                      onPress={this._confirm.bind(this, el)}>{el.substr(1)}</Text>
+                      onPress={this._confirm.bind(this, el)}>
+                        {el.substr(1)}
+                    </Text>
                   : <Text key={index}>{el}</Text>
                 })
           }

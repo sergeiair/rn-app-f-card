@@ -7,9 +7,19 @@ import { FishesStorageService } from './../storage/services';
 class FishesStore {
   @observable _fishes = [];
 
+	_fishesStorageService = null;
+
+	get fishesStorageService() {
+		if (!this._fishesStorageService) {
+			this._fishesStorageService = new FishesStorageService();
+		}
+
+		return this._fishesStorageService;
+	}
+
   @action fetch() {
     runInAction("update fishes state after fetching data", () => {
-	    new FishesStorageService()
+	    this.fishesStorageService
         .get()
         .then(res => {
 	        this.fishes = res.data.map(item => new FishModel(item));

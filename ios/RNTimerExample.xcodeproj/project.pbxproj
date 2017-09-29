@@ -28,6 +28,8 @@
 		483358EDD61E42F2B708FC52 /* libRealmReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BD8FB4F74F45C2ADB3A4F9 /* libRealmReact.a */; };
 		29830F325BFB46C69FB9EE63 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 208B48D15EB14B468F329CED /* libc++.tbd */; };
 		8C30C65BC58349109D401D9F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D8F578141B4DC292DC9D8F /* libz.tbd */; };
+		8174232A9C6F43DBB5E24B66 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D25FEE994FDB4ED9A2974A56 /* libRNI18n.a */; };
+		5299CDF99BB144C8ADFD0FA8 /* libRCTRestart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CAAB0312064CC1B0D97422 /* libRCTRestart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -246,6 +248,10 @@
 		41BD8FB4F74F45C2ADB3A4F9 /* libRealmReact.a */ = {isa = PBXFileReference; name = "libRealmReact.a"; path = "libRealmReact.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		208B48D15EB14B468F329CED /* libc++.tbd */ = {isa = PBXFileReference; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
 		23D8F578141B4DC292DC9D8F /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		7431F96C6F1D421F979CBDB2 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D25FEE994FDB4ED9A2974A56 /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		A7A485C7AC464A4BB9C311A3 /* RCTRestart.xcodeproj */ = {isa = PBXFileReference; name = "RCTRestart.xcodeproj"; path = "../node_modules/react-native-restart/ios/RCTRestart.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		72CAAB0312064CC1B0D97422 /* libRCTRestart.a */ = {isa = PBXFileReference; name = "libRCTRestart.a"; path = "libRCTRestart.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +283,8 @@
 				483358EDD61E42F2B708FC52 /* libRealmReact.a in Frameworks */,
 				29830F325BFB46C69FB9EE63 /* libc++.tbd in Frameworks */,
 				8C30C65BC58349109D401D9F /* libz.tbd in Frameworks */,
+				8174232A9C6F43DBB5E24B66 /* libRNI18n.a in Frameworks */,
+				5299CDF99BB144C8ADFD0FA8 /* libRCTRestart.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +432,8 @@
 				5BF90ABCAA434C9AB390620E /* RNFS.xcodeproj */,
 				3553D4BC5BAF4BE890841215 /* AirMaps.xcodeproj */,
 				4A556AB60C8A4AA680142A6C /* RealmReact.xcodeproj */,
+				7431F96C6F1D421F979CBDB2 /* RNI18n.xcodeproj */,
+				A7A485C7AC464A4BB9C311A3 /* RCTRestart.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -859,6 +869,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -875,6 +887,8 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNTimerExample.app/RNTimerExample";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
@@ -900,6 +914,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-fs/**",
 					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\realm\src/**",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+					"$(SRCROOT)\..\node_modules\react-native-restart\ios\RCTRestart/**",
 				);
 			};
 			name = Debug;
@@ -923,6 +939,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-fs/**",
 					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 					"$(SRCROOT)\..\node_modules\realm\src/**",
+					"$(SRCROOT)\..\node_modules\react-native-i18n\ios",
+					"$(SRCROOT)\..\node_modules\react-native-restart\ios\RCTRestart/**",
 				);
 			};
 			name = Release;

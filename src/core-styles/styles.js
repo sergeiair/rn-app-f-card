@@ -7,6 +7,9 @@ const coreStyles = StyleSheet.create({
     flex: 1,
     flexDirection: 'column',
     paddingTop: 50,
+    paddingLeft: 7,
+    paddingRight: 7,
+	  backgroundColor: colors.grey,
   },
   wrap: {
     flex: 1,

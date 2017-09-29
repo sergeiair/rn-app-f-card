@@ -22,7 +22,7 @@ export default class BaseStorage {
   }
 
   get nextId() {
-    let collection = this.provider.objects(this.schemaName).sorted('id');
+    const collection = this.provider.objects(this.schemaName).sorted('id');
 
     return collection.length && collection[collection.length - 1]
       ? collection[collection.length - 1].id + 1 : 1;
@@ -31,12 +31,12 @@ export default class BaseStorage {
   get(filterString = '', sortString = '', toArray = true) {
     return new Promise((resolve, reject) => {
       try {
-        let objects = filterString.length
+        const objects = filterString.length
           ? this.provider.objects(this.schemaName)
               .filtered(filterString)
           : this.provider.objects(this.schemaName);
 
-        let objectsSorted = sortString.length
+        const objectsSorted = sortString.length
           ? objects.sorted(sortString)
           : objects;
 
@@ -61,6 +61,7 @@ export default class BaseStorage {
             try {
               this.provider
                 .create(this.schemaName, data, update);
+
               resolve(data);
             }
             catch (err) {
@@ -73,13 +74,15 @@ export default class BaseStorage {
   drop(id, field = 'id') {
     return new Promise((resolve, reject) => {
       try {
-        let object = this.provider
+        const object = this.provider
           .objects(this.schemaName)
           .filtered(`${field}=${id}`);
+
         this.provider
           .write(() => {
             this.provider.delete(object);
           });
+
         resolve(id);
       }
       catch (err) {

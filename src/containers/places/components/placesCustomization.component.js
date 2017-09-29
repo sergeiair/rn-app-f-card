@@ -6,6 +6,7 @@ import {
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 import LocationService from '../../../services/location.service';
 
@@ -16,7 +17,8 @@ class PlacesCustomizationComponent extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
-    	res: null,
+    	locData: null,
+	    name: null,
 	    message: 'in progress...',
     }
   }
@@ -29,33 +31,49 @@ class PlacesCustomizationComponent extends PureComponent {
 
 		LocationService.resolveLocation().then(data => {
 			this.setState({
-				res: data,
+				locData: data,
 				message: null,
 			});
 		}).catch((error) => {
 			this.setState({
-				res: null,
+				locData: null,
 				message: error.message || 'unknown error',
 			});
 		});
 	}
 
-	get locationStatus() {
-		const {res, message} = this.state;
+	_savePlace() {
+		const {addNew} = this.props;
+		const {name, locData} = this.state;
 
-		if (!res && !message) {
+  	if (locData) {
+		  addNew({
+			  name,
+			  type: 'own',
+			  latLng: `${locData.latitude}, ${locData.longitude}`
+		  });
+	  }
+	}
+
+	get locationStatus() {
+		const {locData, message} = this.state;
+
+		if (!locData && !message) {
 			return 'not located';
 		}
 
-		return res && !message
-			? `latitude: ${res.latitude}, longitude: ${res.longitude}` : message;
+		return locData && !message
+			? `Latitude: ${locData.latitude}, Longitude: ${locData.longitude}` : message;
 	}
 
   render() {
+	  const {name, locData} = this.state;
+
     return (
 	    <View style={coreStyles.main}>
 				<View>
-					<TextInput style={coreStyles.defaultInput}/>
+					<TextInput style={coreStyles.defaultInput}
+						onChangeText={(text) => this.setState({name: text})}/>
 				</View>
 		    <View>
 			    <TextInput style={coreStyles.defaultInput}
@@ -64,10 +82,11 @@ class PlacesCustomizationComponent extends PureComponent {
 		    </View>
 		    <View>
 			    <TouchableOpacity style={coreStyles.defaultBtnBlue}
-			      onPress={}>
-				    <Text style={coreStyles.whiteText}>
-					    Save
-				    </Text>
+			      onPress={this._savePlace.bind(this)}
+			      disabled={!name || !locData}>
+					    <Text style={coreStyles.whiteText}>
+						    Save
+					    </Text>
 			    </TouchableOpacity>
 		    </View>
 	    </View>
@@ -79,8 +98,8 @@ const styles = StyleSheet.create({
 
 });
 
-PlacesCustomizationComponent.defaultProps = {
-
+PlacesCustomizationComponent.propTypes = {
+	addNew: PropTypes.func.isRequired,
 };
 
 export default PlacesCustomizationComponent;

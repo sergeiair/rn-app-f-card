@@ -5,7 +5,8 @@ import {
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import PropTypes from 'prop-types';
 
 class PlacesMapComponent extends PureComponent {
 
@@ -14,7 +15,7 @@ class PlacesMapComponent extends PureComponent {
   }
 
   render() {
-	  const {initialRegion} = this.props;
+	  const {initialRegion, data} = this.props;
 
     return (
 	    <View style={styles.container}>
@@ -25,6 +26,15 @@ class PlacesMapComponent extends PureComponent {
 			    showsUserLocation={true}
 			    showsMyLocationButton={true}
 			    initialRegion={initialRegion}>
+			    {
+				    data.map((el, index) => (
+					    <MapView.Marker
+						    key={index}
+						    coordinate={el.place.latLngObject}
+						    title={el.place.name}
+					    />
+			      ))
+			    }
 		    </MapView>
 	    </View>
     );
@@ -41,6 +51,10 @@ const styles = StyleSheet.create({
 		...StyleSheet.absoluteFillObject,
 	},
 });
+
+PlacesMapComponent.PropTypes = {
+	data: PropTypes.array.isRequired,
+};
 
 PlacesMapComponent.defaultProps = {
 	initialRegion: {

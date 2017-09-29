@@ -7,9 +7,19 @@ import { RulesStorageService } from './../storage/services';
 class RulesStore {
   @observable _rules = [];
 
+	_rulesStorageService = null;
+
+	get placesStorageService() {
+		if (!this._rulesStorageService) {
+			this._rulesStorageService = new RulesStorageService();
+		}
+
+		return this._rulesStorageService;
+	}
+
   @action fetch() {
     runInAction("update rules state after fetching data", () => {
-	    new RulesStorageService()
+	    this.placesStorageService
         .get()
         .then(res => {
 	        this.rules = res.data.map(item => new RulesModel(item));

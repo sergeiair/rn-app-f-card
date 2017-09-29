@@ -3,13 +3,14 @@ import { observer } from 'mobx-react/native';
 import {
   View,
   Text,
-	ScrollView,
-  TouchableOpacity,
 } from 'react-native';
+
 
 import RulesStore from './../../stores/rules.store';
 
 import coreStyles from '../../core-styles/styles';
+
+import RulesList from './components/rulesList.component';
 
 @observer
 class RulesContainer extends PureComponent {
@@ -28,11 +29,9 @@ class RulesContainer extends PureComponent {
 	  const {rulesStore} = this.props;
 
     return (
-      <ScrollView style={coreStyles.main}>
-	      <Text>
-		      {!!rulesStore.rules.length ? rulesStore.rules[0].chapter.content : null}
-	      </Text>
-      </ScrollView>
+      <View style={coreStyles.main}>
+				<RulesList data={rulesStore.rules}/>
+      </View>
     );
   }
 
