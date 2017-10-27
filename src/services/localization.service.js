@@ -12,7 +12,7 @@ class LocalizationService {
 		try {
 			const value = await AsyncStorage.getItem('@SettingsStore:locale');
 
-			if (typeof value === 'string'){
+			if (typeof value === 'string') {
 				I18n.locale = value;
 			}
 		} catch (error) {}

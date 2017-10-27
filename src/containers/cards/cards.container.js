@@ -9,9 +9,11 @@ import { observer } from 'mobx-react/native';
 import coreStyles from '../../core-styles/styles';
 
 import CardsStore from './../../stores/cards.store';
+import FishesStore from './../../stores/fishes.store';
 import TestsStore from './../../stores/tests.store';
 
-import Card from './components/card.component';
+import FishesCard from './components/fishes-card.component';
+
 
 @observer
 class CardsContainer extends PureComponent {
@@ -21,91 +23,85 @@ class CardsContainer extends PureComponent {
   }
 
   componentWillMount() {
-	  const {cardsStore} = this.props;
+	  const {fishesStore} = this.props;
 
-	  cardsStore.prepareCards();
+	  fishesStore.fetch();
   }
 
-  get currentCard() {
-    const {cardsStore, testsStore} = this.props;
+  _showNext(prevCorrect) {
+	  const {fishesStore, cardsStore, testsStore} = this.props;
 
-    return cardsStore.cards[testsStore.progress.current];
+	  testsStore.setCorrectness(prevCorrect === true);
+	  cardsStore.nextCard(fishesStore.fishes.length - 1, 4);
   }
 
   get initialView() {
-    const {cardsStore, testsStore} = this.props;
+    const {cardsStore} = this.props;
 
     return (
       <View>
         <Text style={coreStyles.title1}>
-          CARDS TO OBSERVE: {cardsStore.cards.length}
+          Catch the fish >---|>
         </Text>
         <TouchableOpacity style={coreStyles.defaultBtnBlue}
-          onPress={testsStore.start.bind(testsStore, cardsStore.cards.length)}>
-            <Text style={coreStyles.whiteText}>Start cards</Text>
+          onPress={this._showNext.bind(this)}>
+            <Text style={coreStyles.whiteText}>
+              Start game
+            </Text>
         </TouchableOpacity>
       </View>
     );
   }
 
-  get progressButtons() {
-    const {testsStore} = this.props;
-
-    return testsStore.progress.checked
-      ? (
-        <TouchableOpacity onPress={testsStore.nextItem.bind(testsStore)}
-          style={coreStyles.defaultBtnGreen}>
-            <Text style={coreStyles.whiteText}>Next</Text>
-        </TouchableOpacity>
-      ) : (
-        <TouchableOpacity onPress={testsStore.checkItem.bind(testsStore)}
-          style={coreStyles.defaultBtnBlue}>
-            <Text style={coreStyles.whiteText}>Check answer</Text>
-        </TouchableOpacity>
-      );
-  }
-
-  get cardView() {
-    const {testsStore} = this.props;
+  get cardsView() {
+	  const {cardsStore, fishesStore, testsStore} = this.props;
 
     return (
-      <View style={coreStyles.wrap}>
-        <View style={coreStyles.body}>
-          <Card data={this.currentCard}
-            checked={testsStore.progress.checked}/>
+      <View>
+        <View>
+          <Text>{testsStore.progress.correct}/{testsStore.progress.wrong}</Text>
         </View>
-        <View style={coreStyles.footer}>
-          {this.progressButtons}
-        </View>
+
+	      <FishesCard
+          state={cardsStore.current}
+          data={fishesStore.fishes}
+          proceed={this._showNext.bind(this)}/>
       </View>
     );
+  }
+
+  get view() {
+	  const {cardsStore, fishesStore} = this.props;
+
+	  if (fishesStore.fishes.length) {
+		  return !cardsStore.current
+        ? this.initialView
+        : this.cardsView
+    }
+
+	  return null;
   }
 
   render() {
-    const {testsStore} = this.props;
-
     return (
       <View style={coreStyles.main}>
-        {
-          testsStore.progress.current === null
-            ? this.initialView
-            : this.cardView
-        }
+	      {this.view}
       </View>
     );
   }
 
   componentWillUnmount() {
-    const {testsStore, cardsStore} = this.props;
+    const {cardsStore, testsStore} = this.props;
 
 	  cardsStore.reset();
-    testsStore.reset();
+	  testsStore.reset();
   }
 }
 
 CardsContainer.defaultProps = {
   cardsStore: new CardsStore(),
-  testsStore: new TestsStore(),
+	fishesStore: new FishesStore(),
+  testsStore: new TestsStore()
 };
 
 export default CardsContainer;

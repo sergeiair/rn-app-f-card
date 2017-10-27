@@ -1,95 +1,13 @@
 {
   "list": [
-    {
-      "q": "Która grupa ryb występujących w naszej ichtiofaunie obejmuje największą liczbę gatunków?",
-      "opt": [
-        "łososiowate",
-        "okoniokształtne",
-        "karpiowate"
-      ],
-      "a": 2
-    },
-    {
-      "q": "Kanibalami w naszych wodach są:",
-      "opt": [
-        "okonie",
-        "leszcze",
-        "liny"
-      ],
-      "a": 0
-    },
-    {
-      "q": "Która grupa ryb składa ikrę wczesną wiosną?",
-      "opt": [
-        "kleń, brzana, sum",
-        "szczupak, pstrąg potokowy",
-        "świnka, jaź"
-      ],
-      "a": 1
-    },
-    {
-      "q": "Naturalny rozród ryb to",
-      "opt": [
-        "tarło",
-        "tarlisko",
-        "krześlisko"
-      ],
-      "a": 0
-    },
-    {
-      "q": "Które z wymienionych grup ryb składają ikrę na roślinności podwodnej?",
-      "opt": [
-        "różanka, kiełb",
-        "szczupak, leszcz, okoń",
-        "brzana, koza"
-      ],
-      "a": 1
-    },
-    {
-      "q": "Łowiąc z lodu można:",
-      "opt": [
-        "używać podrywki,",
-        "wiercić otwory o średnicy 25 cm,",
-        "nęcić."
-      ],
-      "a": 2
-    },
-    {
-      "q": "Który gatunek należy do ryb wędrownych ({$dwuśrodowiskowych})?",
-      "opt": [
-        "głowacica",
-        "pstrąg źródlany",
-        "troć"
-      ],
-      "a": 2
-    },
-    {
-      "q": "{$Śluz} to:",
-      "opt": [
-        "gatunek ryby chronionej prawem,",
-        "wydzielina pokrywająca ciało ryb,",
-        "rodzaj smaru do kołowrotków."
-      ],
-      "a": 1
-    },
-    {
-      "q": "{$Ławica} to:",
-      "opt": [
-        "rodzaj pomostu – ławka dla wędkarza,",
-        "szybki nurt w górskiej rzece,",
-        "duże stado ryb , najczęściej jednego gatunku."
-      ],
-      "a": 2
-    },
-    {
-      "q": "Gdzie znajduje się serce u ryb?",
-      "opt": [
-        "w okolicy gardzielowej",
-        "w środku korpusu, między głową a odbytem",
-        "między płetwami brzusznymi"
-      ],
-      "a": 0
-    },
+
+
+
+
+
+
+
+
     {
       "q": "Czy temperatura wody ma wpływ na rozpuszczalność tlenu",
       "opt": [
@@ -279,15 +197,7 @@
       ],
       "a": 1
     },
-    {
-      "q": "Która z ryb posiada tylko jeden wąs",
-      "opt": [
-        "brzana",
-        "miętus",
-        "karp"
-      ],
-      "a": 1
-    },
+
     {
       "q": "Które z wymienionych grup ryb pokrywają się w okresie tarła wysypką perłową?",
       "opt": [

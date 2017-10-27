@@ -5,12 +5,16 @@ import {
 	TouchableOpacity,
 } from 'react-native';
 
+import coreStyles from '../../core-styles/styles';
+
 import SettingsComponent from './components/settings.component';
 
 class SettingsContainer extends PureComponent {
 	render() {
 		return (
-			<SettingsComponent />
+			<View style={coreStyles.main}>
+				<SettingsComponent />
+			</View>
 		);
 	}
 }

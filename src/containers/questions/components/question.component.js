@@ -90,6 +90,7 @@ class Question extends PureComponent {
 
   _isCorrect(index) {
     const {data} = this.props;
+
     return data.question.arrayAnswer
       ? data.question.arrayAnswer.indexOf(index) >= 0
       : data.question.indexAnswer === index;

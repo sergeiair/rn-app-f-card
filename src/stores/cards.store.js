@@ -1,29 +1,28 @@
 import { observable, action, runInAction, computed } from 'mobx';
 
-import CardModel from '../models/card.model';
+import TestsUtils from '../utils/tests.utils';
 
-const cardsQuestions = require('./../assets/questions.cards.json');
 
 class CardsStore {
-  @observable _cards = [];
+  @observable _current = null;
 
-  @action prepareCards() {
-    runInAction("update cards state after fetching data", () => {
-      this.cards = cardsQuestions.list
-        .map(item => new CardModel(item));
-    });
-  }
-
-	@action reset() {
-		this.cards = []
+	@computed get current() {
+		return this._current;
 	}
 
-  set cards(data) {
-    this._cards = data;
-  }
+	set current(data) {
+		this._current = data ? Object.assign({}, data) : null;
+	}
 
-	@computed get cards() {
-		return this._cards;
+	@action nextCard(dataLength, itemsLength, nextAllowed = true) {
+		this.current = TestsUtils
+			.generateItem(dataLength, itemsLength, nextAllowed)
+			.next()
+			.value;
+	}
+
+	@action reset() {
+		this.current = null;
 	}
 }
 

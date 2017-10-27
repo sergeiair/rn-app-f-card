@@ -8,7 +8,6 @@ import {
 import I18n from '../../../i18n';
 import LocalizationService from '../../../services/localization.service';
 
-import coreStyles from '../../../core-styles/styles';
 
 class SettingsComponent extends PureComponent {
 
@@ -28,16 +27,14 @@ class SettingsComponent extends PureComponent {
 
 	render() {
 		return (
-			<View style={coreStyles.main}>
-				<View>
-					<Picker
-						selectedValue={this.state.locale}
-						onValueChange={this._changeLocale.bind(this)}>
-							<Picker.Item label="English" value="en-US" />
-							<Picker.Item label="Polski" value="pl-PL" />
-							<Picker.Item label="Русский" value="ru-RU" />
-					</Picker>
-				</View>
+			<View>
+				<Picker
+					selectedValue={this.state.locale}
+					onValueChange={this._changeLocale.bind(this)}>
+					<Picker.Item label="English" value="en-US" />
+					<Picker.Item label="Polski" value="pl-PL" />
+					<Picker.Item label="Русский" value="ru-RU" />
+				</Picker>
 			</View>
 		);
 	}

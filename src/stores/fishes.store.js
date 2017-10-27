@@ -17,10 +17,18 @@ class FishesStore {
 		return this._fishesStorageService;
 	}
 
+	set fishes(data) {
+		this._fishes = data;
+	}
+
+	@computed get fishes() {
+		return this._fishes;
+	}
+
   @action fetch() {
-    runInAction("update fishes state after fetching data", () => {
+    runInAction('update fishes state after fetching data', () => {
 	    this.fishesStorageService
-        .get()
+        .getLocalized()
         .then(res => {
 	        this.fishes = res.data.map(item => new FishModel(item));
         })
@@ -32,13 +40,6 @@ class FishesStore {
 		this.fishes = []
 	}
 
-  set fishes(data) {
-    this._fishes = data;
-  }
-
-  @computed get fishes() {
-    return this._fishes;
-  }
 }
 
 export default FishesStore;

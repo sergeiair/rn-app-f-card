@@ -2,13 +2,20 @@ import { observable, action, computed } from 'mobx';
 
 
 class TestsStore {
-  @observable _progress = {
-    current: null,
-    selected: null,
-    checked: false,
-  };
+
+  @observable _progress = this.initialState;
 
   _itemsNumber = null;
+
+  get initialState() {
+    return {
+	    current: null,
+	    selected: null,
+	    correct: 0,
+      wrong: -1,
+	    checked: false,
+    };
+  }
 
   get nextElement() {
     return this.itemsNumber
@@ -62,6 +69,7 @@ class TestsStore {
 
   @action start(itemsNumber) {
     this.itemsNumber = itemsNumber;
+
     this.progress = {
       current: 0,
       selected: [],
@@ -69,13 +77,28 @@ class TestsStore {
     };
   }
 
+	@action setCorrect() {
+		this.progress = Object.assign({}, this.progress, {
+		  correct: !this.progress.correct ? 1 : this.progress.correct + 1
+    })
+	}
+
+	@action setWrong() {
+		this.progress = Object.assign({}, this.progress, {
+			wrong: !this.progress.wrong ? 1 : this.progress.wrong + 1
+		})
+	}
+
+	@action setCorrectness(isCorrect) {
+		isCorrect
+      ? this.setCorrect()
+      : this.setWrong();
+	}
+
   @action reset() {
-    this.itemsNumber = null;
-    this.progress = {
-      current: null,
-      selected: null,
-      checked: false,
-    };
+	  this.itemsNumber = null;
+
+	  this.progress = this.initialState;
   }
 }
 

@@ -1,3 +1,5 @@
+import I18n from 'react-native-i18n';
+
 import { dbPath } from './../../constants/db.constants';
 import { dbSchemes } from './../../storage/schemes';
 
@@ -13,6 +15,22 @@ export default class BaseStorage {
     });
   }
 
+	static get localePrefix() {
+		const localePart = I18n.currentLocale()
+			? I18n.currentLocale().split('-')[0]
+			: I18n.defaultLocale.split('-')[0];
+
+		return localePart || 'en';
+	}
+
+  get localeString() {
+	  const locale = I18n.currentLocale()
+		  ? I18n.currentLocale().split('-')[0]
+		  : I18n.defaultLocale.split('-')[0];
+
+    return `lang='${locale}'`;
+  }
+
   set provider(instance) {
 	  this._provider = instance;
   }
@@ -26,6 +44,14 @@ export default class BaseStorage {
 
     return collection.length && collection[collection.length - 1]
       ? collection[collection.length - 1].id + 1 : 1;
+  }
+
+  getLocalized(filterString = '', sortString = '', toArray = true) {
+    const searchString = !filterString
+      ? this.localeString
+      : this.localeString + '&' + filterString;
+
+    return this.get(searchString, sortString, toArray);
   }
 
   get(filterString = '', sortString = '', toArray = true) {

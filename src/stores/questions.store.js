@@ -3,33 +3,25 @@ import { observable, action, runInAction, computed } from 'mobx';
 import QuestionModel from '../models/question.model';
 import questionsData from './../assets/questions.index';
 
+import BaseStorage from '../storage/services/base.storage.service';
+
 class QuestionsStore {
   @observable _questions = [];
 
-  _area = null;
-
   @action prepareCollection() {
     runInAction("update questions state after fetching data", () => {
-      this.questions = this.area ? (questionsData[this.area].list || [])
-        .map(item => new QuestionModel(item)) : [];
+      this.questions = (questionsData['all'].list || [])
+        .filter(item => item.lang === BaseStorage.localePrefix)
+        .map(item => new QuestionModel(item));
     });
   }
 
-  @action prepare(area) {
-    this.area = area;
+  @action prepare() {
     this.prepareCollection();
   }
 
   @action reset() {
     this.questions = []
-  }
-
-  set area(value) {
-    this._area = value;
-  }
-
-  get area() {
-    return this._area;
   }
 
   set questions(data) {

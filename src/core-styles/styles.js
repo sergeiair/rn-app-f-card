@@ -5,33 +5,18 @@ import colors from './colors';
 const coreStyles = StyleSheet.create({
   main: {
     flex: 1,
-    flexDirection: 'column',
     paddingTop: 50,
-    paddingLeft: 7,
-    paddingRight: 7,
 	  backgroundColor: colors.grey,
-  },
-  wrap: {
-    flex: 1,
-    flexDirection: 'column',
-  },
-  body: {
-    flex: .8,
-  },
-  footer: {
-    flex: .2,
   },
 	defaultInput: {
 		margin: 10,
 		padding: 10,
 	},
   defaultBtnGreen: {
-    margin: 10,
     padding: 20,
     backgroundColor: colors.green,
   },
   defaultBtnBlue: {
-    margin: 10,
     padding: 20,
     backgroundColor: colors.lightBlue,
   },

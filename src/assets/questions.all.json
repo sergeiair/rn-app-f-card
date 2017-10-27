@@ -1,0 +1,284 @@
+{
+  "list": [
+    {
+      "q": "Która grupa ryb występujących w naszej ichtiofaunie obejmuje największą liczbę gatunków?",
+      "opt": [
+        "łososiowate",
+        "okoniokształtne",
+        "karpiowate"
+      ],
+      "a": 2,
+      "lang": "pl"
+    },
+    {
+      "q": "Какая группа рыб встречается чаще всего в нашей ихтиофауне?",
+      "opt": [
+        "лососевые",
+        "окунеобразныe",
+        "карповые"
+      ],
+      "a": 2,
+      "lang": "ru"
+    },
+    {
+      "q": "Which group of fish is the most spreaded in our fish fauna?",
+      "opt": [
+        "salmon family",
+        "perch family",
+        "carp family"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Kanibalami w naszych wodach są:",
+      "opt": [
+        "okonie",
+        "leszcze",
+        "liny"
+      ],
+      "a": 0,
+      "lang": "pl"
+    },
+    {
+      "q": "Каннибалами в наших водах являются:",
+      "opt": [
+        "окуни",
+        "лещи",
+        "лини"
+      ],
+      "a": 0,
+      "lang": "ru"
+    },
+    {
+      "q": "Cannibals in our waters are:",
+      "opt": [
+        "perches",
+        "breams",
+        "tenches"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "Która grupa ryb składa ikrę wczesną wiosną?",
+      "opt": [
+        "kleń, brzana, sum",
+        "szczupak, pstrąg potokowy",
+        "świnka, jaź"
+      ],
+      "a": 1,
+      "lang": "pl"
+    },
+    {
+      "q": "Какая группа рыб нереститься ранней весной?",
+      "opt": [
+        "голавль, усач, сом",
+        "шука, речная форель",
+        "свинка, язь"
+      ],
+      "a": 1,
+      "lang": "ru"
+    },
+    {
+      "q": "Which group of fish spawns in early spring?",
+      "opt": [
+        "chub, barbel, catfish",
+        "pike, river trout",
+        "pigfish, ide"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Które z wymienionych grup ryb składają ikrę na roślinności podwodnej?",
+      "opt": [
+        "różanka, kiełb",
+        "szczupak, leszcz, okoń",
+        "brzana, koza"
+      ],
+      "a": 1,
+      "lang": "pl"
+    },
+    {
+      "q": "Какие из видов рыб складывают икру на подводной растительности?",
+      "opt": [
+        "горчак, пескарь",
+        "щука, лещ, окунь",
+        "усач, щиповка"
+      ],
+      "a": 1,
+      "lang": "ru"
+    },
+    {
+      "q": "Which of fishes types spawn on underwater vegetation?",
+      "opt": [
+        "bitterling, gudgeon",
+        "pike, bream, perch",
+        "barbel, spined loach"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Łowiąc z lodu można:",
+      "opt": [
+        "używać podrywki",
+        "wiercić otwory o średnicy 25 cm",
+        "nęcić"
+      ],
+      "a": 2,
+      "lang": "pl"
+    },
+    {
+      "q": "При ловле на льду можно:",
+      "opt": [
+        "использовать сети",
+        "сверлить отверстия диаметром 25 см",
+        "использовать приманки"
+      ],
+      "a": 2,
+      "lang": "ru"
+    },
+    {
+      "q": "On the ice fishing you are allowed to:",
+      "opt": [
+        "use nets",
+        "drill holes with a diameter of 25 cm",
+        "use baits(attractants)"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Który gatunek należy do ryb wędrownych (dwuśrodowiskowych)?",
+      "opt": [
+        "głowacica",
+        "pstrąg źródlany",
+        "troć"
+      ],
+      "a": 2,
+      "lang": "pl"
+    },
+    {
+      "q": "Какие виды рыб относятся к мигрирующим (две среды обитания)?",
+      "opt": [
+        "дунайский лосось(таймень)",
+        "aмериканская палия",
+        "кумжа"
+      ],
+      "a": 2,
+      "lang": "ru"
+    },
+    {
+      "q": "What types of fish are migratory (two habitats)?",
+      "opt": [
+        "danube",
+        "splake",
+        "sea trout"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Śluz to:",
+      "opt": [
+        "gatunek ryby chronionej prawem",
+        "wydzielina pokrywająca ciało ryb",
+        "rodzaj smaru do kołowrotków"
+      ],
+      "a": 1,
+      "lang": "pl"
+    },
+    {
+      "q": "Ławica to:",
+      "opt": [
+        "rodzaj pomostu – ławka dla wędkarza,",
+        "szybki nurt w górskiej rzece,",
+        "duże stado ryb , najczęściej jednego gatunku."
+      ],
+      "a": 2,
+      "lang": "pl"
+    },
+    {
+      "q": "Ławica to:",
+      "opt": [
+        "rodzaj pomostu – ławka dla wędkarza,",
+        "szybki nurt w górskiej rzece,",
+        "duże stado ryb, najczęściej jednego gatunku."
+      ],
+      "a": 2,
+      "lang": "pl"
+    },
+    {
+      "q": "Shoal is:",
+      "opt": [
+        "type of benches for fishers",
+        "fast flow in a mountain river",
+        "a group of fish congregating togethe"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Gdzie znajduje się serce u ryb?",
+      "opt": [
+        "w okolicy gardzielowej",
+        "w środku korpusu, między głową a odbytem",
+        "między płetwami brzusznymi"
+      ],
+      "a": 0,
+      "lang": "pl"
+    },
+    {
+      "q": "Где находится сердце у рыб?",
+      "opt": [
+        "в области горла",
+        "в середине тела",
+        "между брюшными плавниками"
+      ],
+      "a": 0,
+      "lang": "pl"
+    },
+    {
+      "q": "Where is the heart of fish?",
+      "opt": [
+        "in the throat area",
+        "in the middle of body",
+        "between the pelvic fins"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "Która z ryb posiada tylko jeden wąs",
+      "opt": [
+        "brzana",
+        "miętus",
+        "karp"
+      ],
+      "a": 1,
+      "lang": "pl"
+    },
+    {
+      "q": "У какой рыбы есть только один ус?",
+      "opt": [
+        "усач",
+        "налим",
+        "карп"
+      ],
+      "a": 1,
+      "lang": "ru"
+    },
+    {
+      "q": "Which fish has only one whisker?",
+      "opt": [
+        "barbel",
+        "burbot",
+        "carp"
+      ],
+      "a": 1,
+      "lang": "en"
+    }
+  ]
+}

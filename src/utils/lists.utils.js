@@ -7,5 +7,4 @@ export default class ListsUtils {
 			.DataSource({rowHasChanged: (r1, r2) => r1.id !== r2.id})
 			.cloneWithRows(array);
 	}
-
 }

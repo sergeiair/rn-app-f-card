@@ -6,7 +6,6 @@ import {
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
-import I18n from 'react-native-i18n';
 
 import PlacesMapComponent from './components/placesMap.component';
 import PlacesListComponent from './components/placesList.component';
@@ -63,13 +62,11 @@ class PlacesContainer extends Component {
   }
 
   get controls() {
-	  const lang = I18n.currentLocale();
-
   	return (
   		<View>
 			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
 				  onPress={this._setView.bind(this, 'list')}>
-				    <Text style={coreStyles.whiteText}>Places list view {lang}</Text>
+				    <Text style={coreStyles.whiteText}>Places list view</Text>
 			  </TouchableOpacity>
 			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
 				  onPress={this._setView.bind(this, 'map')}>

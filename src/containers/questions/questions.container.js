@@ -2,7 +2,6 @@ import React, {PureComponent} from 'react';
 import {
   View,
   Text,
-  Picker,
   TouchableOpacity,
 } from 'react-native';
 import { observer } from 'mobx-react/native';
@@ -42,16 +41,6 @@ class QuestionsContainer extends PureComponent {
         <Text style={coreStyles.title1}>
           Questions: {questionsStore.questions.length}
         </Text>
-        <Picker
-          style={coreStyles.defaultPicker}
-          selectedValue={questionsStore.area}
-          onValueChange={(value) => questionsStore.prepare(value)}>
-          {
-            questionsAreas.map((item, index) => {
-              return (<Picker.Item key={index} label={item } value={item} />);
-            })
-          }
-        </Picker>
         <TouchableOpacity  style={coreStyles.defaultBtnBlue}
           onPress={testsStore.start.bind(testsStore, questionsStore.questions.length)}>
             <Text style={coreStyles.whiteText}>Start questions</Text>
@@ -77,11 +66,11 @@ class QuestionsContainer extends PureComponent {
       );
   }
 
-  get QuestionView() {
+  get questionView() {
     const {testsStore} = this.props;
 
     return (
-      <View style={coreStyles.wrap}>
+      <View>
         <View style={coreStyles.body}>
           <Question data={this.currentQuestion}
             toggleSelection={testsStore.toggleSelection.bind(testsStore)}
@@ -103,7 +92,7 @@ class QuestionsContainer extends PureComponent {
         {
           testsStore.progress.current === null
             ? this.initialView
-            : this.QuestionView
+            : this.questionView
         }
       </View>
     );

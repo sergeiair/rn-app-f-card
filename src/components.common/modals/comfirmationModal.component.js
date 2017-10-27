@@ -32,10 +32,10 @@ const ConfirmationModal = (props) => {
 };
 
 ConfirmationModal.PropTypes = {
-  title: PropTypes.string,
-  visible: PropTypes.bool,
-  reject: PropTypes.func,
-  confirm: PropTypes.func,
+  title: PropTypes.string.isRequired,
+  visible: PropTypes.bool.isRequired,
+  reject: PropTypes.func.isRequired,
+  confirm: PropTypes.func.isRequired,
 };
 
 export default ConfirmationModal;
