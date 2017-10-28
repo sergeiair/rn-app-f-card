@@ -9,8 +9,6 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-import ProgressLine from '../../../components.common/progress-line/progress-line.component';
-
 import IntervalsService from '../../../services/intervals.service';
 
 import fishesImages from '../../../images/fishes';
@@ -29,16 +27,6 @@ class FishesCard extends PureComponent {
 		const {proceed, intervalsRunner} = this.props;
 
 		intervalsRunner.start(proceed);
-	}
-
-	componentDidUpdate(prevProps) {
-		const {state} = this.props;
-		const prevOptions = prevProps.state.options.join('');
-		const currOptions = state.options.join('');
-
-		if (prevOptions !== currOptions || !prevProps) {
-			this._animateTimer();
-		}
 	}
 
   get options() {
@@ -73,16 +61,13 @@ class FishesCard extends PureComponent {
     )
   }
 
-	_animateTimer() {}
+
 
   render() {
     const {data, state, proceed} = this.props;
 
     return (
 	    <View style={styles.cardWrap}>
-				<ProgressLine duration={10000}
-					animate={fn => this._animateTimer = fn}/>
-
 	      <View style={styles.imageWrap}>
 		      {this.fishImage}
 	      </View>

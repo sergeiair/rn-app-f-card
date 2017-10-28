@@ -14,6 +14,8 @@ import PlacesContainer from './places/places.container';
 import FishContainer from './fish/fish.container';
 import SettingsContainer from './settings/settings.container';
 
+import '../core-styles/rk-styles';
+
 useStrict(true);
 
 enableLogging({

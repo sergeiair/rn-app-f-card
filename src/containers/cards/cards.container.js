@@ -12,8 +12,8 @@ import CardsStore from './../../stores/cards.store';
 import FishesStore from './../../stores/fishes.store';
 import TestsStore from './../../stores/tests.store';
 
-import FishesCard from './components/fishes-card.component';
-
+import FishesCardsView from './components/fishes-cards-view.component';
+import FishesInitialView from './components/fishes-initial-view.component';
 
 @observer
 class CardsContainer extends PureComponent {
@@ -28,66 +28,34 @@ class CardsContainer extends PureComponent {
 	  fishesStore.fetch();
   }
 
-  _showNext(prevCorrect) {
-	  const {fishesStore, cardsStore, testsStore} = this.props;
+	_showNext(prevCorrect) {
+		const {fishesStore, cardsStore, testsStore} = this.props;
 
-	  testsStore.setCorrectness(prevCorrect === true);
-	  cardsStore.nextCard(fishesStore.fishes.length - 1, 4);
-  }
-
-  get initialView() {
-    const {cardsStore} = this.props;
-
-    return (
-      <View>
-        <Text style={coreStyles.title1}>
-          Catch the fish >---|>
-        </Text>
-        <TouchableOpacity style={coreStyles.defaultBtnBlue}
-          onPress={this._showNext.bind(this)}>
-            <Text style={coreStyles.whiteText}>
-              Start game
-            </Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
-
-  get cardsView() {
-	  const {cardsStore, fishesStore, testsStore} = this.props;
-
-    return (
-      <View>
-        <View>
-          <Text>{testsStore.progress.correct}/{testsStore.progress.wrong}</Text>
-        </View>
-
-	      <FishesCard
-          state={cardsStore.current}
-          data={fishesStore.fishes}
-          proceed={this._showNext.bind(this)}/>
-      </View>
-    );
-  }
-
-  get view() {
-	  const {cardsStore, fishesStore} = this.props;
-
-	  if (fishesStore.fishes.length) {
-		  return !cardsStore.current
-        ? this.initialView
-        : this.cardsView
-    }
-
-	  return null;
-  }
+		testsStore.setCorrectness(prevCorrect === true);
+		cardsStore.nextCard(fishesStore.fishes.length - 1, 4);
+	}
 
   render() {
-    return (
-      <View style={coreStyles.main}>
-	      {this.view}
-      </View>
-    );
+	  const {cardsStore, fishesStore, testsStore} = this.props;
+
+	  if (fishesStore.fishes.length) {
+		  return (
+			  <View style={coreStyles.main}>
+				  {
+					  !cardsStore.current
+						  ? <FishesInitialView
+							    showNext={this._showNext.bind(this)}/>
+						  : <FishesCardsView
+						      cardsStore={cardsStore}
+						      fishesStore={fishesStore}
+						      testsStore={testsStore}
+						      showNext={this._showNext.bind(this)}/>
+				  }
+			  </View>
+		  );
+	  }
+
+	  return null;
   }
 
   componentWillUnmount() {

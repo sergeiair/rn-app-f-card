@@ -8,6 +8,11 @@ const coreStyles = StyleSheet.create({
     paddingTop: 50,
 	  backgroundColor: colors.grey,
   },
+  nonScrollWrap: {
+	  paddingTop: 10,
+	  paddingLeft: 5,
+	  paddingRight: 5,
+  },
 	defaultInput: {
 		margin: 10,
 		padding: 10,

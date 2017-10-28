@@ -6,7 +6,7 @@ import {
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
-import { RkCard, RkButton } from 'react-native-ui-kitten';
+import { RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
 import colors from '../../../core-styles/colors';
