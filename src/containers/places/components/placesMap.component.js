@@ -3,7 +3,6 @@ import {
   View,
   Text,
 	StyleSheet,
-	TouchableOpacity,
 } from 'react-native';
 import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import PropTypes from 'prop-types';

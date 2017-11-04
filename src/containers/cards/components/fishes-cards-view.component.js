@@ -24,19 +24,22 @@ class FishesCardView extends PureComponent {
 
 		return (
 			<View>
-				<FishesCardsHead testsStore={testsStore}/>
+				<FishesCardsHead
+					wrongAnswersNumber={testsStore.progress.wrong}
+					correctAnswersNumber={testsStore.progress.correct}/>
 
 				<ProgressLine
 					duration={10000}
-				  animate={fn => this._animateTimer = fn}/>
+					animate={fn => this._animateTimer = fn}/>
 
 				<FishesCard
-					state={cardsStore.current}
+					currentState={cardsStore.current}
 					data={fishesStore.fishes}
 					proceed={(prevCorrect) => {
 						showNext(prevCorrect);
 						this._animateTimer();
 					}}/>
+
 			</View>
 		);
 	}

@@ -40,7 +40,7 @@ class ProgressLine extends PureComponent {
         transformAnimation,
         {
           toValue: Dimensions.get('window').width * -1,
-          duration: duration - 200,
+          duration: duration - 170,
         }
       ),
 		]).start(() => {});

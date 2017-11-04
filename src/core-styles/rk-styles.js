@@ -10,6 +10,14 @@ RkTheme.setType('RkButton', 'rounded', {
 	borderRadius: 5,
 });
 
+RkTheme.setType('RkButton', 'rounded-blue', {
+	flex: 1,
+	alignSelf: 'stretch',
+	justifySelf: 'center',
+	backgroundColor: colors.blue,
+	borderRadius: 5,
+});
+
 RkTheme.setType('RkCard', 'shadowed', {
 	img: {
 		alignSelf: 'center'

@@ -5,8 +5,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import { Actions } from 'react-native-router-flux';
-
-import I18n from '../../i18n';
+import I18n from 'react-native-i18n';
 
 import coreStyles from '../../core-styles/styles';
 
@@ -21,7 +20,9 @@ class HomeContainer extends PureComponent {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.questions} style={coreStyles.defaultBtnBlue}>
-          <Text style={coreStyles.whiteText}>Questions</Text>
+          <Text style={coreStyles.whiteText}>
+	          {I18n.t('buttons.nav.questions')}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.fishes} style={coreStyles.defaultBtnGreen}>

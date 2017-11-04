@@ -12,7 +12,8 @@ import coreStyles from '../../core-styles/styles';
 import QuestionsStore from './../../stores/questions.store';
 import TestsStore from './../../stores/tests.store';
 
-import Question from './components/question.component';
+import QuestionsInitialView from './components/questions-initial-view.component';
+import QuestionsProgressView from './components/questions-progress-view.component';
 
 @observer
 class QuestionsContainer extends PureComponent {
@@ -33,66 +34,22 @@ class QuestionsContainer extends PureComponent {
     return questionsStore.questions[testsStore.progress.current];
   }
 
-  get initialView() {
-    const { questionsStore, testsStore } = this.props;
-
-    return (
-      <View>
-        <Text style={coreStyles.title1}>
-          Questions: {questionsStore.questions.length}
-        </Text>
-        <TouchableOpacity  style={coreStyles.defaultBtnBlue}
-          onPress={testsStore.start.bind(testsStore, questionsStore.questions.length)}>
-            <Text style={coreStyles.whiteText}>Start questions</Text>
-        </TouchableOpacity>
-      </View>
-    );
-  }
-
-  get progressButtons() {
-    const {testsStore} = this.props;
-
-    return testsStore.progress.checked
-      ? (
-        <TouchableOpacity onPress={testsStore.nextItem.bind(testsStore)}
-          style={coreStyles.defaultBtnGreen}>
-            <Text style={coreStyles.whiteText}>Next</Text>
-        </TouchableOpacity>
-      ) : (
-        <TouchableOpacity onPress={testsStore.checkItem.bind(testsStore)}
-          style={coreStyles.defaultBtnBlue}>
-            <Text style={coreStyles.whiteText}>Check answer</Text>
-        </TouchableOpacity>
-      );
-  }
-
-  get questionView() {
-    const {testsStore} = this.props;
-
-    return (
-      <View>
-        <View style={coreStyles.body}>
-          <Question data={this.currentQuestion}
-            toggleSelection={testsStore.toggleSelection.bind(testsStore)}
-            isSelected={testsStore.isSelected.bind(testsStore)}
-            checked={testsStore.progress.checked}/>
-        </View>
-        <View style={coreStyles.footer}>
-          {this.progressButtons}
-        </View>
-      </View>
-    );
-  }
-
   render() {
-    const {testsStore} = this.props;
+    const {testsStore, questionsStore} = this.props;
 
     return (
       <View style={coreStyles.main}>
         {
           testsStore.progress.current === null
-            ? this.initialView
-            : this.questionView
+            ? <QuestionsInitialView
+                start={() => {testsStore.start(questionsStore.questions.length)}}/>
+            : <QuestionsProgressView
+                toggleSelection={testsStore.toggleSelection.bind(testsStore)}
+                switchNext={testsStore.nextItem.bind(testsStore)}
+                check={testsStore.checkItem.bind(testsStore)}
+                isSelected={testsStore.isSelected.bind(testsStore)}
+                currentQuestion={this.currentQuestion}
+                isChecked={testsStore.progress.checked}/>
         }
       </View>
     );

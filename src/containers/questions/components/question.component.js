@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from 'react-native';
+import { RkButton, RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
 import coreStyles from '../../../core-styles/styles';
@@ -41,16 +42,22 @@ class Question extends PureComponent {
 
   get optionsView() {
     const {data, toggleSelection} = this.props;
+
     return (
       <View>
         {
-          (data.question.options || []).map((opt, i) => {
-            return (
-              <TouchableOpacity key={i} onPress={() => {toggleSelection(i);}}>
-                <Text style={this._getOptionStyles(i)}>{opt}</Text>
-              </TouchableOpacity>
-            );
-          })
+          (
+            data.question.options || []).map((opt, i) => {
+              return (
+                <TouchableOpacity key={opt.uid}
+                  onPress={() => {toggleSelection(i);}}>
+                    <Text style={this._getOptionStyles(i)}>
+                      {opt.text}
+                    </Text>
+                </TouchableOpacity>
+              );
+            }
+          )
         }
       </View>
     );
@@ -58,21 +65,29 @@ class Question extends PureComponent {
 
   get checkedOptionsView() {
     const {data} = this.props;
+
     return (
       <View>
         {
-          (data.question.options || []).map((opt, i) => {
-            return (<Text key={i} style={this._getOptionStyles(i)}>{opt}</Text>);
-          })
+          (
+            data.question.options || []).map((opt, i) => {
+              return (
+                <Text key={opt.uid}
+                  style={this._getOptionStyles(i)}>
+                    {opt.text}
+                </Text>
+              );
+            }
+          )
         }
       </View>
     );
   }
 
   _getOptionStyles(index) {
-    const {isSelected, checked} = this.props;
+    const {isSelected, isChecked} = this.props;
 
-    if (checked) {
+    if (isChecked) {
       if (isSelected(index) && this._isCorrect(index)) {
         return this.optionsStyles.selectedCorrect;
       } else if (isSelected(index) && !this._isCorrect(index)) {
@@ -97,44 +112,33 @@ class Question extends PureComponent {
   }
 
   render() {
-    const {data, checked} = this.props;
+    const {data, isChecked} = this.props;
 
     return (
-      <View style={styles.cardWrap}>
-        <Text style={coreStyles.title2}>
-          {data.question.question}
+      <RkCard rkType='shadowed'>
+        <View rkCardHeader>
+          <Text>
+	          {data.question.question}
           </Text>
-        <View style={styles.options}>
-          {!checked ? this.optionsView : this.checkedOptionsView}
         </View>
-      </View>
+        <View rkCardContent>
+	        {!isChecked ? this.optionsView : this.checkedOptionsView}
+        </View>
+      </RkCard>
     );
   }
 }
 
 Question.PropTypes = {
-  isSelected: PropTypes.func,
-  toggleSelection: PropTypes.func,
-  checked: PropTypes.bool,
-  data: QuestionModel,
+	data: QuestionModel,
+	isChecked: PropTypes.bool.isRequired,
+  isSelected: PropTypes.func.isRequired,
+  toggleSelection: PropTypes.func.isRequired,
 };
 
 const styles = StyleSheet.create({
-  cardWrap: {
-    flex: 1,
-  },
-  options: {
-    flex: 1,
-  },
   option: {
-    padding: 15,
-    marginLeft: 15,
-    marginRight: 15,
-    marginBottom: 5,
-    fontSize: 16,
-    textAlign: 'left',
-    color: colors.lightTone,
-    backgroundColor: colors.lightBlue,
+
   },
   selectedOption: {
     backgroundColor: colors.blue,

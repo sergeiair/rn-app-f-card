@@ -30,10 +30,26 @@ export default class App extends Component {
   constructor(props) {
     super(props);
 
-	  LocalizationService.init();
+    this.state = {
+      localeLoaded: false
+    }
+  }
+
+  componentDidMount() {
+	  LocalizationService
+      .init()
+        .finally(() => {
+          this.setState({localeLoaded: true});
+        })
   }
 
   render() {
+    const {localeLoaded} = this.state;
+
+    if (!localeLoaded) {
+      return null;
+    }
+
     return (
       <Router duration={0}>
         <Scene key="root">

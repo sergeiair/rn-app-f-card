@@ -3,10 +3,10 @@ import {
   View,
   Text,
   StyleSheet,
-	TouchableOpacity,
   Image,
 	Dimensions,
 } from 'react-native';
+import { RkButton } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
 import IntervalsService from '../../../services/intervals.service';
@@ -26,23 +26,24 @@ class FishesCard extends PureComponent {
 	componentDidMount() {
 		const {proceed, intervalsRunner} = this.props;
 
-		intervalsRunner.start(proceed);
+		intervalsRunner.restart(proceed);
 	}
 
   get options() {
-	  const {data, state, proceed, intervalsRunner} = this.props;
+	  const {data, currentState, proceed, intervalsRunner} = this.props;
 
 	  return (
-      <View>
+      <View style={styles.optionsWrap}>
 	      {
-	        state.options.map((el, i) =>
-            <TouchableOpacity key={i}
-              style={coreStyles.defaultBtnGreen}
+	        currentState.options.map((el, i) =>
+            <RkButton style={styles.option}
+              rkType='rounded-blue'
+	            key={el.uid}
               onPress={() => {
-              	proceed(state.key === el);
+              	proceed(currentState.key === el.option);
               	intervalsRunner.restart(proceed)}}>
-                  <Text>{data[el].fish.name}</Text>
-            </TouchableOpacity>
+	                {data[el.option].fish.name}
+            </RkButton>
           )
 	      }
       </View>
@@ -51,8 +52,8 @@ class FishesCard extends PureComponent {
   }
 
   get fishImage() {
-	  const {data, state} = this.props;
-	  const fishId = data[state.key].fish.fishId;
+	  const {data, currentState} = this.props;
+	  const fishId = data[currentState.key].fish.fishId;
 
     return (
       <Image style={styles.image}
@@ -64,10 +65,10 @@ class FishesCard extends PureComponent {
 
 
   render() {
-    const {data, state, proceed} = this.props;
+    const {data, currentState, proceed} = this.props;
 
     return (
-	    <View style={styles.cardWrap}>
+	    <View>
 	      <View style={styles.imageWrap}>
 		      {this.fishImage}
 	      </View>
@@ -86,19 +87,32 @@ class FishesCard extends PureComponent {
 }
 
 FishesCard.PropTypes = {
-  state: PropTypes.object.isRequired,
+  currentState: PropTypes.object.isRequired,
   data: PropTypes.array.isRequired,
   proceed: PropTypes.func.isRequired
 };
 
 FishesCard.defaultProps = {
-	intervalsRunner: new IntervalsService(10000),
+	intervalsRunner: new IntervalsService(10000)
 };
 
 const styles = StyleSheet.create({
-	cardWrap: {
-
+	optionsWrap: {
+		flexDirection: 'row',
+		flexWrap: 'wrap',
+		justifyContent: 'space-around',
+		paddingLeft: 5,
+		paddingRight: 5,
+		paddingTop: 5,
+		paddingBottom: 15,
+		backgroundColor: colors.paleGrey
   },
+	option: {
+		marginTop: 10,
+		marginLeft: 5,
+		marginRight: 5,
+		width: (Dimensions.get('window').width / 2) - 20,
+	},
 	progressBar: {
 		backgroundColor: colors.lightBlue,
 	},

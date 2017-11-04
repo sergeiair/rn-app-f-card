@@ -5,6 +5,7 @@ import questionsData from './../assets/questions.index';
 
 import BaseStorage from '../storage/services/base.storage.service';
 
+
 class QuestionsStore {
   @observable _questions = [];
 

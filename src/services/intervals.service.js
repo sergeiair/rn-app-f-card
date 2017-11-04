@@ -11,11 +11,6 @@ class IntervalsService {
 			.interval(period);
 	}
 
-	start(action) {
-		this.intervalSub$ = this.intervalSource$
-			.subscribe(action);
-	}
-
 	restart(action) {
 		this.dispose();
 

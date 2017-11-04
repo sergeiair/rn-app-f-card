@@ -3,19 +3,24 @@ import { AsyncStorage } from 'react-native';
 import RNRestart from 'react-native-restart';
 import I18n from 'react-native-i18n';
 
+I18n.defaultLocale = 'en-US';
+I18n.fallbacks = true;
+
 class LocalizationService {
 
 	static async init() {
-		I18n.defaultLocale = 'en-US';
-		I18n.fallbacks = true;
+		const value = await AsyncStorage.getItem('@SettingsStore:locale');
 
-		try {
-			const value = await AsyncStorage.getItem('@SettingsStore:locale');
-
+		return new Promise((resolve) => {
 			if (typeof value === 'string') {
 				I18n.locale = value;
+
+				resolve(value);
+			} else {
+				reject('en-US');
 			}
-		} catch (error) {}
+		});
+
 	}
 
 	static async setLocale(value) {
