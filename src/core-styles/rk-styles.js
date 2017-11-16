@@ -29,3 +29,4 @@ RkTheme.setType('RkCard', 'shadowed', {
 		alignSelf:'center'
 	}
 });
+

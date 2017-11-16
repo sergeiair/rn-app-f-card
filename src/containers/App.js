@@ -10,6 +10,7 @@ import QuestionsContainer from './questions/questions.container';
 import CardsContainer from './cards/cards.container';
 import FishesContainer from './fishes/fishes.container';
 import RulesContainer from './rules/rules.container';
+import RuleContentContainer from './ruleContent/ruleContent.container';
 import PlacesContainer from './places/places.container';
 import FishContainer from './fish/fish.container';
 import SettingsContainer from './settings/settings.container';
@@ -60,6 +61,7 @@ export default class App extends Component {
           <Scene key="rules" component={RulesContainer} title="Rules" />
           <Scene key="places" component={PlacesContainer} title="Places"/>
           <Scene key="fish" component={FishContainer}/>
+          <Scene key="ruleContent" component={RuleContentContainer}/>
           <Scene key="settings" component={SettingsContainer}/>
         </Scene>
       </Router>

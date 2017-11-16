@@ -7,6 +7,8 @@ import PropTypes from 'prop-types';
 
 import RulesListItem from './rulesListItem.component';
 
+import coreStyles from '../../../core-styles/styles';
+
 class RulesList extends PureComponent {
 
 	constructor() {
@@ -24,6 +26,7 @@ class RulesList extends PureComponent {
 
 		return (
       <FlatList
+	      style={coreStyles.scrollableWrap}
 	      data={data}
 	      keyExtractor={(item, index) => item.chapter.id}
 	      renderItem={this._getListItem}/>

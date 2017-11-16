@@ -26,15 +26,21 @@ class HomeContainer extends PureComponent {
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.fishes} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>Fishes</Text>
+          <Text style={coreStyles.whiteText}>
+	          {I18n.t('buttons.nav.fishes')}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.rules} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>Rules</Text>
+          <Text style={coreStyles.whiteText}>
+		        {I18n.t('buttons.nav.rules')}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.places} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>Places</Text>
+          <Text style={coreStyles.whiteText}>
+	          {I18n.t('buttons.nav.places')}
+          </Text>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={Actions.settings} style={coreStyles.defaultBtnGreen}>

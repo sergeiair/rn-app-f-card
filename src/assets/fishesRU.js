@@ -123,7 +123,7 @@ export const fishesPl = [
     protectedPeriod: '-',
     protectedLimit: 0,
     description: null, lang: 'ru',
-    family: 'dorszowate',
+    family: 'тресковые',
   },
   {
     fishId: 'tench',
@@ -268,7 +268,7 @@ export const fishesPl = [
     protectedPeriod: null,
     protectedLimit: null,
     description: null, lang: 'ru',
-    family: 'belonowate',
+    family: 'саргановыe',
   },
   {
     fishId: 'danube',

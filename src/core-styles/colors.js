@@ -11,6 +11,7 @@ const colors = {
   darkTone: '#1A1B41',
   darkTone2: '#1E2128',
 	grey: '#ececec',
+	darkGrey: '#878787'
 };
 
 export default colors;

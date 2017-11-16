@@ -7,24 +7,26 @@ import {
 	TouchableOpacity,
 } from 'react-native';
 import { RkCard } from 'react-native-ui-kitten';
+import { Actions } from 'react-native-router-flux';
 import PropTypes from 'prop-types';
 
-import colors from '../../../core-styles/colors';
-//import fishesImages from '../../../images/fishes';
 
 const RulesListItem = (props) => {
 	const {data} = props;
 
   return (
     <View style={styles.itemWrap}>
-	    <RkCard rkType='shadowed'>
-		    <View rkCardHeader>
-			    <Text style={styles.itemTitle}>
-				    {data.chapterName}
-				    </Text>
-		    </View>
-		    <Image rkCardImg source={require('../../../images/fishes/amur.jpg')}/>
-	    </RkCard>
+	    <TouchableOpacity onPress={() => Actions.ruleContent({
+		    ruleData: data, title: data.chapterName
+	    })}>
+		    <RkCard rkType='shadowed'>
+			    <View rkCardHeader>
+				    <Text style={styles.itemTitle}>
+					    {data.chapterName}
+					  </Text>
+			    </View>
+		    </RkCard>
+	    </TouchableOpacity>
     </View>
   );
 };
@@ -35,10 +37,11 @@ RulesListItem.PropTypes = {
 
 const styles = StyleSheet.create({
 	itemWrap: {
-		marginTop: 15,
+		marginTop: 5
 	},
 	itemTitle: {
-		fontSize: 20,
+		fontSize: 15,
+		textAlign: 'center'
 	}
 });
 

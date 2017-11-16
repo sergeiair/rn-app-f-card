@@ -1,23 +1,36 @@
 import React from 'react';
-import { RkButton } from 'react-native-ui-kitten';
+import { StyleSheet } from 'react-native';
+import { RkButton, RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
+
+import colors from "../../core-styles/colors";
 
 
 function TestsProgressControls(props) {
 	const {switchNext, check, currentChecked} = props;
 
-	return currentChecked
-		? (
-			<RkButton onPress={switchNext}
-				kType='rounded-blue'>
-					Next
-			</RkButton>
-		) : (
-			<RkButton onPress={check}
-				kType='rounded-blue'>
-					Check answer
-			</RkButton>
-		);
+	return (
+		<RkCard
+			rkType='shadowed'
+			style={styles.card}>
+			{
+				currentChecked
+					? (
+						<RkButton
+							style={styles.button}
+							onPress={switchNext}>
+								Next
+						</RkButton>
+					) : (
+						<RkButton
+							style={styles.button}
+							onPress={check}>
+								Check answer
+						</RkButton>
+					)
+			}
+		</RkCard>
+	)
 }
 
 TestsProgressControls.propTypes = {
@@ -25,6 +38,18 @@ TestsProgressControls.propTypes = {
 	check: PropTypes.func.isRequired,
 	currentChecked: PropTypes.bool.isRequired
 };
-TestsProgressControls.defaultProps = {};
+
+const styles = StyleSheet.create({
+	card: {
+		flexDirection: 'row',
+		alignItems: 'stretch',
+		marginTop: 5,
+		padding: 10,
+	},
+	button: {
+		flex: 1,
+		backgroundColor: colors.blue
+	}
+});
 
 export default TestsProgressControls;

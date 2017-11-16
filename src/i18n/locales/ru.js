@@ -3,7 +3,10 @@ export default {
 	buttons: {
 		nav: {
 			cards: 'Карточки',
-			questions: 'Вопросы'
+			questions: 'Вопросы',
+			fishes: 'Рыбы',
+			rules: 'Правила',
+			places: 'Озера и реки'
 		},
 		game: {
 			start: 'Начать'

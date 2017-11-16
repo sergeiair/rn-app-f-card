@@ -1,22 +1,24 @@
-import React, { Component } from 'react';
-import { observer } from 'mobx-react/native';
+import React, { PureComponent } from 'react';
 import {
   View,
   Text,
 	StyleSheet,
 	TouchableOpacity,
 } from 'react-native';
+import { observer } from 'mobx-react/native';
 
 import PlacesMapComponent from './components/placesMap.component';
 import PlacesListComponent from './components/placesList.component';
 import PlacesCustomizationComponent from './components/placesCustomization.component';
+import PlacesInitialView from './components/placesInitialView.component';
 
 import PlacesStore from './../../stores/places.store';
 
 import coreStyles from '../../core-styles/styles';
 
+
 @observer
-class PlacesContainer extends Component {
+class PlacesContainer extends PureComponent {
 
   constructor(props) {
     super(props);
@@ -58,26 +60,11 @@ class PlacesContainer extends Component {
 		  case 'customization':
 			  return <PlacesCustomizationComponent
 				  addNew={data => placesStore.addNew(data)}/>;
-	  }
-  }
+		  default:
+		  	return <PlacesInitialView
+				  setView={this._setView.bind(this)}/>
 
-  get controls() {
-  	return (
-  		<View>
-			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
-				  onPress={this._setView.bind(this, 'list')}>
-				    <Text style={coreStyles.whiteText}>Places list view</Text>
-			  </TouchableOpacity>
-			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
-				  onPress={this._setView.bind(this, 'map')}>
-				    <Text style={coreStyles.whiteText}>Places map view</Text>
-			  </TouchableOpacity>
-			  <TouchableOpacity style={coreStyles.defaultBtnGreen}
-				  onPress={this._setView.bind(this, 'customization')}>
-				    <Text style={coreStyles.whiteText}>Add own place</Text>
-			  </TouchableOpacity>
-	    </View>
-	  );
+	  }
   }
 
   render() {
@@ -85,9 +72,7 @@ class PlacesContainer extends Component {
 
     return (
 	    <View style={coreStyles.main}>
-		    {
-		    	!view ? this.controls : this._getView(view)
-		    }
+		    {this._getView(view)}
 	    </View>
     );
   }

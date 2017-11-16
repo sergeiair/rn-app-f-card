@@ -1,12 +1,10 @@
 import React, {PureComponent} from 'react';
-import {
-	ListView,
-	StyleSheet,
-} from 'react-native';
+import { ListView } from 'react-native';
 import PropTypes from 'prop-types';
 
-import colors from '../../../core-styles/colors';
 import FishesListItem from './fishesListItem.component';
+
+import coreStyles from '../../../core-styles/styles';
 
 class FishesList extends PureComponent {
 
@@ -19,8 +17,8 @@ class FishesList extends PureComponent {
 
 		return (
       <ListView
-	      style={styles.list}
-        initialListSize={data.length}
+	      style={coreStyles.scrollableWrap}
+        initialListSize={5}
         enableEmptySections={true}
         dataSource={ds.cloneWithRows(
           (data || []).filter(item => item)
@@ -42,11 +40,5 @@ FishesList.defaultProps = {
 FishesList.PropTypes = {
   data: PropTypes.array.isRequired,
 };
-
-const styles = StyleSheet.create({
-	list: {
-		backgroundColor: colors.lightBlue,
-	},
-});
 
 export default FishesList;

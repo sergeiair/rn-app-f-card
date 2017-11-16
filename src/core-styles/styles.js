@@ -13,6 +13,11 @@ const coreStyles = StyleSheet.create({
 	  paddingLeft: 5,
 	  paddingRight: 5,
   },
+	scrollableWrap: {
+		paddingTop: 5,
+		paddingLeft: 5,
+		paddingRight: 5,
+	},
 	defaultInput: {
 		margin: 10,
 		padding: 10,

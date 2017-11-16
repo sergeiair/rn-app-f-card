@@ -4,11 +4,11 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
+	Dimensions,
 } from 'react-native';
-import { RkButton, RkCard } from 'react-native-ui-kitten';
+import { RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
-import coreStyles from '../../../core-styles/styles';
 import colors from '../../../core-styles/colors';
 import QuestionModel from '../../../models/question.model';
 
@@ -44,7 +44,7 @@ class Question extends PureComponent {
     const {data, toggleSelection} = this.props;
 
     return (
-      <View>
+      <View style={styles.optionsWrap}>
         {
           (
             data.question.options || []).map((opt, i) => {
@@ -67,7 +67,7 @@ class Question extends PureComponent {
     const {data} = this.props;
 
     return (
-      <View>
+      <View style={styles.optionsWrap}>
         {
           (
             data.question.options || []).map((opt, i) => {
@@ -117,7 +117,7 @@ class Question extends PureComponent {
     return (
       <RkCard rkType='shadowed'>
         <View rkCardHeader>
-          <Text>
+          <Text style={styles.question}>
 	          {data.question.question}
           </Text>
         </View>
@@ -137,19 +137,32 @@ Question.PropTypes = {
 };
 
 const styles = StyleSheet.create({
+	optionsWrap: {
+    flexDirection: 'column',
+	},
   option: {
-
+	  width: Dimensions.get('window').width - 30,
+    padding: 15,
+    marginTop: 10,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: colors.grey
   },
+	question: {
+		fontSize: 17,
+    textAlign: 'center'
+	},
   selectedOption: {
-    backgroundColor: colors.blue,
+	  color: colors.blue,
+	  borderColor: colors.blue
   },
   correctOption: {
-    borderLeftWidth: 4,
-    borderLeftColor: colors.green,
+	  color: colors.green,
+	  borderColor: colors.green
   },
   wrongOption: {
-    borderLeftWidth: 4,
-    borderLeftColor: colors.red,
+    color: colors.red,
+	  borderColor: colors.red
   },
 });
 

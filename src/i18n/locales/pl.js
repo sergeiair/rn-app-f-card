@@ -3,7 +3,10 @@ export default {
 	buttons: {
 		nav: {
 			cards: 'Karty',
-			questions: 'Pytania'
+			questions: 'Pytania',
+			fishes: 'Ryby',
+			rules: 'Zasady',
+			places: 'Jeziora i rzeki'
 		},
 		game: {
 			start: 'Zacząć'
