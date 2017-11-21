@@ -1,13 +1,9 @@
 import React, {PureComponent} from 'react';
-import {
-  View,
-  Text,
-	StyleSheet,
-	ListView,
-} from 'react-native';
+import { FlatList } from 'react-native';
 import PropTypes from 'prop-types';
 
 import PlaceListItem from './placeListItem.component';
+
 
 class PlacesListComponent extends PureComponent {
 
@@ -15,27 +11,17 @@ class PlacesListComponent extends PureComponent {
     super(props);
   }
 
-	componentWillReceiveProps(nextProps) {
-		const {data} = nextProps;
-		const {oldData} = this.props;
-
-	}
-
   render() {
-	  const {data, ds, dropItem} = this.props;
+	  const {data, dropItem} = this.props;
 
 	  return (
-		  <ListView
-			  style={styles.list}
-			  initialListSize={20}
-			  enableEmptySections={true}
-			  dataSource={ds.cloneWithRows(
-				  (data || []).filter(item => item)
-			  )}
-			  renderRow={(rowData, secId, rowId) => {
+		  <FlatList
+			  keyExtractor={(item, index) => item.place.id}
+			  data={data}
+			  renderItem={data => {
 				  return <PlaceListItem
-					  index={parseInt(rowId, 10)}
-					  data={rowData.place}
+					  index={data.index}
+					  data={data.item.place}
 				    drop={dropItem}/>
 			  }}
 		  />
@@ -43,15 +29,6 @@ class PlacesListComponent extends PureComponent {
   }
 
 }
-
-const styles = StyleSheet.create({
-});
-
-PlacesListComponent.defaultProps = {
-	ds: new ListView.DataSource({
-		rowHasChanged: (r1, r2) => r1.id !== r2.id,
-	}),
-};
 
 PlacesListComponent.PropTypes = {
 	data: PropTypes.array.isRequired,

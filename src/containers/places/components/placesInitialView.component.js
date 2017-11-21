@@ -2,12 +2,14 @@ import React, { PureComponent } from 'react';
 import {
 	View,
 	Text,
-	StyleSheet,
-	TouchableOpacity,
+	StyleSheet
 } from 'react-native';
-import { RkCard, RkButton } from 'react-native-ui-kitten';
-import I18n from 'react-native-i18n';
 import PropTypes from 'prop-types';
+
+import LabeledButtonCard from '../../../components.common/cards/labeledButtonCard.component';
+import PlacesViewSelector from './placesViewSelector.component';
+
+import coreStyles from '../../../core-styles/styles';
 
 
 class PlacesInitialView extends PureComponent {
@@ -16,39 +18,31 @@ class PlacesInitialView extends PureComponent {
 		super(props);
 	}
 
-	_getCard(textCode, buttonCode, targetView) {
+	render() {
 		const {setView} = this.props;
 
 		return (
-			<RkCard rkType='shadowed'>
-				<View rkCardHeader>
-					<Text>
-						{I18n.t(textCode)}
-					</Text>
+			<View style={coreStyles.nonScrollWrap}>
+				<View style={styles.card}>
+					<PlacesViewSelector
+						listAction={() => setView('list')}
+						mapAction={() => setView('map')} />
 				</View>
-				<View rkCardContent>
-					<RkButton onPress={() => setView(targetView)}
-						rkType='rounded'>
-							{I18n.t(buttonCode)}
-					</RkButton>
+				<View style={styles.card}>
+					<LabeledButtonCard
+						textCode={'texts.places.customView'}
+						buttonCode={'buttons.places.customView'}
+						action={() => setView('customization')}/>
 				</View>
-			</RkCard>
-		);
-	}
-
-	render() {
-
-		return (
-			<View>
-				{this._getCard('texts.places.listView', 'buttons.places.listView', 'list')}
-				{this._getCard('texts.places.mapView', 'buttons.places.mapView', 'map')}
 			</View>
 		);
 	}
 }
 
 const styles = StyleSheet.create({
-
+	card: {
+		marginBottom: 5,
+	}
 });
 
 PlacesInitialView.defaultProps = {

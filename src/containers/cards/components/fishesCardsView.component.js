@@ -6,9 +6,9 @@ import {
 	TouchableOpacity,
 } from 'react-native';
 
-import FishesCard from './../components/fishes-card.component';
-import FishesCardsHead from './../components/fishes-cards-head.component';
-import ProgressLine from '../../../components.common/progress-line/progress-line.component';
+import FishesCard from './fishesCard.component';
+import FishesCardsHead from './fishesCardsHead.component';
+import ProgressLine from '../../../components.common/progress-line/progressLine.component';
 
 
 class FishesCardView extends PureComponent {

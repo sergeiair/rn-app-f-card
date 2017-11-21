@@ -18,40 +18,10 @@ const coreStyles = StyleSheet.create({
 		paddingLeft: 5,
 		paddingRight: 5,
 	},
-	defaultInput: {
-		margin: 10,
-		padding: 10,
-	},
-  defaultBtnGreen: {
-    padding: 20,
-    backgroundColor: colors.green,
-  },
-  defaultBtnBlue: {
-    padding: 20,
-    backgroundColor: colors.lightBlue,
-  },
-  defaultPicker: {
-    margin: 10,
-    padding: 20,
-  },
-  title1: {
-    margin: 20,
-    fontSize: 16,
-    textAlign: 'center',
-    color: colors.lightBlue,
-  },
-  title2: {
-    margin: 20,
-    fontSize: 18,
-    textAlign: 'center',
-    color: colors.lightBlue,
-  },
-  listItem: {
-	  padding: 10,
-  },
-  whiteText: {
-    color: colors.lightTone,
-  }
+	rowAround: {
+  	flexDirection: 'row',
+		justifyContent: 'space-around'
+	}
 });
 
 export * from './colors';

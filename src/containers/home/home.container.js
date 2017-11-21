@@ -2,8 +2,8 @@ import React, { PureComponent } from 'react';
 import {
   View,
   Text,
-  TouchableOpacity,
 } from 'react-native';
+import { RkButton } from 'react-native-ui-kitten';
 import { Actions } from 'react-native-router-flux';
 import I18n from 'react-native-i18n';
 
@@ -13,39 +13,39 @@ class HomeContainer extends PureComponent {
   render() {
     return (
       <View style={coreStyles.main}>
-        <TouchableOpacity onPress={Actions.cards} style={coreStyles.defaultBtnBlue}>
-          <Text style={coreStyles.whiteText}>
+        <RkButton onPress={Actions.cards} >
+          <Text >
             {I18n.t('buttons.nav.cards')}
           </Text>
-        </TouchableOpacity>
+        </RkButton>
 
-        <TouchableOpacity onPress={Actions.questions} style={coreStyles.defaultBtnBlue}>
-          <Text style={coreStyles.whiteText}>
+        <RkButton onPress={Actions.questions} >
+          <Text>
 	          {I18n.t('buttons.nav.questions')}
           </Text>
-        </TouchableOpacity>
+        </RkButton>
 
-        <TouchableOpacity onPress={Actions.fishes} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>
+        <RkButton onPress={Actions.fishes} style={coreStyles.defaultBtnGreen}>
+          <Text >
 	          {I18n.t('buttons.nav.fishes')}
           </Text>
-        </TouchableOpacity>
+        </RkButton>
 
-        <TouchableOpacity onPress={Actions.rules} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>
+        <RkButton onPress={Actions.rules} style={coreStyles.defaultBtnGreen}>
+          <Text >
 		        {I18n.t('buttons.nav.rules')}
           </Text>
-        </TouchableOpacity>
+        </RkButton>
 
-        <TouchableOpacity onPress={Actions.places} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>
+        <RkButton onPress={Actions.places} style={coreStyles.defaultBtnGreen}>
+          <Text >
 	          {I18n.t('buttons.nav.places')}
           </Text>
-        </TouchableOpacity>
+        </RkButton>
 
-        <TouchableOpacity onPress={Actions.settings} style={coreStyles.defaultBtnGreen}>
-          <Text style={coreStyles.whiteText}>Settings</Text>
-        </TouchableOpacity>
+        <RkButton onPress={Actions.settings} style={coreStyles.defaultBtnGreen}>
+          <Text >Settings</Text>
+        </RkButton>
       </View>
     );
   }

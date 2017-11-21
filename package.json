@@ -14,7 +14,8 @@
     "android:start": "react-native run-anroid --port 9988",
     "android:devmenu": "adb shell input keyevent 82",
     "android:apk-assemble": "cd android && ./gradlew assembleRelease",
-    "android:apk-install": "cd android && ./gradlew installRelease"
+    "android:apk-install": "cd android && ./gradlew installRelease",
+    "v": "npm version patch"
   },
   "jest": {
     "preset": "react-native",

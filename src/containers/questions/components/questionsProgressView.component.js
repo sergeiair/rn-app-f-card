@@ -7,8 +7,8 @@ import PropTypes from 'prop-types';
 
 import coreStyles from '../../../core-styles/styles';
 
-import Question from './question.component';
-import TestsProgressControls from './../../../components.common/controls/tests-progress-controls.component';
+import Question from './questionItem.component';
+import TestsProgressControls from '../../../components.common/controls/testsProgressControls.component';
 
 
 class QuestionsProgressView extends PureComponent {

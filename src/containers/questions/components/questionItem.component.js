@@ -12,6 +12,7 @@ import PropTypes from 'prop-types';
 import colors from '../../../core-styles/colors';
 import QuestionModel from '../../../models/question.model';
 
+
 class Question extends PureComponent {
 
   baseOptionStyle = StyleSheet.flatten(styles.option);

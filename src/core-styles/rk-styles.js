@@ -7,7 +7,7 @@ RkTheme.setType('RkButton', 'rounded', {
 	alignSelf: 'stretch',
 	justifySelf: 'center',
 	backgroundColor: colors.pastelGreen,
-	borderRadius: 5,
+	borderRadius: 3,
 });
 
 RkTheme.setType('RkButton', 'rounded-blue', {
@@ -15,7 +15,7 @@ RkTheme.setType('RkButton', 'rounded-blue', {
 	alignSelf: 'stretch',
 	justifySelf: 'center',
 	backgroundColor: colors.blue,
-	borderRadius: 5,
+	borderRadius: 3,
 });
 
 RkTheme.setType('RkCard', 'shadowed', {

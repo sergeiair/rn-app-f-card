@@ -13,7 +13,6 @@ import IntervalsService from '../../../services/intervals.service';
 
 import fishesImages from '../../../images/fishes';
 
-import coreStyles from '../../../core-styles/styles';
 import colors from '../../../core-styles/colors';
 
 

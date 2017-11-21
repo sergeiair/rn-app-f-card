@@ -1,12 +1,16 @@
 import React, {PureComponent} from 'react';
 import {
   Text,
-  TouchableHighlight,
+  TouchableOpacity,
 	StyleSheet,
   View,
 	Alert,
+	Image
 } from 'react-native';
 import PropTypes from 'prop-types';
+
+import colors from '../../../core-styles/colors';
+
 
 class PlaceListItem extends PureComponent {
 
@@ -38,13 +42,18 @@ class PlaceListItem extends PureComponent {
 
     return (
 	    <View style={styles.itemWrap}>
-		    <Text>{data.name}</Text>
-		    <TouchableHighlight
+		    <View>
+			    <Text>{data.name}</Text>
+			    <Text style={styles.latLng}>
+				    {data.latLng}
+				    </Text>
+		    </View>
+		    <TouchableOpacity
 			    onPress={this._confirm.bind(this, data.id, index)}>
-			    <Text style={styles.dropBtn}>
-				    X
-			    </Text>
-		    </TouchableHighlight>
+				    <Image style={styles.dropBtn}
+				      resizeMode="center"
+					    source={require('../../../images/icons/cross.png')} />
+		    </TouchableOpacity>
 	    </View>
     )
 	}
@@ -54,12 +63,18 @@ const styles = StyleSheet.create({
 	itemWrap: {
 	  flex: 1,
     flexDirection: 'row',
+		alignItems: 'center',
     justifyContent: 'space-between',
-		padding: 10,
+		padding: 15,
+		marginBottom: 1,
+		backgroundColor: colors.lightTone
+	},
+	latLng: {
+		color: colors.blue
 	},
 	dropBtn: {
-	  fontSize: 18,
-		padding: 3,
+	  width: 24,
+		height: 24,
   },
 });
 

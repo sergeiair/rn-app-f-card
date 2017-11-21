@@ -12,8 +12,8 @@ import CardsStore from './../../stores/cards.store';
 import FishesStore from './../../stores/fishes.store';
 import TestsStore from './../../stores/tests.store';
 
-import FishesCardsView from './components/fishes-cards-view.component';
-import FishesInitialView from './components/fishes-initial-view.component';
+import FishesCardsView from './components/fishesCardsView.component';
+import FishesCardsInitialView from './components/fishesCardsInitialView.component';
 
 @observer
 class CardsContainer extends PureComponent {
@@ -43,7 +43,7 @@ class CardsContainer extends PureComponent {
 			  <View style={coreStyles.main}>
 				  {
 					  !cardsStore.current
-						  ? <FishesInitialView
+						  ? <FishesCardsInitialView
 							    showNext={this._showNext.bind(this)}/>
 						  : <FishesCardsView
 						      cardsStore={cardsStore}

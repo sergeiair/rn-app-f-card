@@ -2,8 +2,7 @@ import React, { PureComponent } from 'react';
 import {
   View,
   Text,
-	StyleSheet,
-	TouchableOpacity,
+	StyleSheet
 } from 'react-native';
 import { observer } from 'mobx-react/native';
 

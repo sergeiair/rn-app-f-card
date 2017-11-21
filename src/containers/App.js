@@ -62,7 +62,7 @@ export default class App extends Component {
           <Scene key="places" component={PlacesContainer} title="Places"/>
           <Scene key="fish" component={FishContainer}/>
           <Scene key="ruleContent" component={RuleContentContainer}/>
-          <Scene key="settings" component={SettingsContainer}/>
+          <Scene key="settings" component={SettingsContainer} title="Settings and info"/>
         </Scene>
       </Router>
     );

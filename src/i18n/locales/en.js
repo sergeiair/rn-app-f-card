@@ -11,9 +11,11 @@ export default {
 		game: {
 			start: 'Start'
 		},
+		questions: {
+			start: 'Start'
+		},
 		places: {
-			listView: 'Places list',
-			mapView: 'Places map'
+			customView: 'Add new place'
 		}
 	},
 	texts: {
@@ -21,9 +23,11 @@ export default {
 			initial: 'Welcome to fishes cards quiz. You will be given 10 seconds to figure out the name of fish by selecting one of four options below',
 			points: 'Points'
 		},
+		questions: {
+			initial: 'Welcome to questions section. Here you can check and train yourself before the exam',
+		},
 		places: {
-			listView: 'List of predefined and custom lakes and rivers',
-			mapView: 'Map of rivers and lakes'
+			customView: 'Positioning and string GPS coordinates of new fishing places'
 		}
 	}
 };

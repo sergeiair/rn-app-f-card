@@ -1,13 +1,10 @@
 import React, { PureComponent } from 'react';
-import {
-	View,
-	Text,
-	TouchableOpacity,
-} from 'react-native';
+import { View } from 'react-native';
 
 import coreStyles from '../../core-styles/styles';
 
 import SettingsComponent from './components/settings.component';
+
 
 class SettingsContainer extends PureComponent {
 	render() {

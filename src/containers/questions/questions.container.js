@@ -12,8 +12,8 @@ import coreStyles from '../../core-styles/styles';
 import QuestionsStore from './../../stores/questions.store';
 import TestsStore from './../../stores/tests.store';
 
-import QuestionsInitialView from './components/questions-initial-view.component';
-import QuestionsProgressView from './components/questions-progress-view.component';
+import QuestionsInitialView from './components/questionsInitialView.component';
+import QuestionsProgressView from './components/questionsProgressView.component';
 
 @observer
 class QuestionsContainer extends PureComponent {

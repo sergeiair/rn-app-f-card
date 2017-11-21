@@ -30,7 +30,7 @@ class PlacesMapComponent extends PureComponent {
 					    <MapView.Marker
 						    key={index}
 						    coordinate={el.place.latLngObject}
-						    title={el.place.name}
+						    title={`${el.place.name}(${el.place.latLng})`}
 					    />
 			      ))
 			    }
