@@ -3,7 +3,9 @@ import {
 	View,
 	Text,
 	Picker,
-	StyleSheet
+	StyleSheet,
+	Linking,
+	TouchableOpacity
 } from 'react-native';
 
 import I18n from '../../../i18n';
@@ -24,6 +26,10 @@ class SettingsComponent extends PureComponent {
 		}
 	}
 
+	_sendMail() {
+		Linking.openURL('mailto:zsg.green@gmail.com');
+	}
+
 	_changeLocale(value) {
 		this.setState({locale: value});
 
@@ -41,6 +47,13 @@ class SettingsComponent extends PureComponent {
 							<Picker.Item label="Polski" value="pl-PL" />
 							<Picker.Item label="Русский" value="ru-RU" />
 					</Picker>
+				</View>
+				<View style={styles.row}>
+					<TouchableOpacity onPress={this._sendMail.bind(this)}>
+						<Text style={styles.rowText}>
+							Contact me
+						</Text>
+					</TouchableOpacity>
 				</View>
 				<View style={styles.row}>
 					<Text style={styles.rowText}>

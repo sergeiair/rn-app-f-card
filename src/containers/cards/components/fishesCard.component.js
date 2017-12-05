@@ -112,9 +112,6 @@ const styles = StyleSheet.create({
 		marginRight: 5,
 		width: (Dimensions.get('window').width / 2) - 20,
 	},
-	progressBar: {
-		backgroundColor: colors.lightBlue,
-	},
 	imageWrap: {
 		width: Dimensions.get('window').width,
     backgroundColor: colors.lightTone

@@ -6,7 +6,8 @@ export default {
 			questions: 'Вопросы',
 			fishes: 'Рыбы',
 			rules: 'Правила',
-			places: 'Озера и реки'
+			places: 'Озера и реки',
+			settings: 'Настройки'
 		},
 		game: {
 			start: 'Начать'

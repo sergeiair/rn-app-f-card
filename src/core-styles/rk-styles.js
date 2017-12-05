@@ -6,7 +6,7 @@ RkTheme.setType('RkButton', 'rounded', {
 	flex: 1,
 	alignSelf: 'stretch',
 	justifySelf: 'center',
-	backgroundColor: colors.pastelGreen,
+	backgroundColor: colors.green,
 	borderRadius: 3,
 });
 

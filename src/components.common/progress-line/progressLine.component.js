@@ -69,7 +69,7 @@ ProgressLine.PropTypes = {
 const styles = StyleSheet.create({
 	progressBar: {
 		height: 2,
-		backgroundColor: colors.red2,
+		backgroundColor: colors.red,
 	},
 });
 

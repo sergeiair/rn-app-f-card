@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Router, Scene } from 'react-native-router-flux';
+import { StyleSheet } from 'react-native';
 import { useStrict } from 'mobx';
-import { enableLogging } from 'mobx-logger';
 
 import LocalizationService from './../services/localization.service';
 
@@ -15,16 +15,12 @@ import PlacesContainer from './places/places.container';
 import FishContainer from './fish/fish.container';
 import SettingsContainer from './settings/settings.container';
 
+import colors from '../core-styles/colors';
+
 import '../core-styles/rk-styles';
 
 useStrict(true);
 
-enableLogging({
-  predicate: () => __DEV__ && Boolean(window.navigator.userAgent),
-  action: true,
-  reaction: false,
-  compute: false
-});
 
 export default class App extends Component {
 
@@ -52,20 +48,43 @@ export default class App extends Component {
     }
 
     return (
-      <Router duration={0}>
-        <Scene key="root">
-          <Scene key="home" component={HomeContainer} title="Home" initial={true} />
-          <Scene key="cards" component={CardsContainer} title="Cards" />
-          <Scene key="questions" component={QuestionsContainer} title="Questions" />
-          <Scene key="fishes" component={FishesContainer} title="Fishes" />
-          <Scene key="rules" component={RulesContainer} title="Rules" />
-          <Scene key="places" component={PlacesContainer} title="Places"/>
-          <Scene key="fish" component={FishContainer}/>
-          <Scene key="ruleContent" component={RuleContentContainer}/>
-          <Scene key="settings" component={SettingsContainer} title="Settings and info"/>
-        </Scene>
+      <Router navigationBarStyle={styles.navBar}
+        titleStyle={styles.navBarTitle}
+        barButtonIconStyle={styles.barButtonIconStyle}
+        barButtonTextStyle={styles.barButtonTextStyle}
+        duration={0}>
+          <Scene key="root">
+            <Scene key="home" component={HomeContainer} initial={true} />
+            <Scene key="cards" component={CardsContainer} title="Cards" />
+            <Scene key="questions" component={QuestionsContainer} title="Questions" />
+            <Scene key="fishes" component={FishesContainer} title="Fishes" />
+            <Scene key="rules" component={RulesContainer} title="Rules" />
+            <Scene key="places" component={PlacesContainer} title="Places"/>
+            <Scene key="fish" component={FishContainer}/>
+            <Scene key="ruleContent" component={RuleContentContainer}/>
+            <Scene key="settings" component={SettingsContainer} title="Settings and info"/>
+          </Scene>
       </Router>
     );
   }
 }
+
+const styles = StyleSheet.create({
+	navBar: {
+		backgroundColor: colors.lightTone,
+		borderBottomColor: colors.paleGrey,
+		height: 55,
+		borderBottomWidth: 1
+	},
+	navBarTitle: {
+		fontSize: 17,
+		lineHeight: 25,
+    textAlign: 'center',
+		color: colors.darkGrey
+	},
+	barButtonIconStyle: {
+		marginLeft: 15,
+		tintColor: colors.darkGrey
+	}
+});
 

@@ -6,7 +6,8 @@ export default {
 			questions: 'Questions',
 			fishes: 'Fishes',
 			rules: 'Rules',
-			places: 'Lakes and rivers'
+			places: 'Lakes and rivers',
+			settings: 'Settings'
 		},
 		game: {
 			start: 'Start'

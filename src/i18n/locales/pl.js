@@ -6,7 +6,8 @@ export default {
 			questions: 'Pytania',
 			fishes: 'Ryby',
 			rules: 'Zasady',
-			places: 'Jeziora i rzeki'
+			places: 'Jeziora i rzeki',
+			settings: 'Ustawienia'
 		},
 		game: {
 			start: 'Zacząć'
