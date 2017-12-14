@@ -18,9 +18,7 @@ function LabeledButtonCard(props) {
 				<View rkCardContent>
 					<RkButton onPress={action}
 						rkType='rounded'>
-							<Text>
-								{I18n.t(buttonCode)}
-							</Text>
+							{I18n.t(buttonCode)}
 					</RkButton>
 				</View>
 			</RkCard>

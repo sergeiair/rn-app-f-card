@@ -36,7 +36,7 @@ class FishesCard extends PureComponent {
 	      {
 	        currentState.options.map((el, i) =>
             <RkButton style={styles.option}
-              rkType='rounded-blue'
+              rkType='rounded'
 	            key={el.uid}
               onPress={() => {
               	proceed(currentState.key === el.option);

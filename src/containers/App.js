@@ -54,7 +54,7 @@ export default class App extends Component {
         barButtonTextStyle={styles.barButtonTextStyle}
         duration={0}>
           <Scene key="root">
-            <Scene key="home" component={HomeContainer} initial={true} />
+            <Scene key="home" component={HomeContainer} initial={true} title="Welcome"  />
             <Scene key="cards" component={CardsContainer} title="Cards" />
             <Scene key="questions" component={QuestionsContainer} title="Questions" />
             <Scene key="fishes" component={FishesContainer} title="Fishes" />
@@ -71,20 +71,20 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
 	navBar: {
-		backgroundColor: colors.lightTone,
-		borderBottomColor: colors.paleGrey,
+		backgroundColor: colors.darkGreen,
+		borderBottomColor: colors.darkGreen,
 		height: 55,
 		borderBottomWidth: 1
 	},
 	navBarTitle: {
 		fontSize: 17,
-		lineHeight: 25,
+		lineHeight: 26,
     textAlign: 'center',
-		color: colors.darkGrey
+		color: colors.lightTone
 	},
 	barButtonIconStyle: {
 		marginLeft: 15,
-		tintColor: colors.darkGrey
+		tintColor: colors.lightTone
 	}
 });
 

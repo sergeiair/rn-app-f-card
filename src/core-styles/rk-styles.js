@@ -1,22 +1,8 @@
+import {Dimensions} from "react-native";
 import { RkTheme } from 'react-native-ui-kitten';
 
 import colors from './colors';
 
-RkTheme.setType('RkButton', 'rounded', {
-	flex: 1,
-	alignSelf: 'stretch',
-	justifySelf: 'center',
-	backgroundColor: colors.green,
-	borderRadius: 3,
-});
-
-RkTheme.setType('RkButton', 'rounded-blue', {
-	flex: 1,
-	alignSelf: 'stretch',
-	justifySelf: 'center',
-	backgroundColor: colors.blue,
-	borderRadius: 3,
-});
 
 RkTheme.setType('RkCard', 'shadowed', {
 	img: {
@@ -26,7 +12,19 @@ RkTheme.setType('RkCard', 'shadowed', {
 		alignSelf: 'center'
 	},
 	content:{
+		marginTop: 5,
+		paddingTop: 5,
+		paddingBottom: 15,
 		alignSelf:'center'
 	}
+});
+
+RkTheme.setType('RkButton', 'rounded', {
+	flex: 1,
+	alignSelf: 'stretch',
+	justifySelf: 'center',
+	color: colors.lightTone,
+	backgroundColor: colors.green,
+	borderRadius: 5,
 });
 

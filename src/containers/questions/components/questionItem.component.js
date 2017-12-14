@@ -154,8 +154,8 @@ const styles = StyleSheet.create({
     textAlign: 'center'
 	},
   selectedOption: {
-	  color: colors.blue,
-	  borderColor: colors.blue
+	  color: colors.green,
+	  borderColor: colors.green
   },
   correctOption: {
 	  color: colors.green,

@@ -18,7 +18,9 @@ const FishesListItem = (props) => {
 
   return (
     <View style={styles.itemWrap}>
-	    <TouchableOpacity onPress={() => Actions.fish({fishData: data})}>
+	    <TouchableOpacity onPress={
+	    	() => Actions.fish({fishData: data, title: data.fish.name.toUpperCase()})
+	    }>
 		    <RkCard>
 			    <View rkCardHeader>
 				    <Text>

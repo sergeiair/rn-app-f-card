@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
 	},
 	button: {
 		flex: 1,
-		backgroundColor: colors.blue
+		backgroundColor: colors.green
 	}
 });
 

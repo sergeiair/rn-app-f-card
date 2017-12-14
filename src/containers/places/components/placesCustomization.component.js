@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
 		padding: 13,
 		margin: 10,
 		borderRadius: 3,
-		backgroundColor: colors.blue
+		backgroundColor: colors.green
 	},
 	saveBtnDisabled: {
 		padding: 13,

@@ -6,9 +6,9 @@ import {
 	Image
 } from 'react-native';
 import PropTypes from 'prop-types';
-import I18n from 'react-native-i18n';
 
 import colors from '../../../core-styles/colors';
+
 
 function FishesCardsHead(props) {
 	const {wrongAnswersNumber, correctAnswersNumber} = props;
@@ -41,7 +41,7 @@ FishesCardsHead.defaultProps = {};
 const styles = StyleSheet.create({
 	headWrap: {
 		flexDirection: 'row',
-		backgroundColor: colors.green2
+		backgroundColor: colors.lightTone
 	},
 	headImage: {
 		flex: 1,
@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
 	headBiggerText: {
 		marginTop: 18,
 		fontSize: 24,
-		color: colors.lightTone,
+		color: colors.darkGreen,
 		textAlign: 'center',
 		fontWeight: '300'
 	},
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
 	},
 	headSmallerText: {
 		fontSize: 20,
-		fontWeight: '100',
+		fontWeight: '100'
 	},
 });
 

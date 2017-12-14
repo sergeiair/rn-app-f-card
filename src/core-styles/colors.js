@@ -1,17 +1,15 @@
 const colors = {
-  green: '#7cbe67',
-	green2: '#074017',
-	darkGreen: '#0b170b',
-  blue: '#7392B7',
+  green: '#59c673',
+	green2: '#439962',
+	darkGreen: '#06240f',
   lightTone: '#fff',
-	paleGrey: '#F8F8F8',
-  red: '#e9484a',
+  red: '#f03e51',
   darkTone: '#1A1B41 ',
   darkTone2: '#1E2128',
 	grey: '#ececec',
+	paleGrey: '#F8F8F8',
 	darkGrey: '#878787',
-	darkGrey2: '#1d1d1d',
-	yellowTone: '#d3af13',
+	yellowTone: '#ffc72e',
 };
 
 export default colors;

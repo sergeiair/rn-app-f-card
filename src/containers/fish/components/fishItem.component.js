@@ -31,10 +31,7 @@ class FishItemComponent extends PureComponent {
               style={styles.itemImage}
               source={fishesImages[fishData.fish.fishId]}/>
           </View>
-          <View>
-            <Text style={styles.itemFishName}>
-              {fishData.fish.name.toUpperCase()}
-            </Text>
+          <View style={styles.content}>
 
             <Text style={styles.itemFishInfoLabel}>Family: </Text>
             <Text style={styles.itemFishInfo}>
@@ -74,18 +71,12 @@ const styles = StyleSheet.create({
 	itemImage: {
 		width: Dimensions.get('window').width,
   },
-	itemFishName: {
-		marginBottom: 15,
-		paddingTop: 5,
-		paddingBottom: 5,
-	  fontSize: 18,
-    textAlign: 'center',
-    backgroundColor: colors.paleGrey,
-    borderTopWidth: 1,
-    borderTopColor: colors.grey
-  },
+	content: {
+		borderTopWidth: 1,
+		borderTopColor: colors.grey
+	},
 	itemFishInfo: {
-		fontSize: 14,
+		fontSize: 15,
 		marginLeft: 10,
   },
 	itemFishInfoDescr: {

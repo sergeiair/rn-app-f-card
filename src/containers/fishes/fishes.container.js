@@ -8,6 +8,7 @@ import FishesStore from './../../stores/fishes.store';
 
 import coreStyles from '../../core-styles/styles';
 
+
 @observer
 class FishesContainer extends PureComponent {
 
