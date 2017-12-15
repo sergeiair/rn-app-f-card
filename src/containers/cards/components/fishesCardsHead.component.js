@@ -15,19 +15,22 @@ function FishesCardsHead(props) {
 
 	return (
 		<View style={styles.headWrap}>
-			<Image style={styles.headImage}
-				source={require('../../../images/banners/fisher2.png')}>
+			<View style={styles.head}>
+				<View style={styles.headItem}>
 					<Text style={styles.headBiggerText}>
-						# {wrongAnswersNumber + correctAnswersNumber}
+						{correctAnswersNumber + wrongAnswersNumber}
 					</Text>
-					<View style={styles.headCorrectWrongWrap}>
-						<Text style={StyleSheet.flatten([styles.headBiggerText, styles.headSmallerText])}>
-							{correctAnswersNumber - wrongAnswersNumber}
-						</Text>
+					<Image style={styles.headIcon}
+						source={require('../../../images/icons/hook.png')} />
+				</View>
+				<View style={styles.headItem}>
+					<Text style={styles.headBiggerText}>
+						{correctAnswersNumber - wrongAnswersNumber}
+					</Text>
 						<Image style={styles.headIcon}
-							source={require('../../../images/icons/hook.png')} />
-					</View>
-			</Image>
+							source={require('../../../images/banners/fisher2.png')} />
+				</View>
+			</View>
 		</View>
 	);
 }
@@ -43,11 +46,11 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		backgroundColor: colors.lightTone
 	},
-	headImage: {
+	head: {
 		flex: 1,
 		flexDirection: 'row',
 		justifyContent: 'space-between',
-		resizeMode: 'center',
+
 		height: 60,
 		paddingLeft: 10,
 		paddingRight: 5,
@@ -60,18 +63,14 @@ const styles = StyleSheet.create({
 	},
 	headBiggerText: {
 		marginTop: 18,
-		fontSize: 24,
+		fontSize: 20,
+		fontWeight: '100',
 		color: colors.darkGreen,
 		textAlign: 'center',
-		fontWeight: '300'
 	},
-	headCorrectWrongWrap: {
+	headItem: {
 		flexDirection: 'row',
 		marginTop: 4
-	},
-	headSmallerText: {
-		fontSize: 20,
-		fontWeight: '100'
 	},
 });
 

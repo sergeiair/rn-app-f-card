@@ -13,6 +13,7 @@ import PropTypes from 'prop-types';
 
 import fishesImages from '../../../images/fishes';
 
+
 const FishesListItem = (props) => {
 	const {data} = props;
 
@@ -23,7 +24,7 @@ const FishesListItem = (props) => {
 	    }>
 		    <RkCard>
 			    <View rkCardHeader>
-				    <Text>
+				    <Text style={styles.name}>
 					    {data.fish.name.toUpperCase()}
 				    </Text>
 			    </View>

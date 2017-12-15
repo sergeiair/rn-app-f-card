@@ -6,7 +6,7 @@ import {
   Image,
 	Dimensions,
 } from 'react-native';
-import { RkButton } from 'react-native-ui-kitten';
+import { RkButton, RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
 import IntervalsService from '../../../services/intervals.service';
@@ -64,16 +64,19 @@ class FishesCard extends PureComponent {
 
 
   render() {
-    const {data, currentState, proceed} = this.props;
-
     return (
 	    <View>
-	      <View style={styles.imageWrap}>
-		      {this.fishImage}
-	      </View>
-		    <View>
-			    {this.options}
-		    </View>
+		    <RkCard
+			    style={styles.imageWrap}
+			    rkType='shadowed'>
+			      {this.fishImage}
+		    </RkCard>
+
+		    <RkCard
+			    style={styles.optionsCard}
+			    rkType='shadowed'>
+			      {this.options}
+		    </RkCard>
 	    </View>
     );
   }
@@ -103,17 +106,19 @@ const styles = StyleSheet.create({
 		paddingLeft: 5,
 		paddingRight: 5,
 		paddingTop: 5,
-		paddingBottom: 15,
-		backgroundColor: colors.paleGrey
+		paddingBottom: 15
   },
+	optionsCard: {
+		marginLeft: 5,
+		marginRight: 5
+	},
 	option: {
 		marginTop: 10,
-		marginLeft: 5,
-		marginRight: 5,
-		width: (Dimensions.get('window').width / 2) - 20,
+		width: (Dimensions.get('window').width / 2) - 20
 	},
 	imageWrap: {
-		width: Dimensions.get('window').width,
+		margin: 5,
+		width: Dimensions.get('window').width - 10,
     backgroundColor: colors.lightTone
   },
 	image: {

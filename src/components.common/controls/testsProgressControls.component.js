@@ -3,8 +3,6 @@ import { StyleSheet } from 'react-native';
 import { RkButton, RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
-import colors from "../../core-styles/colors";
-
 
 function TestsProgressControls(props) {
 	const {switchNext, check, currentChecked} = props;
@@ -17,12 +15,14 @@ function TestsProgressControls(props) {
 				currentChecked
 					? (
 						<RkButton
+							rkType='rounded'
 							style={styles.button}
 							onPress={switchNext}>
-								Next
+								NEXT
 						</RkButton>
 					) : (
 						<RkButton
+							rkType='rounded'
 							style={styles.button}
 							onPress={check}>
 								Check answer
@@ -47,8 +47,7 @@ const styles = StyleSheet.create({
 		padding: 10,
 	},
 	button: {
-		flex: 1,
-		backgroundColor: colors.green
+		flex: 1
 	}
 });
 

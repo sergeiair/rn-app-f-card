@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
 	row: {
 		padding: 7,
 		borderBottomWidth: 1,
-		borderBottomColor: colors.paleGrey
+		borderBottomColor: colors.grey
 	},
 	rowText: {
 		paddingTop: 10,

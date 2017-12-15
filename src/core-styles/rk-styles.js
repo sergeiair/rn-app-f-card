@@ -23,8 +23,10 @@ RkTheme.setType('RkButton', 'rounded', {
 	flex: 1,
 	alignSelf: 'stretch',
 	justifySelf: 'center',
-	color: colors.lightTone,
-	backgroundColor: colors.green,
-	borderRadius: 5,
+	borderRadius: 4,
+	borderWidth: 1,
+	borderColor: colors.yellowTone,
+	color: colors.darkTone,
+	backgroundColor: colors.yellowTone2,
 });
 

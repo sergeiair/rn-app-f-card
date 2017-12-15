@@ -8,7 +8,7 @@ import {
 	Image,
 	Dimensions
 } from 'react-native';
-import { RkCard } from 'react-native-ui-kitten';
+import { RkCard, RkButton } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 import I18n from 'react-native-i18n';
 
@@ -83,6 +83,26 @@ class PlacesCustomizationComponent extends PureComponent {
 			? `${locData.latitude}, ${locData.longitude}` : message;
 	}
 
+	get saveButton() {
+  	return (
+		  <RkCard
+			  rkType='shadowed'
+			  style={styles.card}>
+			  <View rkCardContent>
+				  <Text style={styles.cardText}>
+					  Now You can save
+				  </Text>
+
+				  <RkButton
+					  rkType='rounded'
+					  onPress={this._savePlace.bind(this)}>
+					  Save place
+				  </RkButton>
+			  </View>
+		  </RkCard>
+	  )
+	}
+
   render() {
 	  const {name, locData} = this.state;
 
@@ -108,16 +128,8 @@ class PlacesCustomizationComponent extends PureComponent {
 					    </TouchableOpacity>
 				    </View>
 			    </View>
-			    <View>
-				    <TouchableOpacity style={this.saveDisabled ? styles.saveBtnDisabled : styles.saveBtn}
-				      disabled={this.saveDisabled}
-					    onPress={this._savePlace.bind(this)}>
-						    <Text style={styles.saveBtnText}>
-							    Save
-						    </Text>
-				    </TouchableOpacity>
-			    </View>
 		    </RkCard>
+		    {!this.saveDisabled ? this.saveButton : null}
 	    </View>
     );
   }
@@ -133,22 +145,6 @@ const styles = StyleSheet.create({
 	input: {
 		width: Dimensions.get('window').width - 30,
 	},
-	saveBtn: {
-		padding: 13,
-		margin: 10,
-		borderRadius: 3,
-		backgroundColor: colors.green
-	},
-	saveBtnDisabled: {
-		padding: 13,
-		margin: 10,
-		borderRadius: 3,
-		backgroundColor: colors.grey
-	},
-	saveBtnText: {
-		textAlign: 'center',
-		color: colors.lightTone
-	},
 	location: {
 		flexDirection: 'row',
 		alignItems: 'center',
@@ -162,6 +158,13 @@ const styles = StyleSheet.create({
 	},
 	locationState: {
 		paddingLeft: 5,
+	},
+	card: {
+		marginTop: 5
+	},
+	cardText: {
+		padding: 10,
+		textAlign: 'center'
 	}
 });
 
