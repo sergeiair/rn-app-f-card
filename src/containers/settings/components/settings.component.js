@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import {
+	ScrollView,
 	View,
 	Text,
 	Picker,
@@ -12,6 +13,7 @@ import I18n from '../../../i18n';
 import LocalizationService from '../../../services/localization.service';
 
 import colors from '../../../core-styles/colors';
+import coreStyles from '../../../core-styles/styles';
 
 const appVersion = require('../../../../package.json').version;
 
@@ -38,7 +40,7 @@ class SettingsComponent extends PureComponent {
 
 	render() {
 		return (
-			<View style={styles.wrap}>
+			<ScrollView style={styles.wrap}>
 				<View style={styles.row}>
 					<Picker
 						selectedValue={this.state.locale}
@@ -51,16 +53,50 @@ class SettingsComponent extends PureComponent {
 				<View style={styles.row}>
 					<TouchableOpacity onPress={this._sendMail.bind(this)}>
 						<Text style={styles.rowText}>
-							Contact me
+							{I18n.t('buttons.settings.contactMe')}
 						</Text>
 					</TouchableOpacity>
 				</View>
 				<View style={styles.row}>
 					<Text style={styles.rowText}>
-						Version {appVersion}
+						{I18n.t('texts.settings.version')}: {appVersion}
 					</Text>
 				</View>
-			</View>
+				<View style={styles.row}>
+					<Text style={styles.rowText}>
+						{I18n.t('texts.settings.icons')}: Flaticon CC 3.0 BY
+					</Text>
+				</View>
+				<View style={styles.row}>
+					<View style={coreStyles.rowBetween}>
+						<View>
+							<Text style={styles.rowText}>
+								{I18n.t('texts.settings.credits')}:
+							</Text>
+						</View>
+
+						<View>
+							<Text>
+								www.pzw.org.pl
+							</Text>
+							<Text>
+								www.pzw.tychy.pl
+							</Text>
+							<Text>
+								www.pzw-siewierz.pl
+							</Text>
+						</View>
+					</View>
+				</View>
+				<View style={styles.row}>
+					<Text style={styles.rowText}>
+						{I18n.t('texts.settings.disclaimer')}:
+					</Text>
+					<Text style={styles.smallRowText}>
+						{I18n.t('texts.settings.disclaimerText')}
+					</Text>
+				</View>
+			</ScrollView>
 		);
 	}
 }
@@ -80,6 +116,13 @@ const styles = StyleSheet.create({
 		paddingBottom: 10,
 		paddingLeft: 7,
 		paddingRight: 7,
+	},
+	smallRowText: {
+		paddingTop: 5,
+		paddingBottom: 10,
+		paddingLeft: 7,
+		paddingRight: 7,
+		fontSize: 11,
 	}
 });
 

@@ -15,7 +15,6 @@ import I18n from 'react-native-i18n';
 import LocationService from '../../../services/location.service';
 
 import coreStyles from '../../../core-styles/styles';
-import colors from '../../../core-styles/colors';
 
 
 class PlacesCustomizationComponent extends PureComponent {
@@ -26,7 +25,7 @@ class PlacesCustomizationComponent extends PureComponent {
     this.state = {
     	locData: null,
 	    name: null,
-	    message: 'Locating...',
+	    message: I18n.t('texts.places.locating'),
     }
   }
 
@@ -45,7 +44,7 @@ class PlacesCustomizationComponent extends PureComponent {
 		}).catch((error) => {
 			this.setState({
 				locData: null,
-				message: error.message || 'unknown error',
+				message: error.message || 'GPS error'
 			});
 		});
 	}
@@ -90,13 +89,13 @@ class PlacesCustomizationComponent extends PureComponent {
 			  style={styles.card}>
 			  <View rkCardContent>
 				  <Text style={styles.cardText}>
-					  Now You can save
+					  {I18n.t('texts.places.ready')}
 				  </Text>
 
 				  <RkButton
 					  rkType='rounded'
 					  onPress={this._savePlace.bind(this)}>
-					  Save place
+					    {I18n.t('buttons.places.save')}
 				  </RkButton>
 			  </View>
 		  </RkCard>
@@ -104,14 +103,14 @@ class PlacesCustomizationComponent extends PureComponent {
 	}
 
   render() {
-	  const {name, locData} = this.state;
+	  const {name} = this.state;
 
     return (
 	    <View style={coreStyles.nonScrollWrap}>
 		    <RkCard rkType='shadowed'>
 			    <View rkCardContent>
 				    <Text style={styles.label}>
-					    Provide a place name and locate yourself
+					    {I18n.t('texts.places.newNameLabel')}
 				    </Text>
 				    <TextInput style={styles.input}
 				      defaultValue={name}
@@ -163,7 +162,8 @@ const styles = StyleSheet.create({
 		marginTop: 5
 	},
 	cardText: {
-		padding: 10,
+		marginTop: 10,
+		marginBottom: 25,
 		textAlign: 'center'
 	}
 });

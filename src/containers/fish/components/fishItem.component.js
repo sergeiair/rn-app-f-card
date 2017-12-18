@@ -8,10 +8,12 @@ import {
 } from 'react-native';
 import { RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
+import I18n from 'react-native-i18n';
 
 import fishesImages from '../../../images/fishes';
 
 import colors from '../../../core-styles/colors';
+
 
 class FishItemComponent extends PureComponent {
 
@@ -33,22 +35,30 @@ class FishItemComponent extends PureComponent {
           </View>
           <View style={styles.content}>
 
-            <Text style={styles.itemFishInfoLabel}>Family: </Text>
+            <Text style={styles.itemFishInfoLabel}>
+	            {I18n.t('texts.fishes.family')}
+            </Text>
             <Text style={styles.itemFishInfo}>
 	            {fishData.fish.family}
             </Text>
 
-            <Text style={styles.itemFishInfoLabel}>Protected period: </Text>
+            <Text style={styles.itemFishInfoLabel}>
+	            {I18n.t('texts.fishes.protectedPeriod')}
+            </Text>
             <Text style={styles.itemFishInfo}>
 	            {fishData.fish.protectedPeriod || '-'}
             </Text>
 
-            <Text style={styles.itemFishInfoLabel}>Protected quota: </Text>
+            <Text style={styles.itemFishInfoLabel}>
+	            {I18n.t('texts.fishes.protectedQuota')}
+            </Text>
             <Text style={styles.itemFishInfo}>
 		          {fishData.fish.protectedLimit.toString()}
             </Text>
 
-            <Text style={styles.itemFishInfoLabel}>Description: </Text>
+            <Text style={styles.itemFishInfoLabel}>
+	            {I18n.t('texts.fishes.description')}
+            </Text>
             <Text style={styles.itemFishInfoDescr}>
 		          {fishData.fish.description || '-'}
             </Text>
@@ -66,7 +76,10 @@ FishItemComponent.propTypes = {
 const styles = StyleSheet.create({
 	itemWrap: {
 	  backgroundColor: colors.lightTone,
-    paddingBottom: 10
+    paddingBottom: 10,
+		marginTop: 10,
+		marginLeft: 5,
+		marginRight: 5
   },
 	itemImage: {
 		width: Dimensions.get('window').width,
@@ -76,17 +89,21 @@ const styles = StyleSheet.create({
 		borderTopColor: colors.grey
 	},
 	itemFishInfo: {
-		fontSize: 15,
+		fontSize: 16,
 		marginLeft: 10,
+		textAlign: 'center',
+		color: colors.green2
   },
 	itemFishInfoDescr: {
 		fontSize: 12,
 		marginLeft: 10,
+		textAlign: 'center',
+		color: colors.green2,
   },
 	itemFishInfoLabel: {
 		marginLeft: 10,
 		marginTop: 10,
-    fontWeight: '500',
+		textAlign: 'center'
   }
 });
 

@@ -1,5 +1,11 @@
 import React from 'react';
-import {Text, Image, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
+import {
+	Text,
+	Image,
+	TouchableOpacity,
+	StyleSheet,
+	Dimensions
+} from 'react-native';
 import PropTypes from 'prop-types';
 import I18n from 'react-native-i18n';
 
@@ -30,7 +36,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		justifyContent: 'space-between',
 		alignItems: 'center',
-		width: 140,
+		width: Dimensions.get('window').width / 2.3,
 		marginTop: 40,
 		paddingBottom: 15,
 		borderBottomWidth: 1,

@@ -17,18 +17,18 @@ function FishesCardsHead(props) {
 		<View style={styles.headWrap}>
 			<View style={styles.head}>
 				<View style={styles.headItem}>
+					<Image style={styles.headIcon}
+						source={require('../../../images/icons/hook.png')} />
 					<Text style={styles.headBiggerText}>
 						{correctAnswersNumber + wrongAnswersNumber}
 					</Text>
-					<Image style={styles.headIcon}
-						source={require('../../../images/icons/hook.png')} />
 				</View>
 				<View style={styles.headItem}>
 					<Text style={styles.headBiggerText}>
-						{correctAnswersNumber - wrongAnswersNumber}
+						{correctAnswersNumber}
 					</Text>
 						<Image style={styles.headIcon}
-							source={require('../../../images/banners/fisher2.png')} />
+							source={require('../../../images/icons/fisher2.png')} />
 				</View>
 			</View>
 		</View>
@@ -50,10 +50,9 @@ const styles = StyleSheet.create({
 		flex: 1,
 		flexDirection: 'row',
 		justifyContent: 'space-between',
-
 		height: 60,
-		paddingLeft: 10,
-		paddingRight: 5,
+		paddingLeft: 2,
+		paddingRight: 7,
 	},
 	headIcon: {
 		marginTop: 18,
@@ -62,8 +61,9 @@ const styles = StyleSheet.create({
 		height: 24
 	},
 	headBiggerText: {
-		marginTop: 18,
-		fontSize: 20,
+		marginTop: 19,
+		marginRight: 5,
+		fontSize: 18,
 		fontWeight: '100',
 		color: colors.darkGreen,
 		textAlign: 'center',

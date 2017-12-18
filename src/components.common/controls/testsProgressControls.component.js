@@ -3,6 +3,8 @@ import { StyleSheet } from 'react-native';
 import { RkButton, RkCard } from 'react-native-ui-kitten';
 import PropTypes from 'prop-types';
 
+import I18n from 'react-native-i18n';
+
 
 function TestsProgressControls(props) {
 	const {switchNext, check, currentChecked} = props;
@@ -18,14 +20,14 @@ function TestsProgressControls(props) {
 							rkType='rounded'
 							style={styles.button}
 							onPress={switchNext}>
-								NEXT
+							{I18n.t('buttons.questions.next')}
 						</RkButton>
 					) : (
 						<RkButton
 							rkType='rounded'
 							style={styles.button}
 							onPress={check}>
-								Check answer
+								{I18n.t('buttons.questions.checkAnswer')}
 						</RkButton>
 					)
 			}

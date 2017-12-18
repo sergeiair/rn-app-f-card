@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Router, Scene } from 'react-native-router-flux';
 import { StyleSheet } from 'react-native';
 import { useStrict } from 'mobx';
+import I18n from 'react-native-i18n';
 
 import LocalizationService from './../services/localization.service';
 
@@ -51,18 +52,17 @@ export default class App extends Component {
       <Router navigationBarStyle={styles.navBar}
         titleStyle={styles.navBarTitle}
         barButtonIconStyle={styles.barButtonIconStyle}
-        barButtonTextStyle={styles.barButtonTextStyle}
         duration={0}>
           <Scene key="root">
-            <Scene key="home" component={HomeContainer} initial={true} title="Welcome"  />
-            <Scene key="cards" component={CardsContainer} title="Cards" />
-            <Scene key="questions" component={QuestionsContainer} title="Questions" />
-            <Scene key="fishes" component={FishesContainer} title="Fishes" />
-            <Scene key="rules" component={RulesContainer} title="Rules" />
-            <Scene key="places" component={PlacesContainer} title="Places"/>
+            <Scene key="home" component={HomeContainer} initial={true} title={I18n.t('texts.titles.welcome')}  />
+            <Scene key="cards" component={CardsContainer} title={I18n.t('texts.titles.cards')}/>
+            <Scene key="questions" component={QuestionsContainer} title={I18n.t('texts.titles.questions')} />
+            <Scene key="fishes" component={FishesContainer} title={I18n.t('texts.titles.fishes')} />
+            <Scene key="rules" component={RulesContainer} title={I18n.t('texts.titles.rules')} />
+            <Scene key="places" component={PlacesContainer} title={I18n.t('texts.titles.places')}/>
             <Scene key="fish" component={FishContainer}/>
             <Scene key="ruleContent" component={RuleContentContainer}/>
-            <Scene key="settings" component={SettingsContainer} title="Settings and info"/>
+            <Scene key="settings" component={SettingsContainer} title={I18n.t('texts.titles.settings')}/>
           </Scene>
       </Router>
     );

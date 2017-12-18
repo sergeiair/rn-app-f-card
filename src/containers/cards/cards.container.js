@@ -15,6 +15,7 @@ import TestsStore from './../../stores/tests.store';
 import FishesCardsView from './components/fishesCardsView.component';
 import FishesCardsInitialView from './components/fishesCardsInitialView.component';
 
+
 @observer
 class CardsContainer extends PureComponent {
 

@@ -1,13 +1,14 @@
 import { PermissionsAndroid } from 'react-native';
+import I18n from 'react-native-i18n';
 
 import LocationServicesDialogBox from "react-native-android-location-services-dialog-box";
 
 class LocationService {
 	static ensureLocationEnabled() {
 		LocationServicesDialogBox.checkLocationServicesIsEnabled({
-			message: "You need a location enabled on your device",
-			ok: "Ok",
-			cancel: "Cancel",
+			message: I18n.t('texts.places.locationNeeded'),
+			ok: I18n.t('buttons.ok'),
+			cancel: I18n.t('buttons.cancel'),
 			enableHighAccuracy: true,
 			showDialog: true
 		}).catch(error => error);

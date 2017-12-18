@@ -8,6 +8,7 @@ import {
 	Image
 } from 'react-native';
 import PropTypes from 'prop-types';
+import I18n from 'react-native-i18n';
 
 import colors from '../../../core-styles/colors';
 
@@ -20,15 +21,17 @@ class PlaceListItem extends PureComponent {
 
 	_confirm(id, index) {
 		Alert.alert(
-			`Attention`,
-			`Want to delete this place?`,
+			``,
+			I18n.t('texts.places.wantDelete'),
 			[
 				{
-					text: 'Oh no', onPress: () => {},
+					text: I18n.t('buttons.cancel'),
+					onPress: () => {},
 					style: 'cancel',
 				},
 				{
-					text: 'Yes', onPress: () => {
+					text: I18n.t('buttons.ok'),
+					onPress: () => {
 						this.props.drop(id, index);
 					},
 				},
