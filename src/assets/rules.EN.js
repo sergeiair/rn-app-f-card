@@ -265,7 +265,7 @@ const rules = [{
 			7.2. Within 24 hours 0:00 - 24:00
 			- Catfish 1 pc.
 			- Trout, Salmon, Zander, Pike, Whitefish, Asp - 2 pcs.
-			- Grayling, river trout - totally 3 pcs.
+			- Grayling, River Trout - totally 3 pcs.
 			- Barbel 3 pcs.
 			- Carp 3 pcs.
 			- Tench 4 pcs.
@@ -275,7 +275,7 @@ const rules = [{
 			
 			8. Other fish types are not listed above can be taken from the catching place with a total weight of not more than 5 kg per day.
 			
-			9. The catch limits are not applied to amur, silver carp, white-bream, silver crucian, bream, rainbow trout and brook trout and also fishes from chapter 4, item 3.7
+			9. The catch limits are not applied to Amur, Silver carp, White-bream, Silver crucian, Bream, Rainbow trout and Brook trout and also fishes from chapter 4, item 3.7
 			
 			10. Fishing during the competitions is governed by separate provisions contained in the "Rules for the organization of fishing sport."
 			
@@ -290,12 +290,12 @@ const rules = [{
 			a) Police officers,
 			b) Employees of the State Fisheries Protection,
 			c) Employees of the Social Protection of Fisheries,
-			d) employees of PZW property protection,
+			d) Employees of PZW property protection,
 			e) Employees of the State Hunting Protection,
-			f) employees of forest protection,
-			g) employees of national and landscape parks,
+			f) Employees of forest protection,
+			g) Employees of national and landscape parks,
 			h) Border officers,
-			i) other authorized persons on their controlled waters
+			i) Other authorized persons on their controlled waters
 			
 			2. Fisherman must show documents, equipment for fishing, caught fish and bait after the request
 			

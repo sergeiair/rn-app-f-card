@@ -1,4 +1,4 @@
-const questions = require('./questions.all.json');
+const questions = require('./questions.json');
 
 const data = {
   all: questions,
