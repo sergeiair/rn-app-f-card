@@ -1,0 +1,419 @@
+{
+  "list": [
+    {
+      "q": "Which fishes do spawning in the early spring",
+      "opt": [
+        "perch, river trout",
+        "catfish, pike",
+        "carp, burbot"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "Which fish can migrate?",
+      "opt": [
+        "catfish",
+        "trout",
+        "carp"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Where do fishes have a heart?",
+      "opt": [
+        "in the middle of the body",
+        "behind the pelvic fins",
+        "behind the gills, on the ventral side of the body"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Do people under the age of 14 must receive a fisherman's card?",
+      "opt": [
+        "no",
+        "yes"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "What is the minimum age for fishing without supervision of seniors?",
+      "opt": [
+        "16",
+        "14",
+        "18"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Is it mandatory to keep the fisherman's card during the fishing?",
+      "opt": [
+        "no",
+        "yes"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Is it allowed to reduce the distance to nearest fisherman?",
+      "opt": [
+        "no",
+        "yes",
+        "yes, but only after his accordance"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Is the fisherman obliged to free the fishing spot in case of competitions on it?",
+      "opt": [
+        "no",
+        "yes"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "What should be done in case of catching wish with marker?",
+      "opt": [
+        "send the mark to the nearest PZW office",
+        "send a few scales taken above the lateral line of the fish",
+        "send the information about type, weight, length and location",
+        "all of the above"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "What types of fishing are prohibited?",
+      "opt": [
+        "using the electric fishing rod",
+        "trolling method with a lot of baits",
+        "affect fish by sound, electromagnetic and other ways",
+        "unauthorized fencing and damming",
+        "all of the above"
+      ],
+      "a": 4,
+      "lang": "en"
+    },
+    {
+      "q": "How many hooks are allowed with fly-fishing method?",
+      "opt": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "How many hooks are allowed when using spinning?",
+      "opt": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Is it allowed to use caviar or crayfish as a lure?",
+      "opt": [
+        "yes",
+        "no",
+        "depends on type of crayfish or caviar"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Fisherman is prohibited to:",
+      "opt": [
+        "keep the fish smaller than its protected size",
+        "to cut off heads and tails after the end of catching",
+        "to fish closer than 150 meters from weirs, sluices, dams"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "Which distance is incorrect when fishing near the weirs, sluices, dams:",
+      "opt": [
+        "140 m",
+        "190 m",
+        "40 m",
+        "90 m"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Is it allowed to fish from bridges?",
+      "opt": [
+        "yes",
+        "no"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Is it allowed to keep the fish on fishing spot exceeding the daily quota?",
+      "opt": [
+        "yes",
+        "no"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Which type of fish should be killed immediately after being caught?",
+      "opt": [
+        "carps",
+        "perches",
+        "salmons"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Is it allowed to use the fish that was caught in another reservoir as a bait?",
+      "opt": [
+        "no",
+        "yes"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "How many fishing rods are allowed to use simultaneously?",
+      "opt": [
+        "1",
+        "2",
+        "3",
+        "not limited"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "What is the minimum distance to the nearest fisherman (fishing from the shore)?",
+      "opt": [
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "What is the minimum distance to the nearest boat (fishing from the boat)?",
+      "opt": [
+        "15 m",
+        "25 m",
+        "50 m"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "What is the minimum distance to the nearest fisherman (fishing with spinning from the shore)?",
+      "opt": [
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "What is the biggest acceptable diameter of holes in the ice? (winter fishing)",
+      "opt": [
+        "15 cm",
+        "20 cm",
+        "25 cm",
+        "30 cm"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Which distance between the ice holes is allowed?",
+      "opt": [
+        "25 cm",
+        "50 cm",
+        "75 cm",
+        "125 cm"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "Is the night is fishing allowed?",
+      "opt": [
+        "yes",
+        "yes, if the ice thickness is more than 10 cm",
+        "no"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected size for Asp and Barbel?",
+      "opt": [
+        "20 cm",
+        "30 cm",
+        "40 cm",
+        "50 cm"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected size for Salmon, Whitefish, Brown trout?",
+      "opt": [
+        "up to 15 cm",
+        "up to 25 cm",
+        "up to 35 cm",
+        "up to 45 cm"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected size for Lake trout, Pike, Zander?",
+      "opt": [
+        "up to 20 cm",
+        "up to 30 cm",
+        "up to 40 cm",
+        "up to 50 cm"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected size for Catfish?",
+      "opt": [
+        "up to 30 cm",
+        "up to 45 cm",
+        "up to 70 cm",
+        "up to 80 cm"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "What kinds of crayfish are prohibited to catch?",
+      "opt": [
+        "narrow-claw crayfish",
+        "broad-clawed crayfish",
+        "neither of them",
+        "both of them"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "Fisherman must pass on-demand inspection of:",
+      "opt": [
+        "police officers",
+        "employees of forest protection",
+        "border officers",
+        "all of the above"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "How fish should be stored on the fishing spot?",
+      "opt": [
+        "in the bucket",
+        "in soft thread stretched nets over a hoop",
+        "in any convenient way"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "Is it alloed to use the artificial light to affect the fish?",
+      "opt": [
+        "yes",
+        "no",
+        "it is possible only on the rivers",
+        "it is possible only on the lakes"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected period for Perch?",
+      "opt": [
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a": 3,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected period for Pike?",
+      "opt": [
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected period for Asp?",
+      "opt": [
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a": 0,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected period for Burbot?",
+      "opt": [
+        "from 1 of January to 30 of April",
+        "from 1 of December until the end of February",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a": 1,
+      "lang": "en"
+    },
+    {
+      "q": "What is the protected period for Eel?",
+      "opt": [
+        "from 15 of January to 15 of April",
+        "from 15 of October to 15 of December",
+        "from 15 of June to 15 of July",
+        "does not have such protection"
+      ],
+      "a": 2,
+      "lang": "en"
+    },
+    {
+      "q": "Is it always necessary to have a special device for removing the hook?",
+      "opt": [
+        "no",
+        "yes",
+        "depends on the fishing target"
+      ],
+      "a": 1,
+      "lang": "en"
+    }
+  ]
+}

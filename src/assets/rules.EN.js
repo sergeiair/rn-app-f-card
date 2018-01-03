@@ -104,7 +104,7 @@ const rules = [{
 			l) cut off the heads and tails before the end of fishing
 			
 			3.5. Fish that was caught (excluding
-			salmon and grayling) is permitted to storing in alive form and only in soft thread stretched nets  over a hoop or in special bags for carp. It is forbidden to keep more fish than it was set by the daily limit.
+			salmon and grayling) is permitted to storing in alive form and only in soft thread stretched nets over a hoop or in special bags for carp. It is forbidden to keep more fish than it was set by the daily limit.
 			
 			a) Salmonids and grayling must be killed immediately after harvest.
 			(b) Each angler must store the fish he has caught separately.

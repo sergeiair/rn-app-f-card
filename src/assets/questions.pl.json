@@ -40,7 +40,7 @@
       "lang": "pl"
     },
     {
-      "q": "W jakim wieku można samodzielnie zarządzać połowami?",
+      "q": "W jakim minimalnym wieku można samodzielnie zarządzać połowami?",
       "opt": [
         "16",
         "14",
@@ -243,12 +243,12 @@
       "lang": "pl"
     },
     {
-      "q": "Jaka odległość między otworami w lodzie jest niedozwolona?",
+      "q": "Jaka odległość między otworami w lodzie jest dozwolona?",
       "opt": [
-        "30 cm",
+        "25 cm",
         "50 cm",
-        "90 cm",
-        "110 cm"
+        "75 cm",
+        "125 cm"
       ],
       "a": 3,
       "lang": "pl"
