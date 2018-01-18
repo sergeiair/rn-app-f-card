@@ -44,6 +44,12 @@ class HomeContainer extends PureComponent {
                   iconCode={'settings'}
                   textCode={'buttons.nav.settings'}/>
               </View>
+	            <View style={coreStyles.rowStart}>
+		            <NavigationRow
+			            action={Actions.tackles}
+			            iconCode={'tackles'}
+			            textCode={'buttons.nav.places'}/>
+	            </View>
             </View>
         </Image>
       </View>

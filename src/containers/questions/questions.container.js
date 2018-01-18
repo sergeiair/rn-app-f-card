@@ -1,12 +1,9 @@
 import React, {PureComponent} from 'react';
 import {
-  View,
-  Text,
-  TouchableOpacity,
+  View
 } from 'react-native';
 import { observer } from 'mobx-react/native';
 
-import { questionsAreas } from '../../assets/questions.index';
 import coreStyles from '../../core-styles/styles';
 
 import QuestionsStore from './../../stores/questions.store';
@@ -14,6 +11,7 @@ import TestsStore from './../../stores/tests.store';
 
 import QuestionsInitialView from './components/questionsInitialView.component';
 import QuestionsProgressView from './components/questionsProgressView.component';
+
 
 @observer
 class QuestionsContainer extends PureComponent {
@@ -25,7 +23,7 @@ class QuestionsContainer extends PureComponent {
   componentWillMount() {
     const {questionsStore} = this.props;
 
-    questionsStore.prepare(questionsAreas[0]);
+    questionsStore.prepare();
   }
 
   get currentQuestion() {
@@ -43,12 +41,13 @@ class QuestionsContainer extends PureComponent {
           testsStore.progress.current === null
             ? <QuestionsInitialView
                 start={() => {testsStore.start(questionsStore.questions.length)}}/>
+
             : <QuestionsProgressView
+		            currentQuestion={this.currentQuestion}
                 toggleSelection={testsStore.toggleSelection.bind(testsStore)}
                 switchNext={testsStore.nextItem.bind(testsStore)}
                 check={testsStore.checkItem.bind(testsStore)}
                 isSelected={testsStore.isSelected.bind(testsStore)}
-                currentQuestion={this.currentQuestion}
                 isChecked={testsStore.progress.checked}/>
         }
       </View>

@@ -15,7 +15,7 @@ import icons from '../../../images/icons';
 
 
 function NavigationRow(props) {
-	const {action, textCode, iconCode, position} = props;
+	const {action, textCode, iconCode} = props;
 
 	return (
 		<TouchableOpacity

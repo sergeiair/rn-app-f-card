@@ -65,7 +65,8 @@ export default {
 			fishes: 'Fishes',
 			rules: 'Rules',
 			places: 'Lakes and rivers',
-			settings: 'Settings and info'
+			settings: 'Settings and info',
+			tackles: 'Fishing tackles'
 		}
 	},
 

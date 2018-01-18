@@ -67,7 +67,8 @@ export default {
 			fishes: 'Ryby',
 			rules: 'Zasady',
 			places: 'Jeziora i rzeki',
-			settings: 'Ustawienia'
+			settings: 'Ustawienia',
+			tackles: 'Sprzęt wędkarski'
 		}
 	}
 };

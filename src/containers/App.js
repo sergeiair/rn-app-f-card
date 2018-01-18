@@ -15,6 +15,8 @@ import RuleContentContainer from './ruleContent/ruleContent.container';
 import PlacesContainer from './places/places.container';
 import FishContainer from './fish/fish.container';
 import SettingsContainer from './settings/settings.container';
+import TacklesContainer from './tackles/tackles.container';
+
 
 import colors from '../core-styles/colors';
 
@@ -63,6 +65,7 @@ export default class App extends Component {
             <Scene key="fish" component={FishContainer}/>
             <Scene key="ruleContent" component={RuleContentContainer}/>
             <Scene key="settings" component={SettingsContainer} title={I18n.t('texts.titles.settings')}/>
+	          <Scene key="tackles" component={TacklesContainer} title={I18n.t('texts.titles.tackles')}/>
           </Scene>
       </Router>
     );

@@ -65,7 +65,8 @@ export default {
 			fishes: 'Рыбы',
 			rules: 'Правила',
 			places: 'Озера и реки',
-			settings: 'Настройки'
+			settings: 'Настройки',
+			tackles: 'Рыболовные снасти'
 		}
 	}
 };

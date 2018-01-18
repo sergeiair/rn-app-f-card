@@ -7,8 +7,8 @@ export default class TestsUtils {
 
   static *generateItem(dataLength, itemsLength, nextAllowed) {
     while (nextAllowed) {
-	    let randomArray = RandomizerUtils.getArray(dataLength, itemsLength);
-	    let randomIndex = Math.floor(Math.random() * itemsLength);
+	    const randomArray = RandomizerUtils.getRandomSlicedArray(dataLength, itemsLength);
+	    const randomIndex = Math.floor(Math.random() * itemsLength);
 
 	    yield {
 		    options: randomArray.map(el => {

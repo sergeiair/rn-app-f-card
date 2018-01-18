@@ -9,7 +9,7 @@ class RulesStore {
 
 	_rulesStorageService = null;
 
-	get placesStorageService() {
+	get rulesStorageService() {
 		if (!this._rulesStorageService) {
 			this._rulesStorageService = new RulesStorageService();
 		}
@@ -19,8 +19,8 @@ class RulesStore {
 
   @action fetch() {
     runInAction("update rules state after fetching data", () => {
-	    this.placesStorageService
-        .get()
+	    this.rulesStorageService
+        .getLocalized()
         .then(res => {
 	        this.rules = res.data.map(item => new RulesModel(item));
         })

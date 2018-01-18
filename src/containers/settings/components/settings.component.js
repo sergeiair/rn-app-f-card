@@ -68,27 +68,6 @@ class SettingsComponent extends PureComponent {
 					</Text>
 				</View>
 				<View style={styles.row}>
-					<View style={coreStyles.rowBetween}>
-						<View>
-							<Text style={styles.rowText}>
-								{I18n.t('texts.settings.credits')}:
-							</Text>
-						</View>
-
-						<View>
-							<Text>
-								www.pzw.org.pl
-							</Text>
-							<Text>
-								www.pzw.tychy.pl
-							</Text>
-							<Text>
-								www.pzw-siewierz.pl
-							</Text>
-						</View>
-					</View>
-				</View>
-				<View style={styles.row}>
 					<Text style={styles.rowText}>
 						{I18n.t('texts.settings.disclaimer')}:
 					</Text>

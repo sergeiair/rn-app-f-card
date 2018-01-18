@@ -1,257 +1,1279 @@
 {
-  "list": [
+  "list":[
     {
-      "q": "Która grupa ryb występujących w naszej ichtiofaunie obejmuje największą liczbę gatunków?",
-      "opt": [
-        "łososiowate",
-        "okoniokształtne",
-        "karpiowate"
+      "q":"Które ryby składają ikrę na początku wiosny?",
+      "opt":[
+        "okoń, miętus",
+        "szczupak, pstrąg rzeczny",
+        "karp, sieja"
       ],
-      "a": 2,
-      "lang": "pl"
-    },
-
-    {
-      "q": "Which group of fish is the most spreaded in our fish fauna?",
-      "opt": [
-        "salmon family",
-        "perch family",
-        "carp family"
-      ],
-      "a": 2,
-      "lang": "en"
+      "a":0,
+      "lang":"pl"
     },
     {
-      "q": "Kanibalami w naszych wodach są:",
-      "opt": [
-        "okonie",
-        "leszcze",
-        "liny"
+      "q":"Które ryby składają ikrę zimą lub jesiną?",
+      "opt":[
+        "karp, lipień",
+        "miętus, sieja",
+        "węgorz, szczupak"
       ],
-      "a": 0,
-      "lang": "pl"
+      "a":1,
+      "lang":"pl"
     },
     {
-      "q": "Каннибалами в наших водах являются:",
-      "opt": [
-        "окуни",
-        "лещи",
-        "лини"
-      ],
-      "a": 0,
-      "lang": "ru"
-    },
-    {
-      "q": "Cannibals in our waters are:",
-      "opt": [
-        "perches",
-        "breams",
-        "tenches"
-      ],
-      "a": 0,
-      "lang": "en"
-    },
-    {
-      "q": "Która grupa ryb składa ikrę wczesną wiosną?",
-      "opt": [
-        "kleń, brzana, sum",
-        "szczupak, pstrąg potokowy",
-        "świnka, jaź"
-      ],
-      "a": 1,
-      "lang": "pl"
-    },
-
-    {
-      "q": "Which group of fish spawns in early spring?",
-      "opt": [
-        "chub, barbel, catfish",
-        "pike, river trout",
-        "pigfish, ide"
-      ],
-      "a": 1,
-      "lang": "en"
-    },
-    {
-      "q": "Które z wymienionych grup ryb składają ikrę na roślinności podwodnej?",
-      "opt": [
-        "różanka, kiełb",
-        "szczupak, leszcz, okoń",
-        "brzana, koza"
-      ],
-      "a": 1,
-      "lang": "pl"
-    },
-    {
-      "q": "Какие из видов рыб складывают икру на подводной растительности?",
-      "opt": [
-        "горчак, пескарь",
-        "щука, лещ, окунь",
-        "усач, щиповка"
-      ],
-      "a": 1,
-      "lang": "ru"
-    },
-    {
-      "q": "Which of fishes types spawn on underwater vegetation?",
-      "opt": [
-        "bitterling, gudgeon",
-        "pike, bream, perch",
-        "barbel, spined loach"
-      ],
-      "a": 1,
-      "lang": "en"
-    },
-    {
-      "q": "Łowiąc z lodu można:",
-      "opt": [
-        "używać podrywki",
-        "wiercić otwory o średnicy 25 cm",
-        "nęcić"
-      ],
-      "a": 2,
-      "lang": "pl"
-    },
-    {
-      "q": "При ловле на льду можно:",
-      "opt": [
-        "использовать сети",
-        "сверлить отверстия диаметром 25 см",
-        "использовать приманки"
-      ],
-      "a": 2,
-      "lang": "ru"
-    },
-    {
-      "q": "On the ice fishing you are allowed to:",
-      "opt": [
-        "use nets",
-        "drill holes with a diameter of 25 cm",
-        "use baits(attractants)"
-      ],
-      "a": 2,
-      "lang": "en"
-    },
-    {
-      "q": "Który gatunek należy do ryb wędrownych (dwuśrodowiskowych)?",
-      "opt": [
-        "głowacica",
-        "pstrąg źródlany",
-        "troć"
-      ],
-      "a": 2,
-      "lang": "pl"
-    },
-    {
-      "q": "Какие виды рыб относятся к мигрирующим (две среды обитания)?",
-      "opt": [
-        "дунайский лосось(таймень)",
-        "aмериканская палия",
-        "кумжа"
-      ],
-      "a": 2,
-      "lang": "ru"
-    },
-    {
-      "q": "What types of fish are migratory (two habitats)?",
-      "opt": [
-        "danube",
-        "splake",
-        "sea trout"
-      ],
-      "a": 2,
-      "lang": "en"
-    },
-    {
-      "q": "Śluz to:",
-      "opt": [
-        "gatunek ryby chronionej prawem",
-        "wydzielina pokrywająca ciało ryb",
-        "rodzaj smaru do kołowrotków"
-      ],
-      "a": 1,
-      "lang": "pl"
-    },
-    {
-      "q": "Ławica to:",
-      "opt": [
-        "rodzaj pomostu – ławka dla wędkarza,",
-        "szybki nurt w górskiej rzece,",
-        "duże stado ryb , najczęściej jednego gatunku."
-      ],
-      "a": 2,
-      "lang": "pl"
-    },
-    {
-      "q": "Ławica to:",
-      "opt": [
-        "rodzaj pomostu – ławka dla wędkarza,",
-        "szybki nurt w górskiej rzece,",
-        "duże stado ryb, najczęściej jednego gatunku."
-      ],
-      "a": 2,
-      "lang": "pl"
-    },
-    {
-      "q": "Shoal is:",
-      "opt": [
-        "type of benches for fishers",
-        "fast flow in a mountain river",
-        "a group of fish congregating togethe"
-      ],
-      "a": 2,
-      "lang": "en"
-    },
-    {
-      "q": "Gdzie znajduje się serce u ryb?",
-      "opt": [
-        "w okolicy gardzielowej",
-        "w środku korpusu, między głową a odbytem",
-        "między płetwami brzusznymi"
-      ],
-      "a": 0,
-      "lang": "pl"
-    },
-
-    {
-      "q": "Where is the heart of fish?",
-      "opt": [
-        "in the throat area",
-        "in the middle of body",
-        "between the pelvic fins"
-      ],
-      "a": 0,
-      "lang": "en"
-    },
-    {
-      "q": "Która z ryb posiada tylko jeden wąs",
-      "opt": [
-        "brzana",
-        "miętus",
+      "q":"Które ryby mogą migrować?",
+      "opt":[
+        "sum",
+        "pstrąg",
         "karp"
       ],
-      "a": 1,
-      "lang": "pl"
+      "a":1,
+      "lang":"pl"
     },
     {
-      "q": "У какой рыбы есть только один ус?",
-      "opt": [
-        "усач",
-        "налим",
+      "q":"Gdzie ryby mają serce?",
+      "opt":[
+        "w środku ciała",
+        "za płetwami brzusznymi",
+        "za blaszkami, po brzusznej stronie ciała"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy osoby w wieku poniżej 14 lat muszą otrzymać kartę rybaka?",
+      "opt":[
+        "nie",
+        "tak"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim minimalnym wieku można samodzielnie zarządzać połowami?",
+      "opt":[
+        "16",
+        "14",
+        "18"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy rybak musi mieć kartę wędkarską podczas połowów?",
+      "opt":[
+        "nie",
+        "tak"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy możliwe jest zmniejszenie odległości do wędkarza w pobliżu?",
+      "opt":[
+        "nie",
+        "tak",
+        "tak, tylko po jego zgodzie"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy rybak jest zobowiązany do zwolnienia miejsca połowu w przypadku zawodów sportowych?",
+      "opt":[
+        "nie",
+        "tak"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Co powinien zrobić rybak jeżeli złowi rybę oznakowaną?",
+      "opt":[
+        "wyśłać znaczek do najbliższego oddziału PZW",
+        "wyśłać kilka łusek wyjętych powyżej linii nabocznej ryby do najbliższego oddziału PZW",
+        "wysłać informację: gatunek, długość i ciężar oraz miejsce i datę połowu",
+        "wszystkie powyższe"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"Jakie rodzaje połowów są zabronione?",
+      "opt":[
+        "za pomocą wędki elektrycznej",
+        "trolling z dużą ilością przynęt",
+        "zagłuszanie ryb przez dźwięk, elektromagnetyzm i inne środki",
+        "za pomocą nieautoryzowanych szermierków i tamów",
+        "wszystkie powyższe"
+      ],
+      "a":4,
+      "lang":"pl"
+    },
+    {
+      "q":"Ile haczyków jest dozwolone podczas połowu na muchę?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Ile haczyków jest dozwolone podczas połowu metodą spinningową?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy możliwe jest wykorzystanie raków i ikrę jako przynęty?",
+      "opt":[
+        "tak",
+        "nie",
+        "zależy od rodzaju raków i ikry"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Wędkarzowi nie wolno:",
+      "opt":[
+        "przechowywać i zabierać ryb poniżej ich wymiarów ochronnych",
+        "obcinać głów i ogonów rybom po zakończeniu wędkowania",
+        "łowić ryb bliżej niż 150 metrów od jazów, śluz, tam"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakiej odległości nie wolno łowić w pobliżu śluzy lub zapory?",
+      "opt":[
+        "140 m",
+        "190 m",
+        "40 m",
+        "90 m"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy wolno wędkować z mostów?",
+      "opt":[
+        "tak",
+        "nie"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy wolno przechowywać większej ilości ryb niż wynika to z ustalonych limitów dobowych?",
+      "opt":[
+        "tak",
+        "nie"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Którą rodzinę ryb należy uśmiercić bezpośrednio po złowieniu?",
+      "opt":[
+        "karpiowate",
+        "okoniowate",
+        "łososiowate"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy można używać ryby złowione w innym stawie jako przynętę",
+      "opt":[
+        "nie",
+        "tak"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"Ile wędek rybak mogę użyć w tym samym czasie?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "nieograniczone"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Jaka minimalna odległość powinna być do najbliższego rybaka (połów ryb z brzegu)?",
+      "opt":[
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"Jaka minimalna odległość powinna być do najbliższej łodzi (łowienie na wędkę z łodzi)?",
+      "opt":[
+        "15 m",
+        "25 m",
+        "50 m"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Jaka minimalna odległość powinna być do najbliższego rybaka (metoda spinningowa z brzegu)?",
+      "opt":[
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Łowiąc ryby spod lodu należy wykonywać otwory o średnicy nie większej niż...",
+      "opt":[
+        "15 cm",
+        "20 cm",
+        "25 cm",
+        "30 cm"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Jaka odległość między otworami w lodzie jest dozwolona?",
+      "opt":[
+        "25 cm",
+        "50 cm",
+        "75 cm",
+        "125 cm"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy jest dozwolone wędkować w porze nocnej przy metodzie podlodowej?",
+      "opt":[
+        "tak",
+        "tak, jeśli grubość lodu jest większa niż 10 cm",
+        "nie"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Wymiar w którym boleń i brzana wchodzą pod ochronę?",
+      "opt":[
+        "20 cm",
+        "30 cm",
+        "40 cm",
+        "50 cm"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Wymiar w którym łosoś, sieja, troć wchodzą pod ochronę?",
+      "opt":[
+        "do 15 cm",
+        "do 25 cm",
+        "do 35 cm",
+        "do 45 cm"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Wymiar w którym  troć jeziorowa, szczupak, sandacz wchodzą pod ochronę?",
+      "opt":[
+        "do 20 cm",
+        "do 30 cm",
+        "do 40 cm",
+        "do 50 cm"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"Wielkość w jakiej sumy podlegają ochronie?",
+      "opt":[
+        "do 30 cm",
+        "do 45 cm",
+        "do 70 cm",
+        "do 80 cm"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Jakiego rodzaju raków nie wolno łapać?",
+      "opt":[
+        "rak błotny",
+        "rak szlachetny",
+        "żaden",
+        "oba rodzaje"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"Na prośbę przedstawicieli jakich organów rybak ma obowiązek poddać się kontroli?",
+      "opt":[
+        "funkcjonariuszy Policji",
+        "strażników Straży Leśnej",
+        "funkcjonariuszy Straży Granicznej",
+        "wszystkich powyższe"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"Jak należy przechowywać rybę w stanie żywym w miejscu złowienia?",
+      "opt":[
+        "w wiadrze",
+        "w siatkach wykonanych z miękkich nici, rozpiętych na sztywnych obręczach lub w workach karpiowych",
+        "w dowolny wygodny sposób"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy możliwe jest zastosowanie sztucznego światła do wpływania na ryby?",
+      "opt":[
+        "tak",
+        "nie",
+        "możliwe jest tylko na rzekach",
+        "może być tylko na jeziorach"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim okresie chroni się okoń?",
+      "opt":[
+        "od 1 stycznia do 30 kwietnia",
+        "od 1 marca do 31 lipca",
+        "od 1 października do 31 grudnia",
+        "nie ma takiej ochrony"
+      ],
+      "a":3,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim okresie chroni się szczupak?",
+      "opt":[
+        "od 1 stycznia do 30 kwietnia",
+        "od 1 marca do 31 lipca",
+        "od 1 października do 31 grudnia",
+        "nie ma takiej ochrony"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim okresie chroni się boleń?",
+      "opt":[
+        "od 1 stycznia do 30 kwietnia",
+        "od 1 marca do 31 lipca",
+        "od 1 października do 31 grudnia",
+        "nie ma takiej ochrony"
+      ],
+      "a":0,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim okresie chroni się miętus?",
+      "opt":[
+        "od 1 stycznia do 30 kwietnia",
+        "od 1 grudnia do końca lutego",
+        "od 1 października do 31 grudnia",
+        "nie ma takiej ochrony"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"W jakim okresie chroni się węgorz?",
+      "opt":[
+        "od 15 stycznia do 15 kwietnia",
+        "od 15 października do 15 grudnia",
+        "od 15 czerwca do 15 lipca",
+        "nie ma takiej ochrony"
+      ],
+      "a":2,
+      "lang":"pl"
+    },
+    {
+      "q":"Czy zawsze wędkarz jest  zobowiązany posiadać przyrząd do wyjmowania haczyków?",
+      "opt":[
+        "nie",
+        "tak",
+        "zależy od ryb, które zostaną złapane"
+      ],
+      "a":1,
+      "lang":"pl"
+    },
+    {
+      "q":"Какие рыбы нерестяться ранней весной?",
+      "opt":[
+        "окунь, налим",
+        "щука, озерная форель",
+        "карп, сиг"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"Какие рыбы нерестяться осенью или зимой?",
+      "opt":[
+        "карп, хариус",
+        "налим, сиг",
+        "угорь, щука"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Какая рыба может мигрировать?",
+      "opt":[
+        "сом",
+        "кумжа",
         "карп"
       ],
-      "a": 1,
-      "lang": "ru"
+      "a":1,
+      "lang":"ru"
     },
     {
-      "q": "Which fish has only one whisker?",
-      "opt": [
-        "barbel",
-        "burbot",
+      "q":"Где расположено сердце у рыб?",
+      "opt":[
+        "в середине тела",
+        "за брюшными плавниками",
+        "позади жабр, на брюшной стороне тела"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Обязаны ли лица до 14 лет получать карту рыбака?",
+      "opt":[
+        "нет",
+        "да"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"Со скольки лет возможно самостоятельное ведение ловли?",
+      "opt":[
+        "16",
+        "14",
+        "18"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Обязан ли рыбак иметь при себе карту во время ловли?",
+      "opt":[
+        "нет",
+        "да"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли уменьшить расстояние до ловящего рядом рыбака?",
+      "opt":[
+        "нет",
+        "да",
+        "да, только после его согласия"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Обязан ли рыбак освободить место ловли в случае проведения на нем соревнований?",
+      "opt":[
+        "нет",
+        "да"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Что обязан сделать рыбак в случае вылова рыбы с маркировкой?",
+      "opt":[
+        "отправить в ближайший отдел PZW значок",
+        "отправить несколько чешуек взятых выше боковой линии рыбы",
+        "отправить информацию о виде, весе, длине и месте вылова",
+        "все перечисленное"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"Какие виды рыбалки запрещены?",
+      "opt":[
+        "при помощи электроудочки",
+        "троллинг с большим количеством приманок",
+        "глушение рыбы звуковыми, электромагнитными и иными способами",
+        "самовольное устройство заграждений и запруд",
+        "все перечисленное"
+      ],
+      "a":4,
+      "lang":"ru"
+    },
+    {
+      "q":"Сколько крючков допускается при ловле нахлыстом?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Сколько крючков допускается при использовании спиннинга?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли использовать в качество приманки раков и икру?",
+      "opt":[
+        "да",
+        "нет",
+        "зависит от вида раков или икры"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Рыбаку запрещено:",
+      "opt":[
+        "хранить рыбу размером ниже своих защищиаемых",
+        "обрезать головы и хвосты после окончания ловли",
+        "вести ловлю ближе 150 метров от водосливов, шлюзов, плотин"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"На каком расстоянии нельзя вести ловлю рядом со шлюзом или плотиной:",
+      "opt":[
+        "140 м",
+        "190 м",
+        "40 м",
+        "90 м"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли рыбачить с моста?",
+      "opt":[
+        "да",
+        "нет"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли хранить рыбу в месте ловли cвыше суточного лимита?",
+      "opt":[
+        "да",
+        "нет"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Какое семейство рыб необходимо умертвить непосредственно после вылова?",
+      "opt":[
+        "карповые",
+        "окуневые",
+        "лососевые"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли использовать выловленную в ином водоеме рыбу в качестве приманки?",
+      "opt":[
+        "нет",
+        "да"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"Сколько удочек можно использовать одновременно?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "не ограничено"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Какое минимальное расстояние должно быть до ближайшего рыбака (ловля на удочку с берега)",
+      "opt":[
+        "10 м",
+        "15 м",
+        "25 м"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"Какое минимальное расстояние должно быть до ближайшей лодки (ловля на удочку с лодки)",
+      "opt":[
+        "15 м",
+        "25 м",
+        "50 м"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Какое минимальное расстояние должно быть до ближайшего рыбака (ловля на спиннинг с берега)",
+      "opt":[
+        "10 м",
+        "15 м",
+        "25 м"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Какой максимальный диаметр отверстий во льду допустим?",
+      "opt":[
+        "15 cм",
+        "20 cм",
+        "25 cм",
+        "30 cм"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Какое расстояние между отверстиями во льду допустимо?",
+      "opt":[
+        "25 cм",
+        "50 cм",
+        "75 cм",
+        "125 cм"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли рыбачить на льду ночью?",
+      "opt":[
+        "да",
+        "да, если толщина льда более 10 см",
+        "нет"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Размер при котором жерех и усач подпадают под защиту?",
+      "opt":[
+        "20 см",
+        "30 см",
+        "40 см",
+        "50 см"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Размер при котором лосось, сиг, форель(кумжа) подпадают под защиту?",
+      "opt":[
+        "до 15 см",
+        "до 25 см",
+        "до 35 см",
+        "до 45 см"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Размер при котором озерная форель, щука, судак подпадают под защиту?",
+      "opt":[
+        "до 20 см",
+        "до 30 см",
+        "до 40 см",
+        "до 50 см"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"Размер при котором сом подпадает под защиту?",
+      "opt":[
+        "до 30 см",
+        "до 45 см",
+        "до 70 см",
+        "до 80 см"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Какие виды раков запрещены к вылову?",
+      "opt":[
+        "узкопалый рак",
+        "широкопалый рак",
+        "ни один",
+        "оба вида"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"По требованию представителей каких органов рыбак обязан пройти контроль?",
+      "opt":[
+        "сотрудников полиции",
+        "cотрудников охраны леса",
+        "сотрудников пограничной службы",
+        "всех перечисленных"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"Как необходимо хранить живую рыбу на месте ловли?",
+      "opt":[
+        "в ведре",
+        "в сетях из мягкой нити натянутой на обруч",
+        "любым удобным способом"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Можно ли использовать искусственный свет для воздействия на рыбу?",
+      "opt":[
+        "да",
+        "нет",
+        "можно только на реках",
+        "можно только на озерах"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"В какой период окунь находится под защитой?",
+      "opt":[
+        "с 1 января по 30 апреля",
+        "с 1 марта по 31 июля",
+        "с 1 октября по 31 декабря",
+        "не имеет подобной защиты"
+      ],
+      "a":3,
+      "lang":"ru"
+    },
+    {
+      "q":"В какой период щука находится под защитой?",
+      "opt":[
+        "с 1 января по 30 апреля",
+        "с 1 марта по 31 июля",
+        "с 1 октября по 31 декабря",
+        "не имеет подобной защиты"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"В какой период жерех находится под защитой?",
+      "opt":[
+        "с 1 января по 30 апреля",
+        "с 1 марта по 31 июля",
+        "с 1 октября по 31 декабря",
+        "не имеет подобной защиты"
+      ],
+      "a":0,
+      "lang":"ru"
+    },
+    {
+      "q":"В какой период налим находится под защитой?",
+      "opt":[
+        "с 1 января по 30 апреля",
+        "с 1 декабря до конца февраля",
+        "с 1 октября по 31 декабря",
+        "не имеет подобной защиты"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"В какой период угорь находится под защитой?",
+      "opt":[
+        "с 15 января по 15 апреля",
+        "с 15 октября по 15 декабря",
+        "с 15 июня по 15 июля",
+        "не имеет подобной защиты"
+      ],
+      "a":2,
+      "lang":"ru"
+    },
+    {
+      "q":"Необходимо ли всегда иметь специальное устройство для удаления крючка?",
+      "opt":[
+        "нет",
+        "да",
+        "зависит от рыбы, которая будет ловиться"
+      ],
+      "a":1,
+      "lang":"ru"
+    },
+    {
+      "q":"Which fishes do spawning in the early spring",
+      "opt":[
+        "perch, river trout",
+        "catfish, pike",
+        "carp, burbot"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"Which fishes do spawning in the winter or autumn",
+      "opt":[
+        "carp, grayling",
+        "burbot, whitefish",
+        "eel, pike"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Which fish can migrate?",
+      "opt":[
+        "catfish",
+        "trout",
         "carp"
       ],
-      "a": 1,
-      "lang": "en"
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Where do fishes have a heart?",
+      "opt":[
+        "in the middle of the body",
+        "behind the pelvic fins",
+        "behind the gills, on the ventral side of the body"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"Do people under the age of 14 must receive a fisherman's card?",
+      "opt":[
+        "no",
+        "yes"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"What is the minimum age for fishing without supervision of seniors?",
+      "opt":[
+        "16",
+        "14",
+        "18"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Is it mandatory to keep the fisherman's card during the fishing?",
+      "opt":[
+        "no",
+        "yes"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Is it allowed to reduce the distance to nearest fisherman?",
+      "opt":[
+        "no",
+        "yes",
+        "yes, but only after his accordance"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"Is the fisherman obliged to free the fishing spot in case of competitions on it?",
+      "opt":[
+        "no",
+        "yes"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"What should be done in case of catching wish with marker?",
+      "opt":[
+        "send the mark to the nearest PZW office",
+        "send a few scales taken above the lateral line of the fish",
+        "send the information about type, weight, length and location",
+        "all of the above"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"What types of fishing are prohibited?",
+      "opt":[
+        "using the electric fishing rod",
+        "trolling method with a lot of baits",
+        "affect fish by sound, electromagnetic and other ways",
+        "unauthorized fencing and damming",
+        "all of the above"
+      ],
+      "a":4,
+      "lang":"en"
+    },
+    {
+      "q":"How many hooks are allowed with fly-fishing method?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"How many hooks are allowed when using spinning?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Is it allowed to use caviar or crayfish as a lure?",
+      "opt":[
+        "yes",
+        "no",
+        "depends on type of crayfish or caviar"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Fisherman is prohibited to:",
+      "opt":[
+        "keep the fish smaller than its protected size",
+        "to cut off heads and tails after the end of catching",
+        "to fish closer than 150 meters from weirs, sluices, dams"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"Which distance is incorrect when fishing near the weirs, sluices, dams:",
+      "opt":[
+        "140 m",
+        "190 m",
+        "40 m",
+        "90 m"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"Is it allowed to fish from bridges?",
+      "opt":[
+        "yes",
+        "no"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Is it allowed to keep the fish on fishing spot exceeding the daily quota?",
+      "opt":[
+        "yes",
+        "no"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Which type of fish should be killed immediately after being caught?",
+      "opt":[
+        "carps",
+        "perches",
+        "salmons"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"Is it allowed to use the fish that was caught in another reservoir as a bait?",
+      "opt":[
+        "no",
+        "yes"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"How many fishing rods are allowed to use simultaneously?",
+      "opt":[
+        "1",
+        "2",
+        "3",
+        "not limited"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"What is the minimum distance to the nearest fisherman (fishing from the shore)?",
+      "opt":[
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"What is the minimum distance to the nearest boat (fishing from the boat)?",
+      "opt":[
+        "15 m",
+        "25 m",
+        "50 m"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"What is the minimum distance to the nearest fisherman (fishing with spinning from the shore)?",
+      "opt":[
+        "10 m",
+        "15 m",
+        "25 m"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"What is the biggest acceptable diameter of holes in the ice? (winter fishing)",
+      "opt":[
+        "15 cm",
+        "20 cm",
+        "25 cm",
+        "30 cm"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Which distance between the ice holes is allowed?",
+      "opt":[
+        "25 cm",
+        "50 cm",
+        "75 cm",
+        "125 cm"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"Is the night is fishing allowed?",
+      "opt":[
+        "yes",
+        "yes, if the ice thickness is more than 10 cm",
+        "no"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected size for Asp and Barbel?",
+      "opt":[
+        "20 cm",
+        "30 cm",
+        "40 cm",
+        "50 cm"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected size for Salmon, Whitefish, Brown trout?",
+      "opt":[
+        "up to 15 cm",
+        "up to 25 cm",
+        "up to 35 cm",
+        "up to 45 cm"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected size for Lake trout, Pike, Zander?",
+      "opt":[
+        "up to 20 cm",
+        "up to 30 cm",
+        "up to 40 cm",
+        "up to 50 cm"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected size for Catfish?",
+      "opt":[
+        "up to 30 cm",
+        "up to 45 cm",
+        "up to 70 cm",
+        "up to 80 cm"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"What kinds of crayfish are prohibited to catch?",
+      "opt":[
+        "narrow-claw crayfish",
+        "broad-clawed crayfish",
+        "neither of them",
+        "both of them"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"Fisherman must pass on-demand inspection of:",
+      "opt":[
+        "police officers",
+        "employees of forest protection",
+        "border officers",
+        "all of the above"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"How fish should be stored on the fishing spot?",
+      "opt":[
+        "in the bucket",
+        "in soft thread stretched nets over a hoop",
+        "in any convenient way"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"Is it alloed to use the artificial light to affect the fish?",
+      "opt":[
+        "yes",
+        "no",
+        "it is possible only on the rivers",
+        "it is possible only on the lakes"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected period for Perch?",
+      "opt":[
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a":3,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected period for Pike?",
+      "opt":[
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected period for Asp?",
+      "opt":[
+        "from 1 of January to 30 of April",
+        "from 1 of March to 31 of July",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a":0,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected period for Burbot?",
+      "opt":[
+        "from 1 of January to 30 of April",
+        "from 1 of December until the end of February",
+        "from 1 of October to 31 of December",
+        "does not have such protection"
+      ],
+      "a":1,
+      "lang":"en"
+    },
+    {
+      "q":"What is the protected period for Eel?",
+      "opt":[
+        "from 15 of January to 15 of April",
+        "from 15 of October to 15 of December",
+        "from 15 of June to 15 of July",
+        "does not have such protection"
+      ],
+      "a":2,
+      "lang":"en"
+    },
+    {
+      "q":"Is it always necessary to have a special device for removing the hook?",
+      "opt":[
+        "no",
+        "yes",
+        "depends on the fishing target"
+      ],
+      "a":1,
+      "lang":"en"
     }
   ]
 }

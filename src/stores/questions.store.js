@@ -1,9 +1,12 @@
 import { observable, action, runInAction, computed } from 'mobx';
 
 import QuestionModel from '../models/question.model';
-import questionsData from './../assets/questions.index';
+
+import questionsData from './../assets/questions.all.json';
 
 import BaseStorage from '../storage/services/base.storage.service';
+
+import RandomizerUtils from '../utils/randomizer.utils';
 
 
 class QuestionsStore {
@@ -11,7 +14,7 @@ class QuestionsStore {
 
   @action prepareCollection() {
     runInAction("update questions state after fetching data", () => {
-      this.questions = (questionsData['all'].list || [])
+      this.questions = (questionsData.list || [])
         .filter(item => item.lang === BaseStorage.localePrefix)
         .map(item => new QuestionModel(item));
     });
@@ -26,7 +29,9 @@ class QuestionsStore {
   }
 
   set questions(data) {
-    this._questions = data;
+    this._questions = data && data.length
+      ? RandomizerUtils.getShuffledArray(data)
+      : [];
   }
 
   @computed get questions() {
