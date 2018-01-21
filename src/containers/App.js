@@ -74,8 +74,8 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
 	navBar: {
-		backgroundColor: colors.darkGreen,
-		borderBottomColor: colors.darkGreen,
+		backgroundColor: colors.blue,
+		borderBottomColor: colors.blue,
 		height: 55,
 		borderBottomWidth: 1
 	},

@@ -1,10 +1,18 @@
 import React, { PureComponent } from 'react';
-import { View, Text, Image } from 'react-native';
+import {
+	View,
+	Text,
+	Image,
+	StyleSheet,
+	TouchableOpacity
+} from 'react-native';
 import { Actions } from 'react-native-router-flux';
+import I18n from 'react-native-i18n';
 
 import NavigationRow from './components/navigationRow.component';
 
 import coreStyles from '../../core-styles/styles';
+import colors from "../../core-styles/colors";
 
 
 class HomeContainer extends PureComponent {
@@ -13,48 +21,106 @@ class HomeContainer extends PureComponent {
       <View style={coreStyles.main}>
         <Image style={coreStyles.imageBg}
           source={require('./../../images/banners/fisher.png')}>
-            <View style={coreStyles.imageBgContent}>
-              <View style={coreStyles.rowAround}>
-                <NavigationRow
-                  action={Actions.cards}
-                  iconCode={'fishing'}
-                  textCode={'buttons.nav.cards'}/>
-                <NavigationRow
-                  action={Actions.questions}
-                  iconCode={'testing'}
-                  textCode={'buttons.nav.questions'}/>
-              </View>
-              <View style={coreStyles.rowAround}>
-                <NavigationRow
-                  action={Actions.fishes}
-                  iconCode={'fish'}
-                  textCode={'buttons.nav.fishes'}/>
-                <NavigationRow
-                  action={Actions.rules}
-                  iconCode={'learning'}
-                  textCode={'buttons.nav.rules'}/>
-              </View>
-              <View style={coreStyles.rowAround}>
-                <NavigationRow
-                  action={Actions.places}
-                  iconCode={'river'}
-                  textCode={'buttons.nav.places'}/>
-                <NavigationRow
-                  action={Actions.settings}
-                  iconCode={'settings'}
-                  textCode={'buttons.nav.settings'}/>
-              </View>
-	            <View style={coreStyles.rowStart}>
-		            <NavigationRow
-			            action={Actions.tackles}
-			            iconCode={'tackles'}
-			            textCode={'buttons.nav.places'}/>
-	            </View>
-            </View>
+	          <View style={styles.body}>
+							<TouchableOpacity style={styles.navItemCards}
+								onPress={Actions.cards}>
+									<Text style={styles.navItemText}>
+										{I18n.t('buttons.nav.cards')}
+									</Text>
+							</TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemFishes}
+		            onPress={Actions.fishes}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.fishes')}
+				          </Text>
+		          </TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemTackles}
+		            onPress={Actions.tackles}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.tackles')}
+				          </Text>
+		          </TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemPlaces}
+		            onPress={Actions.places}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.places')}
+				          </Text>
+		          </TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemQuestions}
+		             onPress={Actions.questions}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.questions')}
+				          </Text>
+		          </TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemRules}
+		            onPress={Actions.rules}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.rules')}
+				          </Text>
+		          </TouchableOpacity>
+		          <TouchableOpacity style={styles.navItemSettings}
+		            onPress={Actions.settings}>
+				          <Text style={styles.navItemText}>
+					          {I18n.t('buttons.nav.settings')}
+				          </Text>
+		          </TouchableOpacity>
+	          </View>
         </Image>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+	body: {
+		flex: 1
+	},
+	navItemCards: {
+		position: 'absolute',
+		right: 30,
+		top: 30
+	},
+	navItemFishes: {
+		position: 'absolute',
+		right: 50,
+		bottom: 100
+	},
+	navItemTackles: {
+		position: 'absolute',
+		left: 120,
+		top: 120
+	},
+	navItemPlaces: {
+		position: 'absolute',
+		left: 150,
+		bottom: 250
+	},
+	navItemQuestions: {
+		position: 'absolute',
+		left: 20,
+		top: 20
+	},
+	navItemRules: {
+		position: 'absolute',
+		right: 30,
+		top: 220
+	},
+	navItemSettings: {
+		position: 'absolute',
+		left: 20,
+		bottom: 100
+	},
+	navItemText: {
+		width: 75,
+		height: 75,
+		borderRadius: 75,
+		fontSize: 12,
+		lineHeight: 50,
+		textAlign: 'center',
+		borderWidth: 4,
+		borderColor: colors.yellowTone2tr,
+		backgroundColor: colors.yellowTonetr
+	}
+});
 
 export default HomeContainer;

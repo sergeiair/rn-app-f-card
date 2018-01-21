@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
 		backgroundColor: colors.lightTone
 	},
 	latLng: {
-		color: colors.green2
+		color: colors.blue
 	},
 	dropBtn: {
 	  width: 24,

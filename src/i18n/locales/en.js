@@ -8,8 +8,9 @@ export default {
 			questions: 'Questions',
 			fishes: 'Fishes',
 			rules: 'Rules',
-			places: 'Lakes and rivers',
-			settings: 'Settings'
+			places: 'Places',
+			settings: 'Settings',
+			tackles: 'Tackles'
 		},
 		game: {
 			start: 'Start'
@@ -66,7 +67,23 @@ export default {
 			rules: 'Rules',
 			places: 'Lakes and rivers',
 			settings: 'Settings and info',
-			tackles: 'Fishing tackles'
+			tackles: 'Basic set of tackles'
+		},
+		tackles: {
+			simpleRod: 'Simple rod',
+			iceRod: 'Ice rod',
+			spinningRod: 'Spinning rod',
+			flyRod: 'Fly rod',
+			hooks: 'Hooks',
+			floats: 'Floats',
+			line: 'Line',
+			popper: 'Popper',
+			spoon: 'Spoon',
+			reel: 'Reel',
+			sinkers: 'Sinkers',
+			landingNet: 'Landing net',
+			twister: 'Twister',
+			attractant: 'Attractants'
 		}
 	},
 

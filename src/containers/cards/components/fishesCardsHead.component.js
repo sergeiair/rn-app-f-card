@@ -64,9 +64,9 @@ const styles = StyleSheet.create({
 		marginTop: 19,
 		marginRight: 5,
 		fontSize: 18,
-		fontWeight: '100',
-		color: colors.darkGreen,
 		textAlign: 'center',
+		fontWeight: '100',
+		color: colors.darkTone,
 	},
 	headItem: {
 		flexDirection: 'row',

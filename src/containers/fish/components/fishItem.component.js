@@ -92,13 +92,13 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		marginLeft: 10,
 		textAlign: 'center',
-		color: colors.green2
+		color: colors.blue
   },
 	itemFishInfoDescr: {
 		fontSize: 12,
 		marginLeft: 10,
 		textAlign: 'center',
-		color: colors.green2,
+		color: colors.blue,
   },
 	itemFishInfoLabel: {
 		marginLeft: 10,

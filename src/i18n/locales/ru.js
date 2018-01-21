@@ -8,8 +8,9 @@ export default {
 			questions: 'Вопросы',
 			fishes: 'Рыбы',
 			rules: 'Правила',
-			places: 'Озера и реки',
-			settings: 'Настройки'
+			places: 'Места',
+			settings: 'Настройки',
+			tackles: 'Снасти'
 		},
 		game: {
 			start: 'Начать'
@@ -66,7 +67,23 @@ export default {
 			rules: 'Правила',
 			places: 'Озера и реки',
 			settings: 'Настройки',
-			tackles: 'Рыболовные снасти'
+			tackles: 'Базовые снасти'
+		},
+		tackles: {
+			simpleRod: 'Простая удочка',
+			iceRod: 'Зимняя удочка',
+			spinningRod: 'Спиннинг',
+			flyRod: 'Нахлыстовая удочка',
+			hooks: 'Крючки',
+			floats: 'Поплавки',
+			line: 'Леска',
+			popper: 'Воблер',
+			spoon: 'Блесна',
+			reel: 'Катушка',
+			sinkers: 'Грузила',
+			landingNet: 'Сеть для рыбы',
+			twister: 'Твистер',
+			attractant: 'Прикормка'
 		}
 	}
 };

@@ -39,15 +39,6 @@ const coreStyles = StyleSheet.create({
 		resizeMode: 'cover',
 		width: null,
 		height: Dimensions.get('window').height
-	},
-	imageBgContent: {
-  	paddingTop: 10,
-		paddingBottom: 20,
-		borderBottomWidth: 5,
-		borderBottomColor: colors.darkGreen,
-  	backgroundColor: colors.darkGreen,
-		opacity: .8,
-		elevation: 20
 	}
 });
 

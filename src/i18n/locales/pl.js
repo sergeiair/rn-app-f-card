@@ -8,8 +8,9 @@ export default {
 			questions: 'Pytania',
 			fishes: 'Ryby',
 			rules: 'Zasady',
-			places: 'Jeziora i rzeki',
-			settings: 'Ustawienia'
+			places: `Miejsca`,
+			settings: 'Ustawienia',
+			tackles: 'Sprzęt'
 		},
 		game: {
 			start: 'Zacząć'
@@ -68,7 +69,23 @@ export default {
 			rules: 'Zasady',
 			places: 'Jeziora i rzeki',
 			settings: 'Ustawienia',
-			tackles: 'Sprzęt wędkarski'
+			tackles: 'Podstawowy sprzęt'
+		},
+		tackles: {
+			simpleRod: 'Prosta wędka',
+			iceRod: 'Wędka zimowa',
+			spinningRod: 'Wędka spinningowa',
+			flyRod: 'Wędka muchowa',
+			hooks: 'Haczyki',
+			floats: 'Pływaki',
+			line: 'Żyłka',
+			popper: 'Wobler',
+			spoon: 'Błystka',
+			reel: 'Kołowrotka',
+			sinkers: 'Ciężarki',
+			landingNet: 'Siatki na ryby',
+			twister: 'Twister',
+			attractant: 'Atraktory'
 		}
 	}
 };
