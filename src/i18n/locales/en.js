@@ -21,7 +21,7 @@ export default {
 			checkAnswer: 'Check answer'
 		},
 		places: {
-			customView: 'New fishing place',
+			customView: 'Add new',
 			save: 'Save place'
 		},
 		settings: {

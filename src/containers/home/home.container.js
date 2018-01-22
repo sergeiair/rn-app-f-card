@@ -9,8 +9,6 @@ import {
 import { Actions } from 'react-native-router-flux';
 import I18n from 'react-native-i18n';
 
-import NavigationRow from './components/navigationRow.component';
-
 import coreStyles from '../../core-styles/styles';
 import colors from "../../core-styles/colors";
 
@@ -113,9 +111,9 @@ const styles = StyleSheet.create({
 	navItemText: {
 		width: 75,
 		height: 75,
+		paddingTop: 30,
 		borderRadius: 75,
 		fontSize: 12,
-		lineHeight: 50,
 		textAlign: 'center',
 		borderWidth: 4,
 		borderColor: colors.yellowTone2tr,

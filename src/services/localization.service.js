@@ -1,5 +1,4 @@
 import { AsyncStorage } from 'react-native';
-
 import RNRestart from 'react-native-restart';
 import I18n from 'react-native-i18n';
 
@@ -17,7 +16,8 @@ class LocalizationService {
 
 				resolve(value);
 			} else {
-				reject('en-US');
+
+				reject();
 			}
 		});
 

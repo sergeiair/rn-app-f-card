@@ -10,13 +10,13 @@ import {
 } from 'react-native';
 
 import I18n from '../../../i18n';
+
 import LocalizationService from '../../../services/localization.service';
 
 import colors from '../../../core-styles/colors';
-import coreStyles from '../../../core-styles/styles';
+
 
 const appVersion = require('../../../../package.json').version;
-
 
 class SettingsComponent extends PureComponent {
 
